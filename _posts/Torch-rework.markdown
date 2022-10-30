@@ -1,11 +1,11 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Examples
-title: Examples
+title: Torch Rework
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
-author: Mr. Green's Workshop
+author: Martin Rawson
 # multiple category is not supported
 category: jekyll
 # multiple tag entries are possible
@@ -34,7 +34,7 @@ date: 2022-02-10 08:11:06 +0900
 # exclude from search engines
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
-#published: false
+#published: true
 ---
 
 <!-- outline-start -->
@@ -114,11 +114,11 @@ This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-Jek
 
 ### Picture
 
-![such a lovely place](:post_pic1.jpg)
+![original torch](:post_pic1.jpg)
 
 ### Picture (centered)
 
-![such a lovely place](:post_pic1.jpg){:data-align="center"}
+![original torch in bits](:post_pic1.jpg){:data-align="center"}
 
 ### Lists
 
