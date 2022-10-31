@@ -39,7 +39,8 @@ published: true
 
 <!-- outline-start -->
 
-This is an example page to display markdown related styles for Mr. Green Jekyll Theme.
+This is an idea for re-purposing two old torches purchased from poundland (yes, for a pound each).
+The torches are simple but sturdy, of good size, so allow ample room for batteries/electronics.
 
 <!-- outline-end -->
 
@@ -62,32 +63,18 @@ This is an example page to display markdown related styles for Mr. Green Jekyll 
 
 ### Paragraphs
 
-#### Paragraph
+#### Torches as sold
 
-**William Shakespeare**, Let me not to the marriage of true minds
-Admit impediments. Love is not love
-Which alters when it alteration finds,
-Or bends with the remover to remove.
-O no, it is an ever-fixed mark
-That looks on tempests and is never shaken;
-It is the star to every wand'ring barque,
-Whose worth's unknown, although his height be taken.
-Love's not Time's fool, though rosy lips and cheeks
-Within his bending sickle's compass come;
-Love alters not with his brief hours and weeks,
-But bears it out even to the edge of doom.
-If this be error and upon me proved,
-I never writ, nor no man ever loved.
+**William Shakespeare**, The torches are of the old long running design with a small incandescent bulb , 
+being driven directly by four D size batteries. The torch has a single button for ON/OFF operation.
 
-#### Texts
+#### Rework required.
 
-Quoted text `Hello world`
-
-Bold text **Hello world**
-
-Italic text _Hello world_
-
-kbd text <kbd>Hello world</kbd>
+**Keep it simple**, Replace the small incandescent bulb with an LED, 
+this will be driven directly by XXX Lithium batteries, try to keep the mounting of these batteries simple.
+A protection / driver module will be required.
+Keep the single button for ON/OFF operation.
+Add a recharge connector in the handle.
 
 #### Blockquote
 
