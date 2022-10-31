@@ -39,34 +39,17 @@ published: true
 
 <!-- outline-start -->
 
-This is an idea for re-purposing two old torches purchased from poundland (yes, for a pound each).
+This is an idea for re-purposing two old torches purchased from poundland (yes, for a £1 each).
 The torches are simple but sturdy, of good size, so allow ample room for batteries/electronics.
 
 <!-- outline-end -->
 
-### Headings (centered)
-{:data-align="center"}
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-***
-
-### Paragraphs
-
 #### Torches as sold
 
-**William Shakespeare**, The torches are of the old long running design with a small incandescent bulb , 
+The torches are of the old long running design with a small incandescent bulb , 
 being driven directly by four D size batteries. The torch has a single button for ON/OFF operation.
+
+![original torch in bits](:torch_in_bits1.jpg){:data-align="center"}
 
 #### Rework required.
 
@@ -107,6 +90,24 @@ This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-Jek
 
 ![original torch in bits](:post_pic1.jpg){:data-align="center"}
 
+### Headings (centered)
+{:data-align="center"}
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+
+***
+
+### Paragraphs
 ### Lists
 
 - Apple
