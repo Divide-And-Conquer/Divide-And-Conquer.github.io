@@ -46,14 +46,18 @@ The torches are simple but sturdy, of good size, so allow ample room for batteri
 
 #### Torches as sold
 
-The torches are of the old long running design with a small incandescent bulb , 
-being driven directly by four D size batteries. The torch has a single button for ON/OFF operation.
+The torches are of a traditional design with a small incandescent bulb, 
+being driven directly by four D size batteries. 
+The torch has a single button for ON/OFF operation.
+The light output is poor by modern standards, and the D sized batteries are obsolete.
 
 ![original torch in bits](:torch_in_bits1.jpg){:data-align="center"}
 
 #### Rework required.
 
-**Keep it simple**, Replace the small incandescent bulb with an LED, 
+The case of the  torch(es) are well made, and have ample space for upgrading / rework.
+
+**Keep it simple**, replace the small incandescent bulb with an LED, 
 this will be driven directly by XXX Lithium batteries, try to keep the mounting of these batteries simple.
 A protection / driver module will be required.
 Keep the single button for ON/OFF operation.
@@ -61,6 +65,6 @@ Add a recharge connector in the handle.
 
 
 
-### Link
+### Applicable Links
 
 Link to project page [Torch Rework](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme).
