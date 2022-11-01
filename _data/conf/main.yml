@@ -52,10 +52,10 @@ brand_replace: "$site_brand"
 greetings_replace: "$site_greetings"
 
 # replace text with data.lang[language].constants.welcome
-welcome_replace: "$site-welcome"
+welcome_replace: "$site_welcome"
 
 # replace text with data.lang[language].constants.sample
-sample_replace: ""
+sample_replace: "Welcome-to-the-Freepoet-Web-site"
 
 ###########################################################
 #                Search
