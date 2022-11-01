@@ -31,12 +31,11 @@ img: ":about.jpg"
 # exclude from search engines
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
-#published: false
+published: true
 ---
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
+#### Interests
 
-{{ website_info_text_second }}
+Interests include Electronics / Computing / Aviation / Ecology and Sustainability / World Events / Science & much more.
