@@ -63,4 +63,4 @@ Add a recharge connector in the handle.
 
 ### Link
 
-Link to [Torch Rework] project page (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme).
+Link to project page [Torch Rework](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme).
