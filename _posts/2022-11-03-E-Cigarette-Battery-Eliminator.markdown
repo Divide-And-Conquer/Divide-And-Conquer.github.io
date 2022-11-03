@@ -43,8 +43,14 @@ This is a simple idea to re-use the batteries from a disposable E cigarette and 
 battery eliminator. The circuit uses a cheap chinese module that provides battery protection, a micro USB to charge 
 the battery, and a boost circuit, so the unit can replace 6v to 12v batteries.
 
+![Typical E-Cigarette](:e-cigg.jpg){:data-align="center"}
+
+The type of E Cigarette shown above does have an easiely recoverable battery, videos for
+recovering these batteries are available on you tube.
 
 ![Battery Control Module](:3-7V-9V-5V-2A-Adjustable-Step-Up.jpg){:data-align="center"}
+
+The Module shown above is readily available on aliExpress, 
 
 As the circuit/battery is permanently in circuit, an on/off switch is required, to maintain the battery power.
 
