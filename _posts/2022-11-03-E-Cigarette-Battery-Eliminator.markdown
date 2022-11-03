@@ -44,14 +44,7 @@ The torches are simple but sturdy, of good size, so allow ample room for batteri
 
 <!-- outline-end -->
 
-#### Disposable E-Cigarettes
-
-All disposable E-Cigarettes contain a Battery that can be salvaged.
-Some are much easier to salavage than others, these are the only ones that i'd suggest you ought to te=ry to use!
-
-![built E-Cigarette Battery Eliminator](:null.jpg){:data-align="center"}
-
-#### E-Cigarette Battery Eliminator
+#### Brother Printer Installation
 
 The case of the  torch(es) are well made, and have ample space for upgrading / rework.
 
@@ -61,7 +54,15 @@ A protection / driver module will be required.
 Keep the single button for ON/OFF operation.
 Add a recharge connector in the handle.
 
+![Complete Battery Eliminator](:BrotherPrinter1.jpg){:data-align="center"}
+![Battery Eliminator Detail](:BrotherPrinter2.jpg){:data-align="center"}
+![Exposed Battery Eliminator](:BrotherPrinter3.jpg){:data-align="center"}
 
+#### Multimeter Installation
+
+
+![Meter Battery Eliminator Fitting](:Meter1.jpg){:data-align="center"}
+![Complete Meter Battery Eliminator Fitting](:Meter2.jpg){:data-align="center"}
 
 ### Applicable Links
 
