@@ -58,6 +58,7 @@ The Brother label printer uses 6 AAA batteries, but can also be driven using an 
 Using the external power connector and the battery eliminator makes the unit much easier to use
 for creating the occassional label.
 3-7V-9V-5V-2A-Adjustable-Step-Up
+3.7V 9V 5V 2A Adjustable Step Up 18650 Lithium Battery Charging Discharge Integrated Module
 
 
 ![Complete Battery Eliminator](:BrotherPrinter1.jpg){:data-align="center"}
@@ -75,3 +76,22 @@ for creating the occassional label.
 ### Applicable Links
 
 Link to project page [Torch Rework](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme).
+
+### 3.7V 9V 5V 2A Adjustable Step Up 18650 Lithium Battery Charging Discharge Integrated Module
+
+1. Debug before use, the default output is about 9V
+2. Input voltage 4.5-8V
+3. The output voltage can be continuously adjusted from 4.3-27V (any voltage above 4.3V and below 27V can be output, and you can adjust the voltage counterclockwise by yourself)
+4. The charging voltage is 4.2V and the charging current is up to 1A
+5. Discharge current, the maximum output current of 2A should be calculated by yourself
+6. Output reference maximum current 5V 1.4A , 9V 0.8A, 12V 0.6A
+7. The quiescent current is about 0.5 mA
+8. Overshoot protection Yes
+9. Over-discharge protection No (it can also be said that there is, 2V cut off the boost but not block the output, the output still has 2V)
+10. Cut-off boost 2V, depending on the situation, whether to add a protection board
+11. Size 3.3X2.3X0.9
+12. For example, the VIN+ terminal is connected to a 5V solar panel, and the BAT+ terminal can output 4.2V to charge a 3.7V 18650 battery
+13. The OUT+ terminal can output an adjustable voltage, you can adjust how much you need
+14. Can be used for multimeter modified lithium battery charging
+
+
