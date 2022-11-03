@@ -48,7 +48,7 @@ the battery, and a boost circuit, so the unit can replace 6v to 12v batteries.
 The type of E Cigarette shown above does have an easiely recoverable battery, videos for
 recovering these batteries are available on you tube.
 
-![Battery Control Module](:3-7V-9V-5V-2A-Adjustable-Step-Up.jpg){:data-align="center"}
+![Battery Control Module](:Module1.jpg){:data-align="center"}
 
 The Module shown above is readily available on aliExpress, 
 
