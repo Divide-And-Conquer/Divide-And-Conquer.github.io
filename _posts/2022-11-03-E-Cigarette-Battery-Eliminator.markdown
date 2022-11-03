@@ -57,7 +57,7 @@ Two example installations are shown, for a Brother label printer, and a cheap Ch
 The Brother label printer uses 6 AAA batteries, but can also be driven using an external power supply.
 Using the external power connector and the battery eliminator makes the unit much easier to use
 for creating the occassional label.
-
+3-7V-9V-5V-2A-Adjustable-Step-Up
 
 
 ![Complete Battery Eliminator](:BrotherPrinter1.jpg){:data-align="center"}
