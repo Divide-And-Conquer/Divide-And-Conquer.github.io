@@ -39,8 +39,13 @@ published: true
 
 <!-- outline-start -->
 
-This is an idea for re-purposing two old torches purchased from poundland (yes, for a £1 each).
-The torches are simple but sturdy, of good size, so allow ample room for batteries/electronics.
+This is a simple idea to re-use the batteries from a disposable E cigarette and make a cheap and useful
+battery eliminator. The circuit uses a cheap chinese module that provides battery protection, a micro USB to charge 
+the battery, and a boost circuit, so the unit can replace 6v to 12v batteries.
+
+As the circuit/battery is permanently in circuit, an on/off switch is required, to maintain the battery power.
+
+Two example installations are shown, for a Brother label printer, and a cheap Chinese multimeter.
 
 <!-- outline-end -->
 
@@ -55,13 +60,15 @@ Keep the single button for ON/OFF operation.
 Add a recharge connector in the handle.
 
 ![Complete Battery Eliminator](:BrotherPrinter1.jpg){:data-align="center"}
+
 ![Battery Eliminator Detail](:BrotherPrinter2.jpg){:data-align="center"}
+
 ![Exposed Battery Eliminator](:BrotherPrinter3.jpg){:data-align="center"}
 
 #### Multimeter Installation
 
-
 ![Meter Battery Eliminator Fitting](:Meter1.jpg){:data-align="center"}
+
 ![Complete Meter Battery Eliminator Fitting](:Meter2.jpg){:data-align="center"}
 
 ### Applicable Links
