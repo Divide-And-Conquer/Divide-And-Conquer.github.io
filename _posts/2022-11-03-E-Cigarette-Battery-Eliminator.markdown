@@ -81,7 +81,8 @@ for creating the occassional label.
 
 ### Applicable Links
 
-Link to project page [Torch Rework](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme).
+[Battery Control Module](https://www.aliexpress.com/item/32976180245.html).
+
 
 ### 3.7V 9V 5V 2A Adjustable Step Up 18650 Lithium Battery Charging Discharge Integrated Module
 
