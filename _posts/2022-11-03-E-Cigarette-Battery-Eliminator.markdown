@@ -11,7 +11,7 @@ category: jekyll
 # multiple tag entries are possible
 tags: [jekyll, sample, example post]
 # thumbnail image for post
-img: ":torch_in_bits1.jpg"
+img: ":BrotherPrinter2.jpg"
 # disable comments on this page
 #comments_disable: true
 
@@ -51,13 +51,11 @@ Two example installations are shown, for a Brother label printer, and a cheap Ch
 
 #### Brother Printer Installation
 
-The case of the  torch(es) are well made, and have ample space for upgrading / rework.
+The Brother label printer uses 6 AAA batteries, but can also be driven using an external power supply.
+Using the external power connector and the battery eliminator makes the unit much easier to use
+for creating the occassional label.
 
-**Keep it simple**, replace the small incandescent bulb with an LED, 
-this will be driven directly by XXX Lithium batteries, try to keep the mounting of these batteries simple.
-A protection / driver module will be required.
-Keep the single button for ON/OFF operation.
-Add a recharge connector in the handle.
+
 
 ![Complete Battery Eliminator](:BrotherPrinter1.jpg){:data-align="center"}
 
