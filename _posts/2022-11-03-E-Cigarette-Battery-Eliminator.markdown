@@ -43,6 +43,9 @@ This is a simple idea to re-use the batteries from a disposable E cigarette and 
 battery eliminator. The circuit uses a cheap chinese module that provides battery protection, a micro USB to charge 
 the battery, and a boost circuit, so the unit can replace 6v to 12v batteries.
 
+
+![Battery Control Module](:3-7V-9V-5V-2A-Adjustable-Step-Up.jpg){:data-align="center"}
+
 As the circuit/battery is permanently in circuit, an on/off switch is required, to maintain the battery power.
 
 Two example installations are shown, for a Brother label printer, and a cheap Chinese multimeter.
