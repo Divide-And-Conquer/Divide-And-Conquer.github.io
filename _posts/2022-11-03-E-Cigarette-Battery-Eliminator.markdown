@@ -84,12 +84,12 @@ for creating the occassional label.
 
 ![Complete Meter Battery Eliminator Fitting](:Meter2.jpg){:data-align="center"}
 
-### Applicable Links
+## Applicable Links
 
 [Battery Control Module](https://www.aliexpress.com/item/32976180245.html).
 
 
-### 3.7V 9V 5V 2A Adjustable Step Up 18650 Lithium Battery Charging Discharge Integrated Module
+## 3.7V 9V 5V 2A Adjustable Step Up 18650 Lithium Battery Charging Discharge Integrated Module
 
 1. Debug before use, the default output is about 9V
 2. Input voltage 4.5-8V
