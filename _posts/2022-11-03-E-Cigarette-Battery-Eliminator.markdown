@@ -48,7 +48,8 @@ the battery, and a boost circuit, so the unit can replace 6v to 12v batteries.
 ![Typical E-Cigarette](:e-cigg.jpg){:data-align="center"}
 
 The type of E Cigarette shown above does have an easiely recoverable battery, videos for
-recovering these batteries are available on you tube. 
+recovering these batteries are available on you tube. Other E-cigarettes may have batteries that are
+more ecapsulated, and could prove dificult or hazardous to remove. If in any doubt, DON't ATTEMPT IT!
 
 
 #### 3.7V 9V 5V 2A Adjustable Step Up 18650 Lithium Battery Charging Discharge Integrated Module
