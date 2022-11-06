@@ -62,6 +62,8 @@ As the circuit/battery is permanently in circuit, an on/off switch is required, 
 
 Two example installations are shown, for a Brother label printer, and a cheap Chinese multimeter.
 
+[Battery Control Module](https://www.aliexpress.com/item/32976180245.html).
+
 <!-- outline-end -->
 
 #### Brother Printer Installation
