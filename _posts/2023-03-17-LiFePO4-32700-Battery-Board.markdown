@@ -45,7 +45,10 @@ As a PCB was been manufactured for this purpose, I (as always) decided to make i
 resistor signal conditioning, and by adding prototyping areas to the board.
 The board does also have a cut-out to cater for a barrel-jack connector, to allow the battery to be charged in-situ.
 
+![battery view](:32700 Battery.jpg){:data-align="center"}
+
 <!-- outline-end -->
+
 
 #### PCB as designed.
 
