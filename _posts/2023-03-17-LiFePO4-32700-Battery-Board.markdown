@@ -16,7 +16,7 @@ img: ":torch_in_bits1.jpg"
 #comments_disable: true
 
 # publish date
-date: 
+date: 2023-03-17 15:17:00 +0900
 
 # seo
 # if not specified, date will be used.
