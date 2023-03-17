@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Torch_Rework
-title: Poundshop Torch Rework
+title: LiFePO4 support and development board
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
@@ -42,8 +42,8 @@ published: true
 This board is principally designed to hold a 32700 sized battery in place, and make electrical contact with it.
 For some reason battery holders for this battery are either not available, or are unsuitable.
 As a PCB was been manufactured for this purpose, I (as always) decided to make it multipurpose, by adding some
-resistor signal conditioning, and by adding protyping areas to the board.
-The board does also have a cut-out to cater for a barrel-jack connector, to allow the battery to be charged in situ.
+resistor signal conditioning, and by adding prototyping areas to the board.
+The board does also have a cut-out to cater for a barrel-jack connector, to allow the battery to be charged in-situ.
 
 <!-- outline-end -->
 
@@ -54,12 +54,15 @@ Provision for SOT or axial resistors is provided.
 The PCB is designed as a supplementary board to a main board with a micro-controller fitted.
 
 ![front view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
+
 ![back view](:ESP32-CricketBatteryBoard115x90x55_2.jpg){:data-align="center"}
 
 #### PCB in use.
 
 The case is a standard Chinese 115x90x55 plastic box.
-The battery board and main board are stacked in pillars.
+The battery board and main board are stacked in pillars, and the LiFePO4 battery is sandwiched between them.
+
+![case view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
 
 **Keep it simple**, replace the small incandescent bulb with an LED, 
 this will be driven directly by XXX Lithium batteries, try to keep the mounting of these batteries simple.
@@ -67,7 +70,9 @@ A protection / driver module will be required.
 Keep the single button for ON/OFF operation.
 Add a recharge connector in the handle.
 
+![partial assembled view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
 
+![full assembled view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
 
 ### Applicable Links
 
