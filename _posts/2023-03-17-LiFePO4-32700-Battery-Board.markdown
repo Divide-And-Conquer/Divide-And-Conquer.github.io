@@ -57,12 +57,25 @@ The PCB is designed as a supplementary board to a main board with a micro-contro
 
 ![back view](:ESP32-CricketBatteryBoard115x90x55_2.jpg){:data-align="center"}
 
-#### PCB in use.
+#### PCB Housing.
 
 The case is a standard Chinese 115x90x55 plastic box.
 The battery board and main board are stacked in pillars, and the LiFePO4 battery is sandwiched between them.
+This view of the case shows the 3.5mm soket fitted, which will later be used to charge the battery.
 
 ![case view](:ESP32-CricketBatteryBoard115x90x55_3.jpg){:data-align="center"}
+
+#### PCB Populated.
+
+
+#### Assembled Cricket Module.
+
+![partial assembled view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
+
+![full assembled view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
+
+
+More Information on the Cricket2 project can be found in the relevant blog entries.
 
 **Keep it simple**, replace the small incandescent bulb with an LED, 
 this will be driven directly by XXX Lithium batteries, try to keep the mounting of these batteries simple.
@@ -70,9 +83,6 @@ A protection / driver module will be required.
 Keep the single button for ON/OFF operation.
 Add a recharge connector in the handle.
 
-![partial assembled view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
-
-![full assembled view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
 
 ### Applicable Links
 
