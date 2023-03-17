@@ -41,7 +41,7 @@ published: true
 
 This board is principally designed to hold a 32700 sized battery in place, and make electrical contact with it.
 For some reason battery holders for this battery are either not available, or are unsuitable.
-As a PCB was been manufactured for this purpose, I (as always) decided to make it multipurpose, by adding some
+As a PCB was being manufactured for this purpose, I (as always) decided to make it multipurpose, by adding some
 resistor signal conditioning, and by adding prototyping areas to the board.
 The board does also have a cut-out to cater for a barrel-jack connector, to allow the battery to be charged in-situ.
 
