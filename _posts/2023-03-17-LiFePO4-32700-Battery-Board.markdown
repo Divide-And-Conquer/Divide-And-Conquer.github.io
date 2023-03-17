@@ -62,7 +62,7 @@ The PCB is designed as a supplementary board to a main board with a micro-contro
 The case is a standard Chinese 115x90x55 plastic box.
 The battery board and main board are stacked in pillars, and the LiFePO4 battery is sandwiched between them.
 
-![case view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
+![case view](:ESP32-CricketBatteryBoard115x90x55_3.jpg){:data-align="center"}
 
 **Keep it simple**, replace the small incandescent bulb with an LED, 
 this will be driven directly by XXX Lithium batteries, try to keep the mounting of these batteries simple.
