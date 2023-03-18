@@ -41,6 +41,8 @@ published: true
 
 This board is principally designed to hold a 32700 sized battery in place, and make electrical contact with it.
 For some reason battery holders for this battery are either not available, or are unsuitable.
+The 32700 naming convention equate to 32mm diameter, and 70mm long (why extra zero?).
+
 As a PCB was being manufactured for this purpose, I (as always) decided to make it multipurpose, by adding some
 resistor signal conditioning, and by adding prototyping areas to the board.
 The board does also have a cut-out to cater for a barrel-jack connector, to allow the battery to be charged in-situ.
@@ -80,13 +82,10 @@ This view of the case shows the 3.5mm soket fitted, which will later be used to 
 
 More Information on the Cricket2 project can be found in the relevant blog entries.
 
-**Keep it simple**, replace the small incandescent bulb with an LED, 
-this will be driven directly by XXX Lithium batteries, try to keep the mounting of these batteries simple.
-A protection / driver module will be required.
-Keep the single button for ON/OFF operation.
-Add a recharge connector in the handle.
+**Keep it simple**, the Cricket 2 modules are designed to have a minimum battery life of 3 months between recharges.
+That is based on the module doing a transmission every ½ hour, so 2 x 24 x 92 transmission approx 3500 transmissions.
 
 
 ### Applicable Links
 
-Link to project page [Torch Rework](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme).
+Link to project page [Battery Technology](https://www.batteryequivalents.com/32650-battery.html).
