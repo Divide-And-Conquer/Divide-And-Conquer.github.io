@@ -99,17 +99,25 @@ A single 3.3V connection is made between the two boards.
 
 The main board may optionally have an external DS18B20 external temperature probe.
 
+Many of the batteries I have do not have a plastic sleeve, on these patteries I've
+placed an insulating strip along the top of the battery to block contact with the underside
+or the Cricket PCB.
+
+![partial assembled view](:ESP32-CricketBatteryBoard-3_5mmConnector){:data-align="center"}
+
 #### PCB Populated
 
 
 #### Assembled Cricket Module
 
+![partial assembled view](:ESP32-CricketBatteryBoard-Body1.jpg){:data-align="center"}
+
 THe 3.3V connection attaches to the main board via its J4 connector,
-0V = Pin, 3.3V = Pin.
+0V = Pin 1, 3.3V = Pin 4.
 
-![partial assembled view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
+The Spacers for the pillars between boards is ???
 
-![full assembled view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
+![full assembled view](:ESP32-CricketBatteryBoard-Body2.jpg){:data-align="center"}
 
 
 More Information on the Cricket2 project can be found in the relevant blog entries.
