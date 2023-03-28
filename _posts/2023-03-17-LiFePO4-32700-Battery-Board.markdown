@@ -120,7 +120,7 @@ The Spacers for the pillars between boards is ???
 ![full assembled view](:ESP32-CricketBatteryBoard-Body2.jpg){:data-align="center"}
 
 
-More Information on the Cricket2 project can be found in the relevant blog entries.
+More Information on the Cricket2 project can be found in the "2023-03-28-Cricket 2 - IOT Device" blog entry.
 
 **Keep it simple**, the Cricket 2 modules are designed to have a minimum battery life of 3 months between recharges.
 That is based on the module doing a transmission every ½ hour, so 2 x 24 x 92 transmission approx 3500 transmissions.
