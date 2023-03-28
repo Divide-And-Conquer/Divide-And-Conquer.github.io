@@ -129,6 +129,7 @@ That is based on the module doing a transmission every ½ hour, so 2 x 24 x 92 t
 ### Applicable Links
 
 Battery Technology page [Battery Technology](https://www.batteryequivalents.com/32650-battery.html).
-Battery Contact Clips page [Battery Contact Clips](https://www.aliexpress.com/item/1005001886377133.html?spm=a2g0o.order_list.order_list_main.17.21ef1802jOq6nW).
+
+Battery Contact Clips page [Battery Contact Clips](https://www.aliexpress.com/item/1005001886377133.html).
 
 
