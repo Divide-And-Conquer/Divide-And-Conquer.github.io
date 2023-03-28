@@ -80,18 +80,17 @@ process much easier, as the clip automatically fell into alignment.
 The 3.5mm socket can be pre-fitted to the board, and soldered in-place, then it needs to
 installed in it's socket, at the same time as the board is fitted on it's mounting screws.
 
-![soldering clips 1](:ESP32-CricketBatteryBoard115x90x55.jpg_4){:data-align="center"}
+![soldering clips 1](:ESP32-CricketBatteryBoard115x90x55_4.jpg){:data-align="left"}
 
-![soldering clips 2](:ESP32-CricketBatteryBoard115x90x55.jpg_5){:data-align="center"}
+![soldering clips 2](:ESP32-CricketBatteryBoard115x90x55_5.jpg){:data-align="center"}
 
-![soldering clips 3](:ESP32-CricketBatteryBoard115x90x55.jpg_6){:data-align="center"}
+![soldering clips 3](:ESP32-CricketBatteryBoard115x90x55_6.jpg){:data-align="right"}
 
 #### Fitting Components
 
 The -ve clip with it's spring does experience a lot of force when the battery is fitted, 
 this causes it to bend, so a plastic filler is used to support the clip, and help mantain
 pressure on the battery.
-
 
 The pillars will then need to be fitted to support the main PCB.
 A single 3.3V connection is made between the two boards.
@@ -100,7 +99,11 @@ The main board may optionally have an external DS18B20 external temperature prob
 
 #### PCB Populated
 
+
 #### Assembled Cricket Module
+
+THe 3.3V connection attaches to the main board via its J4 connector,
+0V = Pin, 3.3V = Pin.
 
 ![partial assembled view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
 
