@@ -16,7 +16,7 @@ img: ":post_pic1.jpg"
 #comments_disable: true
 
 # publish date
-date: 2022-01-01 08:11:06 +0900
+date: 2023-03-28 08:11:06 +0900
 
 # seo
 # if not specified, date will be used.
@@ -49,8 +49,9 @@ So the PCB has been reused and it's quite suitable for the cricket to project Mu
 The original cricket was a commercial project product made by the things on edge company based in Cambridge 
  
 They produce two versions of the cricut device but unfortunately went out of business that the version one device of theirs 
-It came unmodifiedable so was difficult to use further development the version 2 device could still be modified these devices were kept in use for a number of months while whilst I came up with the design for the cricket too replacement board. 
-New line 
+It came unmodifiedable so was difficult to use further development the version 2 device could still be modified these devices 
+were kept in use for a number of months while whilst I came up with the design for the cricket too replacement board. 
+
 
 #### Blockquote
 
