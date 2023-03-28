@@ -1,4 +1,3 @@
-
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Clock
@@ -185,4 +184,3 @@ for i in range(5, 10):
 for i in range(5, 10):
   print(i)
 ```
-
