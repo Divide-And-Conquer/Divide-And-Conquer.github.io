@@ -56,7 +56,8 @@ This project is based on a PCB designed for a previous project of mine called sc
 So the PCB has been reused and it's quite suitable for the cricket to project Mulan 
  
 
- 
+Some changes / additions have been made with this implementation,
+
 
 <!-- outline-end -->
 
@@ -114,8 +115,10 @@ This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-Jek
 ### Paragraphs
 ### Lists
 
-- Apple
-- Banana
+- The LiFePO4 battery is used as it makes implementation easier
+And makes the 3 months battery life easier to achieve 
+- The MQTT message system outputs a single JSON message, 
+this is to make better use of battery life, and makes post p
 - Orange
 
 1. Fruits
