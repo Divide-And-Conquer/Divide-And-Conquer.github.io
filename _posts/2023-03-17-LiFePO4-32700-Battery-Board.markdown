@@ -11,7 +11,7 @@ category: jekyll
 # multiple tag entries are possible
 tags: [jekyll, sample, example post]
 # thumbnail image for post
-img: ":Preview_1.jpg"
+img: ":ESP32 - CricketBatteryBoard - Preview_1.jpg"
 # disable comments on this page
 #comments_disable: true
 
