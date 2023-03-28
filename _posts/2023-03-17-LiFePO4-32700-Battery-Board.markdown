@@ -92,6 +92,8 @@ The -ve clip with it's spring does experience a lot of force when the battery is
 this causes it to bend, so a plastic filler is used to support the clip, and help mantain
 pressure on the battery.
 
+![partial assembled view](:ESP32-CricketBatteryBoard-Clip_support_1.jpg){:data-align="center"}
+
 The pillars will then need to be fitted to support the main PCB.
 A single 3.3V connection is made between the two boards.
 
