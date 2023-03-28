@@ -90,7 +90,9 @@ This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-Jek
 
 ### Picture (centered)
 
-![original torch in bits](:post_pic1.jpg){:data-align="center"}
+![Cricket2-Main-PCB-Front](:ESP32-Cricket2-Main-Board-Front.jpg){:data-align="center"}
+
+![Cricket2-Main-PCB-Back](:ESP32-Cricket2-Main-Board-Back.jpg){:data-align="center"}
 
 ### Headings (centered)
 {:data-align="center"}
