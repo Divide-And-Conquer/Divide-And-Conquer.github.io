@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Torch_Rework
-title: LiFePO4 support and development board
+title: LiFePO4 Battery -Support and Development Board
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
