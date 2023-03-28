@@ -52,7 +52,7 @@ The board does also have a cut-out to cater for a barrel-jack connector, to allo
 <!-- outline-end -->
 
 
-#### PCB as designed.
+#### PCB as designed
 
 The PCB is designed as a 1.6mm thick board, double sided through hole plated.
 Provision for SOT or axial resistors is provided.
@@ -62,7 +62,7 @@ The PCB is designed as a supplementary board to a main board with a micro-contro
 
 ![back view](:ESP32-CricketBatteryBoard115x90x55_2.jpg){:data-align="center"}
 
-#### PCB Housing.
+#### PCB Housing
 
 The case is a standard Chinese 115x90x55 plastic box.
 The battery board and main board are stacked in pillars, and the LiFePO4 battery is sandwiched between them.
@@ -70,10 +70,37 @@ This view of the case shows the 3.5mm soket fitted, which will later be used to 
 
 ![case view](:ESP32-CricketBatteryBoard115x90x55_3.jpg){:data-align="center"}
 
-#### PCB Populated.
+#### Soldering Steps
+
+The battery clips are difficult to solder. For a good contact with the battery
+the clip needs to sit proud of the PCB. Fitting the clip and using a small wire to hold 
+the clip in place when the board is upside down was found to make the soldering/assembly
+process much easier, as the clip automatically fell into alignment.
+
+The 3.5mm socket can be pre-fitted to the board, and soldered in-place, then it needs to
+installed in it's socket, at the same time as the board is fitted on it's mounting screws.
+
+![soldering clips 1](:ESP32-CricketBatteryBoard115x90x55.jpg_4){:data-align="center"}
+
+![soldering clips 2](:ESP32-CricketBatteryBoard115x90x55.jpg_5){:data-align="center"}
+
+![soldering clips 3](:ESP32-CricketBatteryBoard115x90x55.jpg_6){:data-align="center"}
+
+#### Fitting Components
+
+The -ve clip with it's spring does experience a lot of force when the battery is fitted, 
+this causes it to bend, so a plastic filler is used to support the clip, and help mantain
+pressure on the battery.
 
 
-#### Assembled Cricket Module.
+The pillars will then need to be fitted to support the main PCB.
+A single 3.3V connection is made between the two boards.
+
+The main board may optionally have an external DS18B20 external temperature probe.
+
+#### PCB Populated
+
+#### Assembled Cricket Module
 
 ![partial assembled view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
 
