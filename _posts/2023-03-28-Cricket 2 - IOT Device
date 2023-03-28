@@ -39,18 +39,26 @@ published: true
 
 <!-- outline-start -->
 
-Template.
+The original Cricket was a commercial project product made by the things on edge company based in Cambridge.
+This device monitored it's own battery, temperature, and had a few inputs for measuring other external 
+parameters. It then sent this monitored information to a server computer using MQTT. The original device
+was simple to deploy, low cost, and had a good battery life.
 
-<!-- outline-end -->
+The company produced two versions of the cricket device but unfortunately went out of business.
+The version one device of theirs was configured via the internet and became unmodifiedable so was difficult to use
+for further development. As some of these devices just stopped working!
+
+The version 2 device could still be reconfigured.
+
+Both devices kept in use for a number of months while whilst I came up with the design for the Cricket 2 replacement board. 
 
 This project is based on a PCB designed for a previous project of mine called scheduler 
 So the PCB has been reused and it's quite suitable for the cricket to project Mulan 
  
-The original cricket was a commercial project product made by the things on edge company based in Cambridge 
+
  
-They produce two versions of the cricut device but unfortunately went out of business that the version one device of theirs 
-It came unmodifiedable so was difficult to use further development the version 2 device could still be modified these devices 
-were kept in use for a number of months while whilst I came up with the design for the cricket too replacement board. 
+
+<!-- outline-end -->
 
 
 #### Blockquote
