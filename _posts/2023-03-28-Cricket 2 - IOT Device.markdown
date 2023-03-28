@@ -113,6 +113,21 @@ This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-Jek
 ***
 
 ### Paragraphs
+
+
+TLV62569 3.3V Buck Converter Breakout - 3.3V Output 1.2A Max (ADA4711)
+
+This little buck converter based on the TLV62569 3.3V is super handy, taking up to 5.5V input and providing a 3.3V output with up to 1.2A continuous current.
+£11.70
+Raspberry Pi Official USB-C Power Supply - UK – White (RPI-069)
+
+The official Raspberry Pi USB-C power supply (PSU) supplies your Pi 4 with 5.1V at 3A.
+£9
+RV3028 Real-Time Clock (RTC) Breakout (PIM449)
+
+An ultra-low-power ( ~100 nA), highly accurate real-time clock breakout. The RV3028 RTC breakout is perfect for adding timekeeping to your project and, thanks to the tiny on-board battery, it'll keep time when your device is powered off. Like all the best timepieces, it's Swiss-made!
+
+
 ### Lists
 
 - The LiFePO4 battery is used as it makes implementation easier
