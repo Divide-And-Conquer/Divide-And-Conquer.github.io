@@ -45,15 +45,7 @@ An internet Access Point is needed for proper operation.to acheive this an E-Pap
 The processor only updates the display once per minute, and
 and otherwise is idle and the processor hibernates.
 
-
-
 <!-- outline-end -->
-
-### Link
-
-This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme), a simple theme built for [Jekyll](https://jekyllrb.com/).
-
-\* Hello world! This is **[{{ site.data.owner[site.data.conf.main.default_lng].brand }}]({{ site.url }})**
 
 ### PCBs
 
@@ -87,8 +79,7 @@ This little buck converter based on the TLV62569 3.3V is super handy, taking up 
 £11.70
 Raspberry Pi Official USB-C Power Supply - UK – White (RPI-069)
 
-The official Raspberry Pi USB-C power supply (PSU) supplies your Pi 4 with 5.1V at 3A.
-£9
+
 RV3028 Real-Time Clock (RTC) Breakout (PIM449)
 
 An ultra-low-power ( ~100 nA), highly accurate real-time clock breakout. The RV3028 RTC breakout is perfect for adding timekeeping to your project and, thanks to the tiny on-board battery, it'll keep time when your device is powered off. Like all the best timepieces, it's Swiss-made!
@@ -100,7 +91,7 @@ An ultra-low-power ( ~100 nA), highly accurate real-time clock breakout. The RV3
 And makes the 3 months battery life easier to achieve 
 - The MQTT message system outputs a single JSON message, 
 this is to make better use of battery life, and makes post p
-- Orange
+- 
 
 ***
 
