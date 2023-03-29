@@ -1,6 +1,6 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_Clock
+lng_pair: id_Clock_1
 title: E-Paper-Clock
 
 # post specific
@@ -78,9 +78,9 @@ This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-Jek
 
 ### Picture (centered)
 
-![Cricket2-Main-PCB-Front](:ESP32-Cricket2-Main-Board-Front.jpg){:data-align="center"}
+![Cricket2-Main-PCB-Front](:E-Paper-Clock_PCB_Front.jpg){:data-align="center"}
 
-![Cricket2-Main-PCB-Back](:ESP32-Cricket2-Main-Board-Back.jpg){:data-align="center"}
+![Cricket2-Main-PCB-Back](:E-Paper-Clock_PCB_Back.jpg){:data-align="center"}
 
 ### Headings (centered)
 {:data-align="center"}
