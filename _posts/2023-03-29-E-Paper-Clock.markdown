@@ -89,7 +89,8 @@ An ultra-low-power ( ~100 nA), highly accurate real-time clock breakout. The RV3
 And makes the 3 months battery life easier to achieve 
 - The MQTT message system outputs a single JSON message, 
 this is to make better use of battery life, and makes post p
-- 
+- 1
+
 
 ***
 
