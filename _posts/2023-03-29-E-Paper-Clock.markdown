@@ -39,32 +39,15 @@ published: true
 
 <!-- outline-start -->
 
-This project is intended to be a low power travel clock,
-to acheive this an E-Paper display is used, along with an RPi2040 processor.
+This project is intended to be a low power clock,
+Suitable to use as a travel clock, and also suitable as a room clock.
+An internet Access Point is needed for proper operation.to acheive this an E-Paper display is used, along with an RPi2040 processor.
 The processor only updates the display once per minute, and
-at idle the processor hibernates.
+and otherwise is idle and the processor hibernates.
 
 
 
 <!-- outline-end -->
-
-
-#### Blockquote
-
-> **William Shakespeare**, Let me not to the marriage of true minds
-> Admit impediments. Love is not love
-> Which alters when it alteration finds,
-> Or bends with the remover to remove.
-> O no, it is an ever-fixed mark
-> That looks on tempests and is never shaken;
-> It is the star to every wand'ring barque,
-> Whose worth's unknown, although his height be taken.
-> Love's not Time's fool, though rosy lips and cheeks
-> Within his bending sickle's compass come;
-> Love alters not with his brief hours and weeks,
-> But bears it out even to the edge of doom.
-> If this be error and upon me proved,
-> I never writ, nor no man ever loved.
 
 ### Link
 
@@ -72,11 +55,7 @@ This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-Jek
 
 \* Hello world! This is **[{{ site.data.owner[site.data.conf.main.default_lng].brand }}]({{ site.url }})**
 
-### Picture
-
-![original torch](:post_pic1.jpg)
-
-### Picture (centered)
+### PCBs
 
 ![Cricket2-Main-PCB-Front](:E-Paper-Clock_PCB_Front.jpg){:data-align="center"}
 
@@ -122,15 +101,6 @@ And makes the 3 months battery life easier to achieve
 - The MQTT message system outputs a single JSON message, 
 this is to make better use of battery life, and makes post p
 - Orange
-
-1. Fruits
-   1. Apples
-      - Granny Smith
-      - Mutsu
-   1. Bananas
-      - Cavendish
-      - Red
-1. Vegetables
 
 ***
 
