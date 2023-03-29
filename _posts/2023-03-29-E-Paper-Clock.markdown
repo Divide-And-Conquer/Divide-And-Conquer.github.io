@@ -41,7 +41,8 @@ published: true
 
 This project is intended to be a low power clock,
 Suitable to use as a travel clock, and also suitable as a room clock.
-An internet Access Point is needed for proper operation.to acheive this an E-Paper display is used, along with an RPi2040 processor.
+An internet Access Point is needed for proper operation. 
+To acheive this an E-Paper display is used, along with an RPi2040 processor.
 The processor only updates the display once per minute, and
 and otherwise is idle and the processor hibernates.
 
@@ -52,9 +53,6 @@ and otherwise is idle and the processor hibernates.
 ![Cricket2-Main-PCB-Front](:E-Paper-Clock_PCB_Front.jpg){:data-align="center"}
 
 ![Cricket2-Main-PCB-Back](:E-Paper-Clock_PCB_Back.jpg){:data-align="center"}
-
-### Headings (centered)
-{:data-align="center"}
 
 # Heading 1
 
