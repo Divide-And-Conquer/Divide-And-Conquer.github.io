@@ -134,6 +134,8 @@ this is to make better use of battery life, and makes post p
 
 ***
 
+![E-Paper-Clock_Prototype](:E-Paper-Clock_Prototype.jpg){:data-align="center"}
+
 ### Tables
 
 #### Small Table (centered)
