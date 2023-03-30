@@ -11,7 +11,7 @@ category: jekyll
 # multiple tag entries are possible
 tags: [jekyll, sample, example post]
 # thumbnail image for post
-img: ":E-Paper-Clock_Front.jpg"
+img: ":Hallway_Light_Open.jpg"
 # disable comments on this page
 #comments_disable: true
 
