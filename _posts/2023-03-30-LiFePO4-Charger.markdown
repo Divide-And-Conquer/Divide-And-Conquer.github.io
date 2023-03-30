@@ -58,9 +58,9 @@ principle.
 
 ### PCBs
 
-![Cricket2-Main-PCB-Front](:E-Paper-Clock_PCB_Front.jpg){:data-align="center"}
+![Cricket2-Main-PCB-Front](:LiFePO4_Charger_3.jpg){:data-align="center"}
 
-![Cricket2-Main-PCB-Back](:E-Paper-Clock_PCB_Back.jpg){:data-align="center"}
+![Cricket2-Main-PCB-Back](:LiFePO4_Charger_4.jpg){:data-align="center"}
 
 # Heading 1
 
@@ -90,7 +90,7 @@ principle.
 
 ***
 
-![E-Paper-Clock_Prototype](:E-Paper-Clock_Prototype.jpg){:data-align="center"}
+![E-Paper-Clock_Prototype](:LiFePO4_Charger_5.jpg){:data-align="center"}
 
 ### USB connectors
 
