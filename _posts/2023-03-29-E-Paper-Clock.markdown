@@ -81,7 +81,7 @@ a pair of Wi-Fi access Point SSID/Passwords to be entered/stored.
 
 ### Lists
 
-- The LiPo battery is a salvaged unit from an e-ciggarette.
+- The LiPo battery is a salvaged unit from an e-cigarette.
 
 
 
@@ -91,6 +91,15 @@ a pair of Wi-Fi access Point SSID/Passwords to be entered/stored.
 ***
 
 ![E-Paper-Clock_Prototype](:E-Paper-Clock_Prototype.jpg){:data-align="center"}
+
+### USB connectors
+
+Three USB connectors are present.
+
+- 1 The RP2040 USB connector can power the unit, it's also used to program the RP2040.
+- 2 The TP4056 board USB is for charging the LiPo battery.
+- 3 The externally available USB is for day to day running of the clock from an external power source.
+***
 
 ### Tables
 
