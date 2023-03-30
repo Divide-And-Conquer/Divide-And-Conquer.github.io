@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_Clock_1
-title: LiFePO4 Charger
+lng_pair: id_Hallway_Light
+title: Hallway Light
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
@@ -39,20 +39,10 @@ published: true
 
 <!-- outline-start -->
 
-This project is intended to be a low power clock,
-suitable to use as a travel clock, and also suitable as a room clock.
+The Hallway Light incorporates LEDs and a Loudspeaker
+The unit can function as a doorbell, and as a nightlight.
 
-This unit uses an E-Paper display, along with an RPi2040 processor,
-and is powered by a LiPo battery. An on-board battery charger is present,
-this charges the battery using a USB power source.
 
-The processor only updates the display once per minute, and hibernates
-between updates to maximise the battery life.
-
-The unit updates it's time once a day from the internet.
-
-A diagnostic mode / interface is also built-in, this allows
-a pair of Wi-Fi access Point SSID/Passwords to be entered/stored.
 
 <!-- outline-end -->
 
