@@ -11,7 +11,7 @@ category: jekyll
 # multiple tag entries are possible
 tags: [jekyll, sample, example post]
 # thumbnail image for post
-img: ":Cricket2_Front_View.jpg"
+img: ":E-Paper-Clock_Front.jpg"
 # disable comments on this page
 #comments_disable: true
 
@@ -40,11 +40,19 @@ published: true
 <!-- outline-start -->
 
 This project is intended to be a low power clock,
-Suitable to use as a travel clock, and also suitable as a room clock.
-An internet Access Point is needed for proper operation. 
-To acheive this an E-Paper display is used, along with an RPi2040 processor.
-The processor only updates the display once per minute, and
-and otherwise is idle and the processor hibernates.
+suitable to use as a travel clock, and also suitable as a room clock.
+
+This unit uses an E-Paper display, along with an RPi2040 processor,
+and is powered by a LiPo battery. An on-board battery charger is present,
+this charges the battery using a USB power source.
+
+The processor only updates the display once per minute, and hibernates
+between updates to maximise the battery life.
+
+The unit updates it's time once a day from the internet.
+
+A diagnostic mode / interface is also built-in, this allows
+a pair of Wi-Fi access Point SSID/Passwords to be entered/stored.
 
 <!-- outline-end -->
 
@@ -71,24 +79,12 @@ and otherwise is idle and the processor hibernates.
 ### Paragraphs
 
 
-TLV62569 3.3V Buck Converter Breakout - 3.3V Output 1.2A Max (ADA4711)
-
-This little buck converter based on the TLV62569 3.3V is super handy, taking up to 5.5V input and providing a 3.3V output with up to 1.2A continuous current.
-£11.70
-Raspberry Pi Official USB-C Power Supply - UK – White (RPI-069)
-
-
-RV3028 Real-Time Clock (RTC) Breakout (PIM449)
-
-An ultra-low-power ( ~100 nA), highly accurate real-time clock breakout. The RV3028 RTC breakout is perfect for adding timekeeping to your project and, thanks to the tiny on-board battery, it'll keep time when your device is powered off. Like all the best timepieces, it's Swiss-made!
-
-
 ### Lists
 
-- The LiFePO4 battery is used as it makes implementation easier
-And makes the 3 months battery life easier to achieve 
-- The MQTT message system outputs a single JSON message, 
-this is to make better use of battery life, and makes post p
+- The LiPo battery is a salvaged unit from an e-ciggarette.
+
+
+
 - 1
 
 
