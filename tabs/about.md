@@ -38,9 +38,9 @@ published: true
 
 #### Interests
 
-Interests include Electronics / Computing / Aviation / Ecology and Sustainability / World Events / Science.
+Interests include Electronics / Computing / Aviation / Ecology and Sustainability / Rambling / World Events / Science.
 
-I enjoy making / repairing / re-purposing things.
+I enjoy making / repairing and re-purposing things.
 
 I also enjoy music and watching music being performed.
 
