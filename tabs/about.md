@@ -38,4 +38,9 @@ published: true
 
 #### Interests
 
-Interests include Electronics / Computing / Aviation / Ecology and Sustainability / World Events / Science & much more.
+Interests include Electronics / Computing / Aviation / Ecology and Sustainability / World Events / Science.
+
+I enjoy making / repairing / re-purposing things.
+
+I also enjoy music and watching music being performed.
+
