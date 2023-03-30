@@ -40,7 +40,12 @@ published: true
 <!-- outline-start -->
 
 This is a simple idea to re-use the batteries from a disposable E-cigarette and make a cheap and useful
-battery eliminator. The circuit uses a cheap chinese module that provides battery protection, a micro USB to charge 
+battery eliminator. 
+
+In this blog, I use the eliminator to power a
+Brother label printer, and a Multimeter. 
+
+The circuit uses a cheap chinese module that provides battery protection, a micro USB to charge 
 the battery, and a boost circuit, so the unit can replace 6v to 12v batteries. The whole unit
 costs a few pounds to make.
 
@@ -51,8 +56,6 @@ costs a few pounds to make.
 The type of E Cigarette shown above does have an easiely recoverable battery, videos for
 recovering these batteries are available on you tube. Other E-cigarettes may have batteries that are
 more ecapsulated, and could prove dificult or hazardous to remove. If in any doubt, DON'T ATTEMPT IT!
-
-
 
 
 #### 3.7V 9V 5V 2A Adjustable Step Up 18650 Lithium Battery Charging Discharge Integrated Module
