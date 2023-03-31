@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_Clock_1
-title: LiFePO4 Charger
+lng_pair: id_Internet-Radio
+title: Internet Radio
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
@@ -41,6 +41,7 @@ published: true
 
 This project is intended to be a low power clock,
 suitable to use as a travel clock, and also suitable as a room clock.
+
 
 This unit uses an E-Paper display, along with an RPi2040 processor,
 and is powered by a LiPo battery. An on-board battery charger is present,
