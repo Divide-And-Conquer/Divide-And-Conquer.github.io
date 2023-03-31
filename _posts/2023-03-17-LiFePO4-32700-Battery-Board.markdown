@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Torch_Rework
-title: LiFePO4 Battery -Support and Development Board
+title: LiFePO4 Battery - Support and Development Board
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
@@ -54,13 +54,13 @@ The board does also have a cut-out to cater for a barrel-jack connector, to allo
 
 #### PCB as designed
 
-The PCB design 1s a 1.6mm thick board, double sided and through hole plated board.
+The PCB design is a 1.6mm thick board, double sided and through hole plated board.
 
 The intended use is a supplementary board to a main board with a micro-controller fitted.
 Extensive breadboarding (vero style) is provisioned, so the board can be used for self contained
 projects if desired.
 
-Provision for SOT or axial resistors is provided, these are optional for signal conditioning
+Provision for SOT or axial resistors is also provided, these are optional for signal conditioning the
 battery voltage, and other parameters used by the Cricket 2 boards.
 
 ![front view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
@@ -72,6 +72,7 @@ battery voltage, and other parameters used by the Cricket 2 boards.
 
 The case is a standard Chinese 115x90x55 plastic box.
 The battery board and main board are stacked in pillars, and the LiFePO4 battery is sandwiched between them.
+
 This view of the case shows the 3.5mm socket fitted, which will later be used to charge the battery.
 
 ![case view](:ESP32-CricketBatteryBoard115x90x55_3.jpg){:data-align="center"}
@@ -82,6 +83,7 @@ This view of the case shows the 3.5mm socket fitted, which will later be used to
 The battery clips are difficult to solder. 
 For a good contact with the battery
 the clip needs to sit proud of the PCB. 
+
 Fitting the clip and using a small wire to hold 
 the clip in place when the board is upside down was found to make the soldering/assembly
 process much easier, as the clip automatically fell into alignment.
@@ -120,12 +122,14 @@ or the Cricket PCB.
 
 ![partial assembled view 3](:ESP32-CricketBatteryBoard-Body1.jpg){:data-align="center"}
 
-THe 3.3V connection attaches to the main board via its J4 connector,
+
+The 3.3V connection attaches to the main board via its J4 connector,
 0V = Pin 1, 3.3V = Pin 4.
 
 The mounting screws are M3 45mm long, and the stacking pillars are 25mm long.
 
 ![full assembled view 4](:ESP32-CricketBatteryBoard-Body2.jpg){:data-align="center"}
+
 
 More Information on the Cricket2 project can be found in the "2023-03-28-Cricket 2 - IOT Device" blog entry.
 
