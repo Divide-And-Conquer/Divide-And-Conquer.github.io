@@ -79,19 +79,21 @@ This view of the case shows the 3.5mm socket fitted, which will later be used to
 
 #### Soldering Steps
 
-The battery clips are difficult to solder. For a good contact with the battery
-the clip needs to sit proud of the PCB. Fitting the clip and using a small wire to hold 
+The battery clips are difficult to solder. 
+For a good contact with the battery
+the clip needs to sit proud of the PCB. 
+Fitting the clip and using a small wire to hold 
 the clip in place when the board is upside down was found to make the soldering/assembly
 process much easier, as the clip automatically fell into alignment.
 
 The 3.5mm socket can be pre-fitted to the board, and soldered in-place, then it needs to
 installed in it's socket, at the same time as the board is fitted on it's mounting screws.
 
-![soldering clips 1](:ESP32-CricketBatteryBoard115x90x55_4.jpg){:data-align="left"}
+![soldering clips 1](:ESP32-CricketBatteryBoard115x90x55_4.jpg){:data-align="center"}
 
 ![soldering clips 2](:ESP32-CricketBatteryBoard115x90x55_5.jpg){:data-align="center"}
 
-![soldering clips 3](:ESP32-CricketBatteryBoard115x90x55_6.jpg){:data-align="right"}
+![soldering clips 3](:ESP32-CricketBatteryBoard115x90x55_6.jpg){:data-align="center"}
 
 
 #### Fitting Components
@@ -111,10 +113,7 @@ Many of the batteries I have do not have a plastic sleeve, on these batteries I'
 placed an insulating strip along the top of the battery to block contact with the underside
 or the Cricket PCB.
 
-![partial assembled view 2](:ESP32-CricketBatteryBoard-3_5mmConnector){:data-align="center"}
-
-
-#### PCB Populated
+![partial assembled view 2](:ESP32-CricketBatteryBoard-3_5mmConnector.jpg){:data-align="center"}
 
 
 #### Assembled Cricket Module
@@ -136,8 +135,8 @@ That is based on the module doing a transmission every ½ hour, so 2 x 24 x 92 t
 
 ### Applicable Links
 
-Battery Manufacturer page [Battery Manufacturer](http://www.liitokala.com.cn/product/product641.html).
+Battery Manufacturer page [www.liitokala.com.cn](http://www.liitokala.com.cn/product/product641.html).
 
-Battery Technology page [Battery Technology](https://www.batteryequivalents.com/32650-battery.html).
+Battery Technology page [www.batteryequivalents.com](https://www.batteryequivalents.com/32650-battery.html).
 
-Battery Contact Clips page [Battery Contact Clips](https://www.aliexpress.com/item/1005001886377133.html).
+Battery Contact Clips page [www.aliexpress.com](https://www.aliexpress.com/item/1005001886377133.html).
