@@ -39,21 +39,16 @@ published: true
 
 <!-- outline-start -->
 
-This project is intended to be a low power clock,
-suitable to use as a travel clock, and also suitable as a room clock.
+Two Internet Radios have been made, they use the RPi Zero W
+to access the Internet, and an XXX to provide a 
+Audio from an I2S
+
+The unit is powered from a USB power adapter.
 
 
 This unit uses an E-Paper display, along with an RPi2040 processor,
 and is powered by a LiPo battery. An on-board battery charger is present,
 this charges the battery using a USB power source.
-
-The processor only updates the display once per minute, and hibernates
-between updates to maximise the battery life.
-
-The unit updates it's time once a day from the internet.
-
-A diagnostic mode / interface is also built-in, this allows
-a pair of Wi-Fi access Point SSID/Passwords to be entered/stored.
 
 <!-- outline-end -->
 
