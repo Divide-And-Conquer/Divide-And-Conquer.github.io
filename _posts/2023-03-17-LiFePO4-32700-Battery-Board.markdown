@@ -54,21 +54,28 @@ The board does also have a cut-out to cater for a barrel-jack connector, to allo
 
 #### PCB as designed
 
-The PCB is designed as a 1.6mm thick board, double sided through hole plated.
-Provision for SOT or axial resistors is provided.
-The PCB is designed as a supplementary board to a main board with a micro-controller fitted.
+The PCB design 1s a 1.6mm thick board, double sided and through hole plated board.
+
+The intended use is a supplementary board to a main board with a micro-controller fitted.
+Extensive breadboarding (vero style) is provisioned, so the board can be used for self contained
+projects if desired.
+
+Provision for SOT or axial resistors is provided, these are optional for signal conditioning
+battery voltage, and other parameters used by the Cricket 2 boards.
 
 ![front view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
 
 ![back view](:ESP32-CricketBatteryBoard115x90x55_2.jpg){:data-align="center"}
 
+
 #### PCB Housing
 
 The case is a standard Chinese 115x90x55 plastic box.
 The battery board and main board are stacked in pillars, and the LiFePO4 battery is sandwiched between them.
-This view of the case shows the 3.5mm soket fitted, which will later be used to charge the battery.
+This view of the case shows the 3.5mm socket fitted, which will later be used to charge the battery.
 
 ![case view](:ESP32-CricketBatteryBoard115x90x55_3.jpg){:data-align="center"}
+
 
 #### Soldering Steps
 
@@ -86,39 +93,40 @@ installed in it's socket, at the same time as the board is fitted on it's mounti
 
 ![soldering clips 3](:ESP32-CricketBatteryBoard115x90x55_6.jpg){:data-align="right"}
 
+
 #### Fitting Components
 
 The -ve clip with it's spring does experience a lot of force when the battery is fitted, 
 this causes it to bend, so a plastic filler is used to support the clip, and help mantain
 pressure on the battery.
 
-![partial assembled view](:ESP32-CricketBatteryBoard-Clip_support_1.jpg){:data-align="center"}
+![partial assembled view 1](:ESP32-CricketBatteryBoard-Clip_support_1.jpg){:data-align="center"}
 
 The pillars will then need to be fitted to support the main PCB.
 A single 3.3V connection is made between the two boards.
 
 The main board may optionally have an external DS18B20 external temperature probe.
 
-Many of the batteries I have do not have a plastic sleeve, on these patteries I've
+Many of the batteries I have do not have a plastic sleeve, on these batteries I've
 placed an insulating strip along the top of the battery to block contact with the underside
 or the Cricket PCB.
 
-![partial assembled view](:ESP32-CricketBatteryBoard-3_5mmConnector){:data-align="center"}
+![partial assembled view 2](:ESP32-CricketBatteryBoard-3_5mmConnector){:data-align="center"}
+
 
 #### PCB Populated
 
 
 #### Assembled Cricket Module
 
-![partial assembled view](:ESP32-CricketBatteryBoard-Body1.jpg){:data-align="center"}
+![partial assembled view 3](:ESP32-CricketBatteryBoard-Body1.jpg){:data-align="center"}
 
 THe 3.3V connection attaches to the main board via its J4 connector,
 0V = Pin 1, 3.3V = Pin 4.
 
-The Spacers for the pillars between boards is ???
+The mounting screws are M3 45mm long, and the stacking pillars are 25mm long.
 
-![full assembled view](:ESP32-CricketBatteryBoard-Body2.jpg){:data-align="center"}
-
+![full assembled view 4](:ESP32-CricketBatteryBoard-Body2.jpg){:data-align="center"}
 
 More Information on the Cricket2 project can be found in the "2023-03-28-Cricket 2 - IOT Device" blog entry.
 
@@ -128,8 +136,8 @@ That is based on the module doing a transmission every ½ hour, so 2 x 24 x 92 t
 
 ### Applicable Links
 
+Battery Manufacturer page [Battery Manufacturer](http://www.liitokala.com.cn/product/product641.html).
+
 Battery Technology page [Battery Technology](https://www.batteryequivalents.com/32650-battery.html).
 
 Battery Contact Clips page [Battery Contact Clips](https://www.aliexpress.com/item/1005001886377133.html).
-
-
