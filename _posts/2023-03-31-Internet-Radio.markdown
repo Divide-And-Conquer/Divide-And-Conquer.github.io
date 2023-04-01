@@ -46,9 +46,7 @@ Audio from an I2S
 The unit is powered from a USB power adapter.
 
 
-This unit uses an E-Paper display, along with an RPi2040 processor,
-and is powered by a LiPo battery. An on-board battery charger is present,
-this charges the battery using a USB power source.
+
 
 <!-- outline-end -->
 
@@ -77,11 +75,9 @@ this charges the battery using a USB power source.
 
 ### Lists
 
-- The LiPo battery is a salvaged unit from an e-cigarette.
-
-
-
 - 1
+
+- 2
 
 
 ***
