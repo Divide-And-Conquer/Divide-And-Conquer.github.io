@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_Basic_Template1
-title: Reference Template
+lng_pair: id_DockerPi2
+title: RPi - Node-red - MQTT - InfluxDB - Grafana
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
@@ -41,7 +41,7 @@ published: false
 
 <!-- outline-start -->
 
-Template.
+RPi - Node-red - MQTT - InfluxDB - Grafana
 
 <!-- outline-end -->
 
