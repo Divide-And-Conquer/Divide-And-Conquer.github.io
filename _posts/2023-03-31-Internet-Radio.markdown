@@ -41,8 +41,7 @@ published: true
 
 <!-- outline-start -->
 
-Two Internet Radios have been made, they use the RPi Zero W
-to access the Internet, and I2S 'HATs' to provide Audio output.
+Two Internet Radios have been made, they use the RPi Zero W to access the Internet, and I2S 'HATs' to provide Audio output.
 
 ![Internet Radio 4](:Kitchen_Radio_4.jpg){:data-align="center"}
 
@@ -59,12 +58,24 @@ The software used is the Pirate Radio provided by Pimeroni. The Infra-Red receiv
 
 A small python program runs which calls the LibraElec software, and also the front mounted push-button, to allow the unit to be shut down.
 
-The Stations list is held in /home/pi/.config/vlc/playlist.m3u
+<!-- outline-end -->
 
+![Internet Radio 2](:Kitchen_Radio_2.jpg){:data-align="center"}
+
+### Kitchen Radio
+
+![Internet Radio 3](:Kitchen_Radio_3.jpg){:data-align="center"}
+
+### Study Radio
+
+![Internet Radio 5](:Kitchen_Radio_5.jpg){:data-align="center"}
+
+### Software
+
+The Stations list is held in /home/pi/.config/vlc/playlist.m3u
 
   sudo nano /home/pi/.config/vlc/playlist.m3u in a terminal, 
   adding the URLs for the stations, one per line, and then pressing control and x, then y, then enter to save and exit. 
-
 
 If a station cannot be found the Radio will try to play the next station in the list.
 
@@ -79,29 +90,6 @@ How do I log into the VLC stream from a PC
   http://KitchenRadio.local:8080 or  http://StudyRadio.local:8080
 
   leave username blank and use password raspberry
-
-<!-- outline-end -->
-
-![Internet Radio 2](:Kitchen_Radio_2.jpg){:data-align="center"}
-
-
-
-### Kitchen Radio
-
-![Internet Radio 3](:Kitchen_Radio_3.jpg){:data-align="center"}
-
-### Study Radio
-
-![Internet Radio 5](:Kitchen_Radio_5.jpg){:data-align="center"}
-
-### USB connectors
-
-Three USB connectors are present.
-
-- 1 The RP2040 USB connector can power the unit, it's also used to program the RP2040.
-- 2 The TP4056 board USB is for charging the LiPo battery.
-- 3 The externally available USB is for day to day running of the clock from an external power source.
-***
 
 ### Lists
 
