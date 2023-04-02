@@ -40,13 +40,42 @@ published: true
 <!-- outline-start -->
 
 Two Internet Radios have been made, they use the RPi Zero W
-to access the Internet, and an XXX to provide a 
-Audio from an I2S
+to access the Internet, and I2S 'HATs' to provide Audio output.
 
 The unit is powered from a USB power adapter.
 
+The Internet Radios are housed in PowerSafer cases, these cases are another product that has been upcycled.
+The plastic case, and it's internal PCB containing an IR detector, and integrated switch and two LEDs have been used by the Radio.
+The external mains plug and socket have been reused to make mains extension leads.
+I could not find a use for the main PCB.
+
+I2S is used to provide the audio output from the RPi, with the kitchen radio an Adafruit Preamp board is used to power the Bose external amp/speaker (another street find/freebie). With the Study Radio a Pimeroni Pirate Radio module was used, this drives a speaker directly.
+
+The software used is the Pirate Radio provided by Pimeroni. The Infra-Red receiver code was lifted directly from LibraElec this has the flexibility that any OR remote can be made to work with it. I use some TV remotes purchased from £1land.
+
+A small python program runs which calls the LibraElec software, and also the front mounted push-button, to allow the unit to be shut down.
+
+The Stations list is held in /home/pi/.config/vlc/playlist.m3u
 
 
+  sudo nano /home/pi/.config/vlc/playlist.m3u in a terminal, 
+  adding the URLs for the stations, one per line, and then pressing control and x, then y, 
+  then enter to save and exit. 
+
+
+If a station cannot be found the Radio will try to play the next station in the list.
+
+The codes for the remote are held in
+
+Software is present for the unit to learn a new remote.
+
+The unit can be monitored/controlled remotely on a web-browser using VLC.
+
+How do I log into the VLC stream from a PC
+A: 
+  http://KitchenRadio.local:8080 or  http://StudyRadio.local:8080
+
+  leave username blank and use password raspberry
 
 <!-- outline-end -->
 
