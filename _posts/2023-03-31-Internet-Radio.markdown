@@ -11,7 +11,7 @@ category: jekyll
 # multiple tag entries are possible
 tags: [jekyll, sample, example post]
 # thumbnail image for post
-img: ":E-Paper-Clock_Front.jpg"
+img: ":Kitchen_Radio_1.jpg"
 # disable comments on this page
 #comments_disable: true
 
@@ -52,9 +52,9 @@ The unit is powered from a USB power adapter.
 
 ### PCBs
 
-![Cricket2-Main-PCB-Front](:E-Paper-Clock_PCB_Front.jpg){:data-align="center"}
+![Internet Radio 1](:Kitchen_Radio_1.jpg){:data-align="center"}
 
-![Cricket2-Main-PCB-Back](:E-Paper-Clock_PCB_Back.jpg){:data-align="center"}
+![Internet Radio 2](:Kitchen_Radio_2.jpg){:data-align="center"}
 
 # Heading 1
 
@@ -82,7 +82,11 @@ The unit is powered from a USB power adapter.
 
 ***
 
-![E-Paper-Clock_Prototype](:E-Paper-Clock_Prototype.jpg){:data-align="center"}
+![Internet Radio 3](:Kitchen_Radio_3.jpg){:data-align="center"}
+
+![Internet Radio 4](:Kitchen_Radio_4.jpg){:data-align="center"}
+
+![Internet Radio 5](:Kitchen_Radio_5.jpg){:data-align="center"}
 
 ### USB connectors
 
