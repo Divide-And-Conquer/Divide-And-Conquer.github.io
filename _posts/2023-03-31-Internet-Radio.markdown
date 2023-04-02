@@ -42,6 +42,8 @@ published: true
 Two Internet Radios have been made, they use the RPi Zero W
 to access the Internet, and I2S 'HATs' to provide Audio output.
 
+[Internet Radio 1](:Kitchen_Radio_1.jpg){:data-align="center"}
+
 The unit is powered from a USB power adapter.
 
 The Internet Radios are housed in PowerSafer cases, these cases are another product that has been upcycled.
@@ -51,7 +53,7 @@ I could not find a use for the main PCB.
 
 I2S is used to provide the audio output from the RPi, with the kitchen radio an Adafruit Preamp board is used to power the Bose external amp/speaker (another street find/freebie). With the Study Radio a Pimeroni Pirate Radio module was used, this drives a speaker directly.
 
-The software used is the Pirate Radio provided by Pimeroni. The Infra-Red receiver code was lifted directly from LibraElec this has the flexibility that any OR remote can be made to work with it. I use some TV remotes purchased from £1land.
+The software used is the Pirate Radio provided by Pimeroni. The Infra-Red receiver code was lifted directly from LibraElec this has the flexibility that any OR remote can be made to work with it. I use some TV remotes purchased from poundland.
 
 A small python program runs which calls the LibraElec software, and also the front mounted push-button, to allow the unit to be shut down.
 
@@ -59,8 +61,7 @@ The Stations list is held in /home/pi/.config/vlc/playlist.m3u
 
 
   sudo nano /home/pi/.config/vlc/playlist.m3u in a terminal, 
-  adding the URLs for the stations, one per line, and then pressing control and x, then y, 
-  then enter to save and exit. 
+  adding the URLs for the stations, one per line, and then pressing control and x, then y, then enter to save and exit. 
 
 
 If a station cannot be found the Radio will try to play the next station in the list.
@@ -72,16 +73,16 @@ Software is present for the unit to learn a new remote.
 The unit can be monitored/controlled remotely on a web-browser using VLC.
 
 How do I log into the VLC stream from a PC
-A: 
+ 
   http://KitchenRadio.local:8080 or  http://StudyRadio.local:8080
 
   leave username blank and use password raspberry
 
 <!-- outline-end -->
 
-### PCBs
 
-![Internet Radio 1](:Kitchen_Radio_1.jpg){:data-align="center"}
+
+
 
 ![Internet Radio 2](:Kitchen_Radio_2.jpg){:data-align="center"}
 
@@ -125,54 +126,3 @@ Three USB connectors are present.
 - 2 The TP4056 board USB is for charging the LiPo battery.
 - 3 The externally available USB is for day to day running of the clock from an external power source.
 ***
-
-### Tables
-
-#### Small Table (centered)
-
-| Fruits(not aligned) | Alignment (centered) | num (right align) |
-| ------------------- | :------------------: | ----------------: |
-| Apple               |       centered       |              9999 |
-| Banana              |  centered long text  |               999 |
-| Orange              |       centered       |                99 |
-| Lemon               |       centered       |                 9 |
-{:data-align="center"}
-
-#### Wide Table (centered)
-
-scroll enabled when page is narrow
-
-| Fruits | num (left align) | num (right align) | num  | num  | num  |
-| ------ | :--------------- | ----------------: | ---- | ---- | ---- |
-| Apple  | 1111             |              1111 | 2222 | 3333 | 4444 |
-| Banana | 111              |               111 | 222  | 333  | 444  |
-| Orange | 11               |                11 | 22   | 33   | 44   |
-| Lemon  | 1                |                 1 | 2    | 3    | 4    |
-{:data-align="center"}
-
-#### Wider Table
-
-scroll enabled when page is narrow
-
-| Fruits | num (left align) | num (right align) | num  | num  | num  | num  | num  | num  |
-| ------ | :--------------- | ----------------: | ---- | ---- | ---- | ---- | ---- | ---- |
-| Apple  | 1111             |              1111 | 2222 | 3333 | 4444 | 5555 | 6666 | 7777 |
-| Banana | 111              |               111 | 222  | 333  | 444  | 555  | 666  | 777  |
-| Orange | 11               |                11 | 22   | 33   | 44   | 55   | 66   | 77   |
-| Lemon  | 1                |                 1 | 2    | 3    | 4    | 5    | 6    | 7    |
-
-### Code
-
-#### Highlight
-
-{% highlight python %}
-for i in range(5, 10):
-  print(i)
-{% endhighlight %}
-
-#### Quote
-
-```python
-for i in range(5, 10):
-  print(i)
-```
