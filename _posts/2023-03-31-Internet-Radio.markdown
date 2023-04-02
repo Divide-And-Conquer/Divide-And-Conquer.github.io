@@ -37,6 +37,8 @@ date: 2023-03-29 08:11:06 +0900
 published: true
 ---
 
+### Outline
+
 ![Internet Radio 1](:Kitchen_Radio_1.jpg){:data-align="center"}
 
 <!-- outline-start -->
@@ -91,23 +93,3 @@ How do I log into the VLC stream from a PC
 
   leave username blank and use password raspberry
 
-### Lists
-
-- 1
-
-- 2
-
-
-***
-
-### Heading 3
-
-### Heading 3
-
-### Heading 3
-
-### Heading 3
-
-### Heading 3
-
-***
