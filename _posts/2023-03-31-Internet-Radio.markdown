@@ -37,12 +37,12 @@ date: 2023-03-29 08:11:06 +0900
 published: true
 ---
 
+![Internet Radio 1](:Kitchen_Radio_1.jpg){:data-align="center"}
+
 <!-- outline-start -->
 
 Two Internet Radios have been made, they use the RPi Zero W
 to access the Internet, and I2S 'HATs' to provide Audio output.
-
-[Internet Radio 1](:Kitchen_Radio_1.jpg){:data-align="center"}
 
 The unit is powered from a USB power adapter.
 
