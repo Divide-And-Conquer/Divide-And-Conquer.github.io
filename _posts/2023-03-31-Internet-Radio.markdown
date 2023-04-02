@@ -44,6 +44,8 @@ published: true
 Two Internet Radios have been made, they use the RPi Zero W
 to access the Internet, and I2S 'HATs' to provide Audio output.
 
+![Internet Radio 4](:Kitchen_Radio_4.jpg){:data-align="center"}
+
 The unit is powered from a USB power adapter.
 
 The Internet Radios are housed in PowerSafer cases, these cases are another product that has been upcycled.
@@ -80,41 +82,15 @@ How do I log into the VLC stream from a PC
 
 <!-- outline-end -->
 
-
-
-
-
 ![Internet Radio 2](:Kitchen_Radio_2.jpg){:data-align="center"}
 
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-***
-
-### Paragraphs
 
 
-### Lists
-
-- 1
-
-- 2
-
-
-***
+### Kitchen Radio
 
 ![Internet Radio 3](:Kitchen_Radio_3.jpg){:data-align="center"}
 
-![Internet Radio 4](:Kitchen_Radio_4.jpg){:data-align="center"}
+### Study Radio
 
 ![Internet Radio 5](:Kitchen_Radio_5.jpg){:data-align="center"}
 
@@ -125,4 +101,25 @@ Three USB connectors are present.
 - 1 The RP2040 USB connector can power the unit, it's also used to program the RP2040.
 - 2 The TP4056 board USB is for charging the LiPo battery.
 - 3 The externally available USB is for day to day running of the clock from an external power source.
+***
+
+### Lists
+
+- 1
+
+- 2
+
+
+***
+
+### Heading 3
+
+### Heading 3
+
+### Heading 3
+
+### Heading 3
+
+### Heading 3
+
 ***
