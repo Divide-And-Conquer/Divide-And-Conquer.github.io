@@ -58,6 +58,13 @@ This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-Jek
 
 ![original torch](:post_pic1.jpg)
 
+The DockerPi server is a Raspberry Pi Computer that connects
+to the Internet, and runs a set of programs which gather and process data
+From a number of sensors, and store the data, and render
+the data on one or more computers screens.
+
+Other software also runs on the RPi, like a VPN.
+
 ### Picture (centered)
 
 ![original torch in bits](:post_pic1.jpg){:data-align="center"}
