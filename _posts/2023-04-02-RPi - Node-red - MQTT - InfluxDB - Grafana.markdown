@@ -67,9 +67,9 @@ Other software also runs on the RPi, like a VPN.
 
 ### Picture (centered)
 
-![original torch in bits](:node_red1.jpg){:data-align="center"}
+![Crickets Monitor Page](:node-red1.jpg){:data-align="center"}
 
-![original torch in bits](:node_red2.jpg){:data-align="center"}
+![Tasmota Plugs Page](:node-red2.jpg){:data-align="center"}
 
 ### Headings (centered)
 {:data-align="center"}
