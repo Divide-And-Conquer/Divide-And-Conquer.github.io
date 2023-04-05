@@ -41,7 +41,27 @@ published: true
 
 <!-- outline-start -->
 
-RPi - Node-red - MQTT - InfluxDB - Grafana
+RPi - Node-red - MQTT - InfluxDB - Grafana - Telegram
+
+
+The DockerPi server is a Raspberry Pi Computer that connects to the Internet, and runs a set of programs which gather and process data
+from a number of sensors, and store the data, and render the data on one or more computers screens.
+
+The Sensors transmit their data to the RPi using MQTT, the RPi runs a broker (server) that takes this data and passes it onto node-red for processing or forward transmission. Node-red allows for the creation of a number of dashboards to display the information:
+
+![Crickets Monitor Page](:Node-Red1.jpg){:data-align="center"}
+
+![Tasmota Plugs Page](:Node-Red2.jpg){:data-align="center"}
+
+Node-red can be considered a toolbox which allows data to be processed, redirected, displayed and expanded (in the same way as a web-browser is expanded by plug-ins).
+
+InfluxDB - Telegram
+
+
+Grafana
+
+Other software also runs on the RPi, like a VPN.
+
 
 <!-- outline-end -->
 
@@ -58,18 +78,8 @@ This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-Jek
 
 ![original torch](:post_pic1.jpg)
 
-The DockerPi server is a Raspberry Pi Computer that connects
-to the Internet, and runs a set of programs which gather and process data
-From a number of sensors, and store the data, and render
-the data on one or more computers screens.
-
-Other software also runs on the RPi, like a VPN.
-
 ### Picture (centered)
 
-![Crickets Monitor Page](:node-red1.jpg){:data-align="center"}
-
-![Tasmota Plugs Page](:node-red2.jpg){:data-align="center"}
 
 ### Headings (centered)
 {:data-align="center"}
