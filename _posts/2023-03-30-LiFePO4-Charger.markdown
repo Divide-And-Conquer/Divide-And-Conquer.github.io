@@ -58,15 +58,17 @@ principle.
 
 ### PCBs
 
-![Cricket2-Main-PCB-Front](:LiFePO4_Charger_3.jpg){:data-align="center"}
+![Schematic-LiFePO4-1](:LiFePO4_Charger_3.jpg){:data-align="center"}
 
-![Cricket2-Main-PCB-Back](:LiFePO4_Charger_4.jpg){:data-align="center"}
+![Schematic-LiFePO4-2](:LiFePO4_Charger_4.jpg){:data-align="center"}
 
 # Heading 1
 
 ## Heading 2
 
-### Heading 3
+### Schematic
+
+![Schematic-LiFePO4-Charger](:Schematic-LiFePO4-Charger.jpg){:data-align="center"}
 
 #### Heading 4
 
