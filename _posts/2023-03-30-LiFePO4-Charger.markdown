@@ -63,10 +63,11 @@ Also the external 12V PSU is from a previous purchase.
 
 ![Schematic-LiFePO4-1](:LiFePO4_Charger_3.jpg){:data-align="center"}
 
+![Schematic-LiFePO4-2](:LiFePO4_Charger_4.jpg){:data-align="center"}
 
 ### External PSU
 
-![Schematic-LiFePO4-9](:IMG_20230330_122726.jpg){:data-align="center"}
+![Schematic-LiFePO4-9](:LiFePO4_Charger_7.jpg){:data-align="center"}
 
 ### Schematic
 
