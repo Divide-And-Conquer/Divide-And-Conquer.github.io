@@ -39,15 +39,17 @@ published: true
 
 <!-- outline-start -->
 
-This project is intended a charger for a LiFePO4 battery, it's main use
+This project a charger for a LiFePO4 battery, it's main use
 is to charge Cricket2 modudles, these have a 3.5mm socket which connects to the 
 plug on the charger.
 
 Two power sources are intended as the input to the charger, a mains driven 
 generic "floating" PSU, or a solar panel.
 
-The charger demonstrates the building from nothing, or building from junk
+The charger demonstrates the building something useful from nothing, or building from junk
 principle.
+
+![LiFePO4-Charger](:LiFePO4_Charger_5.jpg){:data-align="center"}
 
 <!-- outline-end -->
 
@@ -57,27 +59,22 @@ The housing is a plastic box that used to house a drill bit.
 The switch/voltmeter/Charger board/and other components were all items I had 
 from previous projects.
 
-
-
+Also the external 12V PSU is from a previous purchase.
 
 ![Schematic-LiFePO4-1](:LiFePO4_Charger_3.jpg){:data-align="center"}
 
 
+### External PSU
 
-![Schematic-LiFePO4-2](:LiFePO4_Charger_4.jpg){:data-align="center"}
-
-![Schematic-LiFePO4-3](:Charger-Module.jpg){:data-align="center"}
-
-
+![Schematic-LiFePO4-9](:IMG_20230330_122726.jpg){:data-align="center"}
 
 ### Schematic
 
 ![Schematic-LiFePO4-Charger](:Schematic-LiFePO4-Charger.jpg){:data-align="center"}
 
+### Charger Module - 5A lithium battery step-down charging board LED power converter step-down module XL4015
 
-![LiFePO4-Charger](:LiFePO4_Charger_5.jpg){:data-align="center"}
-
-5A lithium battery step-down charging board LED power converter step-down module XL4015
+![Schematic-LiFePO4-3](:Charger-Module.jpg){:data-align="center"}
 
 https://www.aliexpress.com/item/32663793748.html
 
