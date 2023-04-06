@@ -77,33 +77,23 @@ Also the external 12V PSU is from a previous purchase.
 
 ![Schematic-LiFePO4-3](:Charger-Module.jpg){:data-align="center"}
 
-https://www.aliexpress.com/item/32663793748.html
+#### Links
 
+This is [AliExpress](https://www.aliexpress.com/item/32663793748.html)
+
+#### Specifications
 
     Input: IN + input positive, IN- input negative
-
     Output way: OUT + output positive, OUT- output negative
-
     Input voltage: 4-38V
-
     Output voltage: 1.25-36V continuously adjustable
-
     Output current: adjustable, maximum 5A
-
     Output Power: 75W maximum
-
     Working temperature: -40 to + 85 degrees
-
     Operating frequency: 180KHz
-
     Conversion efficiency: up to 96%
-
     Short circuit protection: Yes (limit current 8A)
-
     Overtemperature protection: (automatically shut off the output after overtemperature)
-
     Input reverse polarity protection: None, (if necessary, please enter the string into the high current diode)
-
     Installation: four 3mm screws
-
     Module dimensions: length 51mm width 26mm height 15mm
