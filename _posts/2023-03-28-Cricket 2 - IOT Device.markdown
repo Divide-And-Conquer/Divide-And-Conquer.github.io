@@ -70,9 +70,15 @@ This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-Jek
 
 \* Hello world! This is **[{{ site.data.owner[site.data.conf.main.default_lng].brand }}]({{ site.url }})**
 
-### Picture
+### Original Cricket
 
-![original torch](:post_pic1.jpg)
+Shown below is the original Cricket IOT device produced by Things On Edge.
+
+![original Cricket](:Cricket1.jpg){:data-align="center"}
+
+The divice was simple to use, and ran for months on good AA batteries.
+The Things On Edge company went bust, and operating these devices without their 
+support became impractical.
 
 ### Picture (centered)
 
