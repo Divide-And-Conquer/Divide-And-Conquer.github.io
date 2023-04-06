@@ -51,105 +51,61 @@ principle.
 
 <!-- outline-end -->
 
-### Lists
+### LiFePO4 Housing Assembly
 
-- The housing is a peice of plastic packaging that used to house a drill. 
+The housing is a plastic box that used to house a drill bit.
+The switch/voltmeter/Charger board/and other components were all items I had 
+from previous projects.
 
 
-### PCBs
+
 
 ![Schematic-LiFePO4-1](:LiFePO4_Charger_3.jpg){:data-align="center"}
 
+
+
 ![Schematic-LiFePO4-2](:LiFePO4_Charger_4.jpg){:data-align="center"}
 
-# Heading 1
+![Schematic-LiFePO4-3](:Charger-Module.jpg){:data-align="center"}
 
-## Heading 2
+
 
 ### Schematic
 
 ![Schematic-LiFePO4-Charger](:Schematic-LiFePO4-Charger.jpg){:data-align="center"}
 
-#### Heading 4
 
-##### Heading 5
+![LiFePO4-Charger](:LiFePO4_Charger_5.jpg){:data-align="center"}
 
-###### Heading 6
+5A lithium battery step-down charging board LED power converter step-down module XL4015
 
-***
-
-### Paragraphs
+https://www.aliexpress.com/item/32663793748.html
 
 
-### Lists
+    Input: IN + input positive, IN- input negative
 
-- The LiPo battery is a salvaged unit from an e-cigarette.
+    Output way: OUT + output positive, OUT- output negative
 
+    Input voltage: 4-38V
 
+    Output voltage: 1.25-36V continuously adjustable
 
-- 1
+    Output current: adjustable, maximum 5A
 
+    Output Power: 75W maximum
 
-***
+    Working temperature: -40 to + 85 degrees
 
-![E-Paper-Clock_Prototype](:LiFePO4_Charger_5.jpg){:data-align="center"}
+    Operating frequency: 180KHz
 
-### USB connectors
+    Conversion efficiency: up to 96%
 
-Three USB connectors are present.
+    Short circuit protection: Yes (limit current 8A)
 
-- 1 The RP2040 USB connector can power the unit, it's also used to program the RP2040.
-- 2 The TP4056 board USB is for charging the LiPo battery.
-- 3 The externally available USB is for day to day running of the clock from an external power source.
-***
+    Overtemperature protection: (automatically shut off the output after overtemperature)
 
-### Tables
+    Input reverse polarity protection: None, (if necessary, please enter the string into the high current diode)
 
-#### Small Table (centered)
+    Installation: four 3mm screws
 
-| Fruits(not aligned) | Alignment (centered) | num (right align) |
-| ------------------- | :------------------: | ----------------: |
-| Apple               |       centered       |              9999 |
-| Banana              |  centered long text  |               999 |
-| Orange              |       centered       |                99 |
-| Lemon               |       centered       |                 9 |
-{:data-align="center"}
-
-#### Wide Table (centered)
-
-scroll enabled when page is narrow
-
-| Fruits | num (left align) | num (right align) | num  | num  | num  |
-| ------ | :--------------- | ----------------: | ---- | ---- | ---- |
-| Apple  | 1111             |              1111 | 2222 | 3333 | 4444 |
-| Banana | 111              |               111 | 222  | 333  | 444  |
-| Orange | 11               |                11 | 22   | 33   | 44   |
-| Lemon  | 1                |                 1 | 2    | 3    | 4    |
-{:data-align="center"}
-
-#### Wider Table
-
-scroll enabled when page is narrow
-
-| Fruits | num (left align) | num (right align) | num  | num  | num  | num  | num  | num  |
-| ------ | :--------------- | ----------------: | ---- | ---- | ---- | ---- | ---- | ---- |
-| Apple  | 1111             |              1111 | 2222 | 3333 | 4444 | 5555 | 6666 | 7777 |
-| Banana | 111              |               111 | 222  | 333  | 444  | 555  | 666  | 777  |
-| Orange | 11               |                11 | 22   | 33   | 44   | 55   | 66   | 77   |
-| Lemon  | 1                |                 1 | 2    | 3    | 4    | 5    | 6    | 7    |
-
-### Code
-
-#### Highlight
-
-{% highlight python %}
-for i in range(5, 10):
-  print(i)
-{% endhighlight %}
-
-#### Quote
-
-```python
-for i in range(5, 10):
-  print(i)
-```
+    Module dimensions: length 51mm width 26mm height 15mm
