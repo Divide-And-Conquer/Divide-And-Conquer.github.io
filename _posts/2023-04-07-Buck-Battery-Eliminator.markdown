@@ -20,7 +20,7 @@ date: 2022-01-01 08:11:06 +0900
 
 # seo
 # if not specified, date will be used.
-#meta_modify_date: 2022-02-10 08:11:06 +0900
+#meta_modify_date: 2023-04-07 08:11:06 +0900
 # check the meta_common_description in _data/owner/[language].yml
 #meta_description: ""
 
@@ -56,7 +56,7 @@ This is [Mr. Green Jekyll Theme](https://www.adafruit.com/product/4711), TLV6256
 
 ### Picture (centered)
 
-![original torch in bits](:post_pic1.jpg){:data-align="center"}
+![original torch in bits](:Buck-Battery-Eliminator-TLV62569.jpg){:data-align="center"}
 
 ### Headings (centered)
 {:data-align="center"}
