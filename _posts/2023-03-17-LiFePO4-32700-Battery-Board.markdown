@@ -48,9 +48,9 @@ resistor signal conditioning, and by adding prototyping areas to the board.
 The board does also have a cut-out to cater for a barrel-jack connector, to allow the battery to be charged in-situ.
 
 
-### These batteries have some big advantages over other batteries
+##### These batteries have some big advantages over other batteries
 
-- They have about twice the lifetime of conventional Lithium batteries
+- They have about twice the lifetime of conventional Lithium batteries (2000 recharge cycles)
 - The 32700 format provides a considerable amount  of power, reducing recharging frequency
 - The output voltage is directly compatible with modern electronics, which requires a 3.3V input
 
@@ -74,11 +74,14 @@ battery voltage, and other parameters used by the Cricket 2 boards.
 
 ![front view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
 
-#### Front View {:data-align="center"}
+
+![Front View]{:data-align="center"}
 
 ![back view](:ESP32-CricketBatteryBoard115x90x55_2.jpg){:data-align="center"}
 
-#### Back View {:data-align="center"}
+
+![Back View]{:data-align="center"}
+
 
 ### PCB Housing
 
@@ -110,6 +113,7 @@ installed in it's socket, at the same time as the board is fitted on it's mounti
 ![soldering clips 3](:ESP32-CricketBatteryBoard115x90x55_6.jpg){:data-align="center"}
 
 
+
 ### Fitting Components
 
 The -ve clip with it's spring does experience a lot of force when the battery is fitted, 
@@ -130,6 +134,7 @@ or the Cricket PCB.
 ![partial assembled view 2](:ESP32-CricketBatteryBoard-3_5mmConnector.jpg){:data-align="center"}
 
 
+
 ### Assembled Cricket Module
 
 ![partial assembled view 3](:ESP32-CricketBatteryBoard-Body1.jpg){:data-align="center"}
@@ -147,6 +152,7 @@ More Information on the Cricket2 project can be found in the "2023-03-28-Cricket
 
 **Keep it simple**, the Cricket 2 modules are designed to have a minimum battery life of 3 months between recharges.
 That is based on the module doing a transmission every ½ hour, so 2 x 24 x 92 transmission approx 3500 transmissions.
+
 
 
 ### Applicable Links
