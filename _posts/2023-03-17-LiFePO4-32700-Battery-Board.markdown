@@ -93,6 +93,9 @@ This view of the case shows the 3.5mm socket fitted, which will later be used to
 ![case view](:ESP32-CricketBatteryBoard115x90x55_3.jpg){:data-align="center"}
 
 
+![Case 115x90x55](:Dummy-Title.jpg){:data-align="center"}
+
+
 ### Soldering Steps
 
 The battery clips are difficult to solder. 
@@ -132,6 +135,9 @@ placed an insulating strip along the top of the battery to block contact with th
 or the Cricket PCB.
 
 ![partial assembled view 2](:ESP32-CricketBatteryBoard-3_5mmConnector.jpg){:data-align="center"}
+
+
+![Case View showing 3.5mm socket](:Dummy-Title.jpg){:data-align="center"}
 
 
 
