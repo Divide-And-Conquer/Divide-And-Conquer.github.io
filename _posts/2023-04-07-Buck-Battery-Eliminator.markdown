@@ -16,7 +16,7 @@ img: ":post_pic1.jpg"
 #comments_disable: true
 
 # publish date
-date: 2022-01-01 08:11:06 +0900
+date: 2023-04-07 08:11:06 +0900
 
 # seo
 # if not specified, date will be used.
@@ -39,7 +39,9 @@ published: true
 
 <!-- outline-start -->
 
-Template.
+The Buck converter is intended to provide a 3.3V power source, suitable for use as an AAA/AA battery eliminator.
+The TLV62569 buck converter IC provides a small and efficient device suitable to fit in the footprint of two AA batteries when paired with
+a small Lithium cell.
 
 <!-- outline-end -->
 
@@ -50,22 +52,14 @@ This is [Mr. Green Jekyll Theme](https://www.adafruit.com/product/4711), TLV6256
 
 \* Hello world! This is **[{{ site.data.owner[site.data.conf.main.default_lng].brand }}]({{ site.url }})**
 
-### Picture
 
-![original torch](:post_pic1.jpg)
+### Buck-Battery 
 
-### Picture (centered)
-
-![original torch in bits](:Buck-Battery-Eliminator-TLV62569.jpg){:data-align="center"}
+![Buck-Battery](:Buck-Battery-Eliminator-TLV62569.jpg){:data-align="center"}
 
 ### Headings (centered)
 {:data-align="center"}
 
-# Heading 1
-
-## Heading 2
-
-### Heading 3
 
 #### Heading 4
 
