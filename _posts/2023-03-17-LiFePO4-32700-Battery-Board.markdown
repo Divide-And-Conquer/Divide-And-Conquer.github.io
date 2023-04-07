@@ -47,16 +47,25 @@ As a PCB was being manufactured for this purpose, I (as always) decided to make 
 resistor signal conditioning, and by adding prototyping areas to the board.
 The board does also have a cut-out to cater for a barrel-jack connector, to allow the battery to be charged in-situ.
 
+
+### These batteries have some big advantages over other batteries
+
+- They have about twice the lifetime of conventional Lithium batteries
+- The 32700 format provides a considerable amount  of power, reducing recharging frequency
+- The output voltage is directly compatible with modern electronics, which requires a 3.3V input
+
+***
+
 ![battery view](:32700 Battery.jpg){:data-align="center"}
 
 <!-- outline-end -->
 
 
-#### PCB as designed
+### PCB as designed
 
 The PCB design is a 1.6mm thick board, double sided and through hole plated board.
 
-The intended use is a supplementary board to a main board with a micro-controller fitted.
+The intended use is as a supplementary board to a main board with a micro-controller fitted.
 Extensive breadboarding (vero style) is provisioned, so the board can be used for self contained
 projects if desired.
 
@@ -65,10 +74,13 @@ battery voltage, and other parameters used by the Cricket 2 boards.
 
 ![front view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
 
+#### Front View {:data-align="center"}
+
 ![back view](:ESP32-CricketBatteryBoard115x90x55_2.jpg){:data-align="center"}
 
+#### Back View {:data-align="center"}
 
-#### PCB Housing
+### PCB Housing
 
 The case is a standard Chinese 115x90x55 plastic box.
 The battery board and main board are stacked in pillars, and the LiFePO4 battery is sandwiched between them.
@@ -78,7 +90,7 @@ This view of the case shows the 3.5mm socket fitted, which will later be used to
 ![case view](:ESP32-CricketBatteryBoard115x90x55_3.jpg){:data-align="center"}
 
 
-#### Soldering Steps
+### Soldering Steps
 
 The battery clips are difficult to solder. 
 For a good contact with the battery
@@ -98,7 +110,7 @@ installed in it's socket, at the same time as the board is fitted on it's mounti
 ![soldering clips 3](:ESP32-CricketBatteryBoard115x90x55_6.jpg){:data-align="center"}
 
 
-#### Fitting Components
+### Fitting Components
 
 The -ve clip with it's spring does experience a lot of force when the battery is fitted, 
 this causes it to bend, so a plastic filler is used to support the clip, and help mantain
@@ -118,7 +130,7 @@ or the Cricket PCB.
 ![partial assembled view 2](:ESP32-CricketBatteryBoard-3_5mmConnector.jpg){:data-align="center"}
 
 
-#### Assembled Cricket Module
+### Assembled Cricket Module
 
 ![partial assembled view 3](:ESP32-CricketBatteryBoard-Body1.jpg){:data-align="center"}
 
