@@ -7,9 +7,9 @@ title: LiFePO4 Battery - Support and Development Board
 # if not specified, .name will be used from _data/owner/[language].yml
 author: Martin Rawson
 # multiple category is not supported
-category: jekyll
+category: LiFePO4
 # multiple tag entries are possible
-tags: [jekyll, sample, example post]
+tags: [LiFePO4, Cricket2, development]
 # thumbnail image for post
 img: ":ESP32 - CricketBatteryBoard - Preview_1.jpg"
 # disable comments on this page
@@ -75,12 +75,12 @@ battery voltage, and other parameters used by the Cricket 2 boards.
 ![front view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
 
 
-![Front View]{:data-align="center"}
+![Front View](:Dummy-Title.jpg){:data-align="center"}
 
 ![back view](:ESP32-CricketBatteryBoard115x90x55_2.jpg){:data-align="center"}
 
 
-![Back View]{:data-align="center"}
+![Back View](:Dummy-Title.jpg){:data-align="center"}
 
 
 ### PCB Housing
