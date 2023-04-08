@@ -74,6 +74,8 @@ battery voltage, and other parameters used by the Cricket 2 boards.
 
 ![front view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
 
+### Front View
+{:data-align="center"}
 
 ![Front View](:Dummy-Title.jpg){:data-align="center"}
 
