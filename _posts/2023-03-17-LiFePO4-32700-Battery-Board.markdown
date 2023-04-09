@@ -138,8 +138,9 @@ or the Cricket PCB.
 
 ![partial assembled view 2](:ESP32-CricketBatteryBoard-3_5mmConnector.jpg){:data-align="center"}
 
+{:data-align="center"}
 
-![Case View showing 3.5mm socket](:Dummy-Title.jpg){:data-align="center"}
+##### Case View showing 3.5mm socket
 
 
 
@@ -153,7 +154,9 @@ The 3.3V connection attaches to the main board via its J4 connector,
 
 The mounting screws are M3 45mm long, and the stacking pillars are 25mm long.
 
-![full assembled view 4](:ESP32-CricketBatteryBoard-Body2.jpg){:data-align="center"}
+
+ {:data-align="center"}
+! [view 4](:ESP32-CricketBatteryBoard-Body2.jpg){:data-align="center"}
 
 
 More Information on the Cricket2 project can be found in the "2023-03-28-Cricket 2 - IOT Device" blog entry.
