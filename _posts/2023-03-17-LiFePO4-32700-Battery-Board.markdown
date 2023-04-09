@@ -77,13 +77,13 @@ battery voltage, and other parameters used by the Cricket 2 boards.
 
 ![front view](:ESP32-CricketBatteryBoard115x90x55.jpg){:data-align="center"}
 
-### Front View
+#### Front View
 {:data-align="center"}
 
 
 ![back view](:ESP32-CricketBatteryBoard115x90x55_2.jpg){:data-align="center"}
 
-### Back View
+#### Back View
 {:data-align="center"}
 
 
@@ -98,11 +98,11 @@ This view of the case shows the 3.5mm socket fitted, which will later be used to
 
 ![case view](:ESP32-CricketBatteryBoard115x90x55_3.jpg){:data-align="center"}
 
-### Case 115x90x55
+#### Case 115x90x55
 {:data-align="center"}
 
 
-### Soldering Steps
+#### Soldering Steps
 
 The battery clips are difficult to solder. 
 For a good contact with the battery
@@ -117,7 +117,7 @@ installed in it's socket, at the same time as the board is fitted on it's mounti
 
 ![soldering clips 1](:ESP32-CricketBatteryBoard115x90x55_4.jpg){:data-align="center"}
 
-### Use wire so clip hangs perpendicular to board
+#### Use wire so clip hangs perpendicular to board
 {:data-align="center"}
 
 ![soldering clips 2](:ESP32-CricketBatteryBoard115x90x55_5.jpg){:data-align="center"}
@@ -127,7 +127,7 @@ installed in it's socket, at the same time as the board is fitted on it's mounti
 
 ![soldering clips 3](:ESP32-CricketBatteryBoard115x90x55_6.jpg){:data-align="center"}
 
-### +ve connector
+#### +ve connector
 {:data-align="center"}
 
 
@@ -140,7 +140,7 @@ pressure on the battery.
 
 ![partial assembled view 1](:ESP32-CricketBatteryBoard-Clip_support_1.jpg){:data-align="center"}
 
-### View showing filler peice behind -ve connector
+#### View showing filler peice behind -ve connector
 {:data-align="center"}
 
 
@@ -165,7 +165,7 @@ or the Cricket PCB.
 
 ![partial assembled view 3](:ESP32-CricketBatteryBoard-Body1.jpg){:data-align="center"}
 
-### Partial assembled view
+#### Partial assembled view
 {:data-align="center"}
 
 The 3.3V connection attaches to the main board via its J4 connector,
@@ -174,10 +174,12 @@ The 3.3V connection attaches to the main board via its J4 connector,
 The mounting screws are M3 45mm long, and the stacking pillars are 25mm long.
 
 
- {:data-align="center"}
+
 ![view 4](:ESP32-CricketBatteryBoard-Body2.jpg){:data-align="center"}
 
-
+#### View showing assembly with Cricket2 board connected
+ {:data-align="center"}
+ 
 More Information on the Cricket2 project can be found in the "2023-03-28-Cricket 2 - IOT Device" blog entry.
 
 
