@@ -9,14 +9,14 @@ author: Martin Rawson
 # multiple category is not supported
 category: jekyll
 # multiple tag entries are possible
-tags: [LiFePO4, sample, development]
+tags: [LiPO_battery, buck_converter, development]
 # thumbnail image for post
-img: ":post_pic1.jpg"
+img: ":Buck-Battery-Eliminator-TLV62569.jpg"
 # disable comments on this page
 #comments_disable: true
 
 # publish date
-date: 2023-04-07 08:11:06 +0900
+date: 2023-04-09 08:11:06 +0900
 
 # seo
 # if not specified, date will be used.
@@ -40,7 +40,7 @@ published: true
 <!-- outline-start -->
 
 The Buck converter is intended to provide a 3.3V power source, 
-suitable for use as an AAA/AA battery eliminator, or general power source.
+suitable for use as an AAA/AA battery eliminator, or general power source for electronics.
 The TLV62569 buck converter IC provides a small and efficient device suitable 
 to fit in the footprint of two AA batteries when paired with
 a small Lithium cell.
@@ -48,20 +48,19 @@ a small Lithium cell.
 <!-- outline-end -->
 
 
-### Link
-
-This is [Mr. Green Jekyll Theme](https://www.adafruit.com/product/4711), TLV62569 3.3V Buck Converter Breakout - 3.3V Output 1.2A Max.
-
-\* Hello world! This is **[{{ site.data.owner[site.data.conf.main.default_lng].brand }}]({{ site.url }})**
-
 
 ### Buck-Battery 
 
 ![Buck-Battery](:Buck-Battery-Eliminator-TLV62569.jpg){:data-align="center"}
 
 ### TLV62569 module from Adafruit 
-
 {:data-align="center"}
+
+### Link
+
+This is [Mr. Green Jekyll Theme](https://www.adafruit.com/product/4711), TLV62569 3.3V Buck Converter Breakout - 3.3V Output 1.2A Max.
+
+\* Hello world! This is **[{{ site.data.owner[site.data.conf.main.default_lng].brand }}]({{ site.url }})**
 
 
 #### Heading 4
@@ -73,6 +72,7 @@ This is [Mr. Green Jekyll Theme](https://www.adafruit.com/product/4711), TLV6256
 ***
 
 ### Paragraphs
+
 ### Lists
 
 - Apple
