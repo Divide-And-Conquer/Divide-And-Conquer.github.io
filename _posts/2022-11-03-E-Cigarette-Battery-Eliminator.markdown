@@ -57,6 +57,10 @@ The type of E Cigarette shown above does have an easiely recoverable battery, vi
 recovering these batteries are available on you tube. Other E-cigarettes may have batteries that are
 more ecapsulated, and could prove dificult or hazardous to remove. If in any doubt, DON'T ATTEMPT IT!
 
+![13350_battery](:13350_battery.jpg){:data-align="center"}
+
+#### 13350 Battery recovered from e-cigarette
+{:data-align="center"}
 
 #### 3.7V 9V 5V 2A Adjustable Step Up 18650 Lithium Battery Charging Discharge Integrated Module
 
