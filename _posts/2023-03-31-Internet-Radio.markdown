@@ -47,6 +47,14 @@ Two Internet Radios have been made, they use the RPi Zero W to access the Intern
 
 ![Internet Radio 4](:Kitchen_Radio_4.jpg){:data-align="center"}
 
+
+![Internet_Radio](:Internet_Radio.jpg){:data-align="center"}
+
+#### Internet Radio 
+{:data-align="center"}
+
+
+
 The unit is powered from a USB power adapter.
 
 The Internet Radios are housed in PowerSafer cases, these cases are another product that has been upcycled.
