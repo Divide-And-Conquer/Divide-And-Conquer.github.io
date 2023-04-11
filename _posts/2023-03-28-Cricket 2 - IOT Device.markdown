@@ -62,13 +62,12 @@ Some changes / additions have been made with this implementation,
 <!-- outline-end -->
 
 
+![IMG_20210107_124917](:IMG_20210107_124917.jpg){:data-align="center"}
+
+#### Original Cricket Module fitted in 115x90x55 case 
+{:data-align="center"}
 
 
-### Link
-
-This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme), a simple theme built for [Jekyll](https://jekyllrb.com/).
-
-\* Hello world! This is **[{{ site.data.owner[site.data.conf.main.default_lng].brand }}]({{ site.url }})**
 
 ### Original Cricket
 
@@ -182,4 +181,9 @@ for i in range(5, 10):
 for i in range(5, 10):
   print(i)
 ```
+### Link
+
+This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme), a simple theme built for [Jekyll](https://jekyllrb.com/).
+
+\* Hello world! This is **[{{ site.data.owner[site.data.conf.main.default_lng].brand }}]({{ site.url }})**
 
