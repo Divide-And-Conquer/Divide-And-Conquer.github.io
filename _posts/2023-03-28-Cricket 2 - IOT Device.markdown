@@ -61,7 +61,7 @@ The PCB quite suitable for this purpose, and has many extra inputs, and capabili
 <!-- outline-end -->
 
 
-![IMG_20210107_124917](:IMG_20210107_124917.jpg){:data-align="center"}
+![IMG_20210107_124917](:Cricket1_Original.jpg){:data-align="center"}
 
 #### Original Cricket Module fitted in 115x90x55 case 
 {:data-align="center"}
@@ -96,13 +96,21 @@ not being used they provided an ideal platform to perform the Cricket2 role.
 
 ### Design in more detail
 
-The designed of Scheduler PCB  gave much greater headroom for expansion of the design.
+The designed of Scheduler PCB  gave much greater headroom for expansion over the original Things on Edge product.
 
-An ultra-low-power ( ~100 nA), highly accurate real-time clock breakout. 
+The ESP32 processor module handles the control of the device. The hibernation mode of the ESP32 is used to conserve battery power.
+The hibernation is however quirky on the ESP32, and forces a program restart, and screws up any Wi-Fi connection established.
+
+Because a program reboot is used, preserving parameters such as time is difficult, that is why an RV3028 RTC module is used,
+this also has a little non volatile memory.
+
+The RV3028 RTC module is ultra-low-power ( ~100 nA), and highly accurate.
+
+real-time clock breakout. 
 The RV3028 RTC breakout is perfect for adding timekeeping to your project and, thanks to the tiny on-board battery, 
 it'll keep time when your device is powered off. Like all the best timepieces, it's Swiss-made!
 
-The ESP32 processor module 
+
 
 Some changes / additions have been made with this implementation
 
