@@ -39,15 +39,17 @@ published: true
 
 <!-- outline-start -->
 
-This is a simple idea to re-use the batteries from a disposable E-cigarette and make a cheap and useful
+This is a simple idea to re-use a battery from a disposable E-cigarette and make a cheap and useful
 battery eliminator. 
 
-In this blog, I use the eliminator to power a
-Brother label printer, and a Multimeter. 
+In this blog, I use the eliminator to power a Brother label printer, and a Multimeter. 
 
 The circuit uses a cheap chinese module that provides battery protection, a micro USB to charge 
 the battery, and a boost circuit, so the unit can replace 6v to 12v batteries. The whole unit
 costs a few pounds to make.
+
+The 13350 battery in an E-cigarette is a standard industrial battery, and NOT a custom made
+battery  for the E-cigarette market.
 
 #### Typical E-Cigarette
 
@@ -62,13 +64,20 @@ more ecapsulated, and could prove dificult or hazardous to remove. If in any dou
 #### 13350 Battery recovered from e-cigarette
 {:data-align="center"}
 
-#### 3.7V 9V 5V 2A Adjustable Step Up 18650 Lithium Battery Charging Discharge Integrated Module
+
+
+#### Lithium Battery Charging Discharge Integrated Module
 
 ![Battery Control Module](:Module1.jpg){:data-align="center"}
 
-The Module shown above is readily available on aliExpress, 
+#### Module 
+{:data-align="center"}
 
-As the circuit/battery is permanently in circuit, an on/off switch is required, to maintain the battery power.
+
+The Module shown above is readily available on AliExpress, it takes the nominal 3.7V from a battery, and can
+provide from 4.5V up to 12V output, stated output current is 2A.
+
+As the circuit/battery is permanently in circuit, an on/off switch is required, to maintain the battery capacity.
 
 Two example installations are shown, for a Brother label printer, and a cheap Chinese multimeter.
 
@@ -87,15 +96,35 @@ for creating the occassional label.
 
 ![Complete Battery Eliminator](:BrotherPrinter1.jpg){:data-align="center"}
 
+#### Brother Printer Battery Box
+{:data-align="center"}
+
+
 ![Battery Eliminator Detail](:BrotherPrinter2.jpg){:data-align="center"}
 
+#### Brother Printer with Battery Box
+{:data-align="center"}
+
+
 ![Exposed Battery Eliminator](:BrotherPrinter3.jpg){:data-align="center"}
+
+#### Brother Printer with Exposed Battery Box
+{:data-align="center"}
+
 
 #### Multimeter Installation
 
 ![Meter Battery Eliminator Fitting](:Meter1.jpg){:data-align="center"}
 
+#### Battery Eliminator shown in Multimeter
+{:data-align="center"}
+
+
 ![Complete Meter Battery Eliminator Fitting](:Meter2.jpg){:data-align="center"}
+
+#### Front View of Multimeter showing On/Off switch
+{:data-align="center"}
+
 
 ## Applicable Links
 
