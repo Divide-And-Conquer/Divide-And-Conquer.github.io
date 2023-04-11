@@ -53,8 +53,15 @@ a small Lithium cell.
 
 ![Buck-Battery](:Buck-Battery-Eliminator-TLV62569.jpg){:data-align="center"}
 
-### TLV62569 module from Adafruit 
+#### TLV62569 module from Adafruit 
 {:data-align="center"}
+
+
+
+
+
+
+
 
 ### Link
 
