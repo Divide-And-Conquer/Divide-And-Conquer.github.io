@@ -51,9 +51,13 @@ costs a few pounds to make.
 The 13350 battery in an E-cigarette is a standard industrial battery, and NOT a custom made
 battery  for the E-cigarette market.
 
-#### Typical E-Cigarette
+### E-Cigarette(s) and associated Battery
 
 ![Typical E-Cigarette](:e-cigg.jpg){:data-align="center"}
+
+#### Typical E-Cigarette
+{:data-align="center"}
+
 
 The type of E Cigarette shown above does have an easiely recoverable battery, videos for
 recovering these batteries are available on you tube. Other E-cigarettes may have batteries that are
@@ -66,11 +70,11 @@ more ecapsulated, and could prove dificult or hazardous to remove. If in any dou
 
 
 
-#### Lithium Battery Charging Discharge Integrated Module
+### Lithium Battery Charging Discharge Integrated Module
 
 ![Battery Control Module](:Module1.jpg){:data-align="center"}
 
-#### Module 
+#### Lithium Boost Converter Module 
 {:data-align="center"}
 
 
@@ -85,7 +89,7 @@ Two example installations are shown, for a Brother label printer, and a cheap Ch
 
 <!-- outline-end -->
 
-#### Brother Printer Installation
+### Brother Printer Installation
 
 The Brother label printer uses 6 AAA batteries, but can also be driven using an external power supply.
 Using the external power connector and the battery eliminator makes the unit much easier to use
@@ -112,7 +116,7 @@ for creating the occassional label.
 {:data-align="center"}
 
 
-#### Multimeter Installation
+### Multimeter Installation
 
 ![Meter Battery Eliminator Fitting](:Meter1.jpg){:data-align="center"}
 
@@ -131,7 +135,8 @@ for creating the occassional label.
 [Battery Control Module](https://www.aliexpress.com/item/32976180245.html).
 
 
-## 3.7V 9V 5V 2A Adjustable Step Up 18650 Lithium Battery Charging Discharge Integrated Module
+## Module Specifications
+ - 3.7V 9V 5V 2A Adjustable Step Up 18650 Lithium Battery Charging Discharge Integrated Module
 
  - Debug before use, the default output is about 9V
  - Input voltage 4.5-8V
