@@ -9,7 +9,7 @@ author: Martin Rawson
 # multiple category is not supported
 category: jekyll
 # multiple tag entries are possible
-tags: [jekyll, sample, example post]
+tags: [jekyll, development, example post]
 # thumbnail image for post
 img: ":Cricket2_Front_View.jpg"
 # disable comments on this page
@@ -39,24 +39,23 @@ published: true
 
 <!-- outline-start -->
 
-The original Cricket was a commercial project product made by the things on edge company based in Cambridge.
+The original Cricket was a commercial project product made by the Things on Edge company based in Cambridge.
+
 This device monitored it's own battery, temperature, and had a few inputs for measuring other external 
-parameters. It then sent this monitored information to a server computer using MQTT. The original device
-was simple to deploy, low cost, and had a good battery life.
+parameters, this added to the flexibility, and allowed the device to be customised. 
+It then transmitted this monitored information to a server computer using MQTT. 
+The original device was simple to deploy, low cost, and had a good battery life.
 
-The company produced two versions of the cricket device but unfortunately went out of business.
-The version one device of theirs was configured via the internet and became unmodifiedable so was difficult to use
-for further development. As some of these devices just stopped working!
+The company produced two versions of the Cricket device but unfortunately went out of business.
+The version one device of theirs was configured via the internet and became unmodifiedable so was impossible to use
+for further development. Also some of these devices just stopped working!
 
-The version 2 device could still be reconfigured.
+The version 2 device could still be reconfigured via a mobile phone or similar device.
 
 Both devices kept in use for a number of months while whilst I came up with the design for the Cricket 2 replacement board. 
 
-This project is based on a PCB designed for a previous project of mine called scheduler 
-So the PCB has been reused and it's quite suitable for the cricket to project Mulan 
- 
-
-Some changes / additions have been made with this implementation,
+This project re-uses a PCB designed for a previous project of mine called Scheduler.
+The PCB quite suitable for this purpose, and has many extra inputs, and capabilities way beyond the design of the original Crickets. 
 
 
 <!-- outline-end -->
@@ -86,31 +85,26 @@ not being used they provided an ideal platform to perform the Cricket2 role.
 
 ![Cricket2-Main-PCB-Front](:ESP32-Cricket2-Main-Board-Front.jpg){:data-align="center"}
 
-![Cricket2-Main-PCB-Back](:ESP32-Cricket2-Main-Board-Back.jpg){:data-align="center"}
-
-### Headings (centered)
+#### Front View of PCB
 {:data-align="center"}
 
-# Heading 1
+![Cricket2-Main-PCB-Back](:ESP32-Cricket2-Main-Board-Back.jpg){:data-align="center"}
 
-## Heading 2
+#### Rear View of PCB
+{:data-align="center"}
 
-### Heading 3
 
-#### Heading 4
+### Design in more detail
 
-##### Heading 5
+The designed of Scheduler PCB  gave much greater headroom for expansion of the design.
 
-###### Heading 6
+An ultra-low-power ( ~100 nA), highly accurate real-time clock breakout. 
+The RV3028 RTC breakout is perfect for adding timekeeping to your project and, thanks to the tiny on-board battery, 
+it'll keep time when your device is powered off. Like all the best timepieces, it's Swiss-made!
 
-***
+The ESP32 processor module 
 
-### Paragraphs
-
-The designed of PCB  gave much greater headroom for expansion of the design.
-
-An ultra-low-power ( ~100 nA), highly accurate real-time clock breakout. The RV3028 RTC breakout is perfect for adding timekeeping to your project and, thanks to the tiny on-board battery, it'll keep time when your device is powered off. Like all the best timepieces, it's Swiss-made!
-
+Some changes / additions have been made with this implementation
 
 ### Lists
 
@@ -120,67 +114,9 @@ And makes the 3 months battery life easier to achieve
 this is to make better use of battery life, and makes post p
 - Orange
 
-1. Fruits
-   1. Apples
-      - Granny Smith
-      - Mutsu
-   1. Bananas
-      - Cavendish
-      - Red
-1. Vegetables
 
 ***
 
-### Tables
-
-#### Small Table (centered)
-
-| Fruits(not aligned) | Alignment (centered) | num (right align) |
-| ------------------- | :------------------: | ----------------: |
-| Apple               |       centered       |              9999 |
-| Banana              |  centered long text  |               999 |
-| Orange              |       centered       |                99 |
-| Lemon               |       centered       |                 9 |
-{:data-align="center"}
-
-#### Wide Table (centered)
-
-scroll enabled when page is narrow
-
-| Fruits | num (left align) | num (right align) | num  | num  | num  |
-| ------ | :--------------- | ----------------: | ---- | ---- | ---- |
-| Apple  | 1111             |              1111 | 2222 | 3333 | 4444 |
-| Banana | 111              |               111 | 222  | 333  | 444  |
-| Orange | 11               |                11 | 22   | 33   | 44   |
-| Lemon  | 1                |                 1 | 2    | 3    | 4    |
-{:data-align="center"}
-
-#### Wider Table
-
-scroll enabled when page is narrow
-
-| Fruits | num (left align) | num (right align) | num  | num  | num  | num  | num  | num  |
-| ------ | :--------------- | ----------------: | ---- | ---- | ---- | ---- | ---- | ---- |
-| Apple  | 1111             |              1111 | 2222 | 3333 | 4444 | 5555 | 6666 | 7777 |
-| Banana | 111              |               111 | 222  | 333  | 444  | 555  | 666  | 777  |
-| Orange | 11               |                11 | 22   | 33   | 44   | 55   | 66   | 77   |
-| Lemon  | 1                |                 1 | 2    | 3    | 4    | 5    | 6    | 7    |
-
-### Code
-
-#### Highlight
-
-{% highlight python %}
-for i in range(5, 10):
-  print(i)
-{% endhighlight %}
-
-#### Quote
-
-```python
-for i in range(5, 10):
-  print(i)
-```
 ### Link
 
 This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme), a simple theme built for [Jekyll](https://jekyllrb.com/).
