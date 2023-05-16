@@ -133,10 +133,17 @@ installed in it's socket, at the same time as the board is fitted on it's mounti
 
 ### Fitting Components
 
+Four 45mm M3 screws hold and support the PCBs, the assembly order is:
+
+Cricket Battery PCB + M3 Nuts + 10mm spacer + 10mm spacer + 4mm spacer + Cricket IOT PCB
+
 The -ve clip with it's spring does experience a lot of force when the battery is fitted, 
 this causes it to bend, so a plastic filler is used to support the clip, and help mantain
 pressure on the battery.
 
+The +ve clip also needs support, so a plastic filler with a gash PCB piece is used to support the clip.
+
+The battery clip supports can be hot glued in place.
 
 ![partial assembled view 1](:ESP32-CricketBatteryBoard-Clip_support_1.jpg){:data-align="center"}
 
