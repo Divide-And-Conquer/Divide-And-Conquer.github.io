@@ -47,6 +47,7 @@ published: true
 This application is used to generate a map of the UK showing counties
 and routes walked within them counties, the resulting complete_map.png file,
 his intended call from within a web page, and viewable online.
+This tool is quite capable of generating maps for any country, not just the UK.
 
 A strong point of this tool, is that the entire map is rendered from data,
 and that the Python scripts can be rerun and global changes implemented.
@@ -59,12 +60,12 @@ P:\DevelopmentCode\Python\AllCountiesWalks
 Two separate Python files are used to generate the uk_map.png file,
 
 # The first - generate_counties_info.py
-<pre> ```
+```
     Builds a set of vectors which detail the boundary limits, boundary names and positioning of those names,
     these are stored in a file called counties.geojson
     It uses a file boundary_hints.csv, which provides boundary names and positioning of those names.
     This takes time to run and is viewed as an infrequent action.
-``` </pre>
+```
 
 # The second - generate_uk_map.py
 <pre> ```
@@ -97,6 +98,8 @@ P:\DevelopmentCode\Python\AllCountiesWalks
       └── Generates: (Final web-facing) uk_map.png
                (map of UK counties + routes overlayed - formatted for viewing online)
 ``` </pre>
+
+# Example Generated UK Page
 
 ![Example Generated UK Page](:uk_map.png){:data-align="center"}
 
@@ -260,29 +263,4 @@ Neptune's Staircase, Banavie, near Fort William
 
 
 <!-- outline-end -->
-
-
-
-
-### Link
-
-This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme), a simple theme built for [Jekyll](https://jekyllrb.com/).
-
-\* Hello world! This is **[{{ site.data.owner[site.data.conf.main.default_lng].brand }}]({{ site.url }})**
-
-### Picture
-
-![original torch](:post_pic1.jpg)
-
-### Picture (centered)
-
-
-### Headings (centered)
-{:data-align="center"}
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
 
