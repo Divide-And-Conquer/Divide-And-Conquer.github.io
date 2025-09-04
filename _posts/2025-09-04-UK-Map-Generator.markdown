@@ -20,7 +20,7 @@ date:
 
 # seo
 # if not specified, date will be used.
-#meta_modify_date: 2022-02-10 08:11:06 +0900
+#meta_modify_date: 2025-09-04 07:00:06 +0900
 # check the meta_common_description in _data/owner/[language].yml
 #meta_description: ""
 
