@@ -11,7 +11,7 @@ category: jekyll
 # multiple tag entries are possible
 tags: [jekyll, sample, example post]
 # thumbnail image for post
-img: ":Node-Red2.jpg"
+img: ":uk_map.png"
 # disable comments on this page
 #comments_disable: true
 
@@ -57,18 +57,17 @@ sources to generate the uk_map.png map can be found in
 P:\DevelopmentCode\Python\AllCountiesWalks
 
 Two separate Python files are used to generate the uk_map.png file,
-the first
 
-# generate_counties_info.py
+# The first - generate_counties_info.py
 
     Builds a set of vectors which detail the boundary limits, boundary names and positioning of those names,
     these are stored in a file called counties.geojson
     It uses a file boundary_hints.csv, which provides boundary names and positioning of those names.
     This takes time to run and is viewed as an infrequent action.
 
-The second
 
-# generate_uk_map.py
+
+# The second - generate_uk_map.py
 
     It uses the output from the first,
     and overlays on it a set of routes already walked held in .\routes_walked , 
