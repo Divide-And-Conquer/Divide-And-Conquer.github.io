@@ -59,7 +59,7 @@ P:\DevelopmentCode\Python\AllCountiesWalks
 
 Two separate Python files are used to generate the uk_map.png file,
 
-# The first - generate_counties_info.py
+## The first - generate_counties_info.py
 <pre> ```
     Builds a set of vectors which detail the boundary limits, boundary names and positioning of those names,
     these are stored in a file called counties.geojson
@@ -67,7 +67,7 @@ Two separate Python files are used to generate the uk_map.png file,
     This takes time to run and is viewed as an infrequent action.
 ``` </pre>
 
-# The second - generate_uk_map.py
+## The second - generate_uk_map.py
 <pre> ```
     It uses the output from the first,
     and overlays on it a set of routes already walked held in .\routes_walked , 
@@ -98,6 +98,41 @@ P:\DevelopmentCode\Python\AllCountiesWalks
       └── Generates: (Final web-facing) uk_map.png
                (map of UK counties + routes overlayed - formatted for viewing online)
 ``` </pre>
+
+## Example boundary_hints.csv file
+
+<pre> ```
+# Expected folder structure:
+#
+#     ./historic_counties_gpx   -> GPX files for county borders
+#     ./routes_walked           -> GPX files for walking routes
+#     boundary_hints.csv        -> CSV with filename and label positioning hints
+#
+# justification – affects horizontal alignment of the text:
+#
+# L → left
+# R → right
+# C → center
+#
+# horizontal – determines horizontal position of the label within the county boundary:
+#
+# L → left
+# R → right
+# M → middle
+#
+# vertical – determines vertical position of the label within the county boundary:
+#
+# T → top
+# M → middle
+# B → bottom
+#
+# filename                  , boundary_colour , justification, horizontal, vertical,  text_colour,  text_background
+Aberdeen.gpx                , pink            , L            , R         , M        , white       , green
+Aberdeenshire.gpx           , red             , L            , R         , M        , white       , green
+Anglesey.gpx                , blue            , R            , L         , M        , white       , green
+Angus.gpx                   , green           , M            , M         , M        , white       , green
+``` </pre>
+
 
 ## Example Generated UK Page
 
