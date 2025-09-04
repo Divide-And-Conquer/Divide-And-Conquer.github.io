@@ -1,0 +1,288 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_DockerPi2
+title: UK Map Generator
+
+# post specific
+# if not specified, .name will be used from _data/owner/[language].yml
+author: Martin Rawson
+# multiple category is not supported
+category: jekyll
+# multiple tag entries are possible
+tags: [jekyll, sample, example post]
+# thumbnail image for post
+img: ":Node-Red2.jpg"
+# disable comments on this page
+#comments_disable: true
+
+# publish date
+date: 
+
+# seo
+# if not specified, date will be used.
+#meta_modify_date: 2022-02-10 08:11:06 +0900
+# check the meta_common_description in _data/owner/[language].yml
+#meta_description: ""
+
+# optional
+# if you enabled image_viewer_posts you don't need to enable this. This is only if image_viewer_posts = false
+#image_viewer_on: true
+# if you enabled image_lazy_loader_posts you don't need to enable this. This is only if image_lazy_loader_posts = false
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+published: true
+---
+
+### Outline
+
+<!-- outline-start -->
+
+# UK map image generator, showing routes walked or planned within the UK
+
+This application is used to generate a map of the UK showing counties
+and routes walked within them counties, the resulting complete_map.png file,
+his intended call from within a web page, and viewable online.
+
+A strong point of this tool, is that the entire map is rendered from data,
+and that the Python scripts can be rerun and global changes implemented.
+This is viewed as better than an editor, where an image can be tweaked, but then never regenerated.
+
+sources to generate the uk_map.png map can be found in
+
+P:\DevelopmentCode\Python\AllCountiesWalks
+
+Two separate Python files are used to generate the uk_map.png file,
+the first
+
+# generate_counties_info.py
+
+    Builds a set of vectors which detail the boundary limits, boundary names and positioning of those names,
+    these are stored in a file called counties.geojson
+    It uses a file boundary_hints.csv, which provides boundary names and positioning of those names.
+    This takes time to run and is viewed as an infrequent action.
+
+The second
+
+# generate_uk_map.py
+
+    It uses the output from the first,
+    and overlays on it a set of routes already walked held in .\routes_walked , 
+    and routes planned to be walked held in .\routes_to_be_walked
+
+This is illustrated below:
+
+P:\DevelopmentCode\Python\AllCountiesWalks
+│
+├── generate_counties_info.py
+│     │
+│     ├── Uses: boundary_hints.csv
+│     │        (boundary names + label positions)
+│     │
+│     ├── Uses: .\historic_counties_gpx\
+│     │        (boundary positions for counties)
+│     │
+│     └── Generates: counties.geojson
+│              (county vectors + boundaries + names/positions)
+│
+└── generate_uk_map.py
+      │
+      ├── Uses: counties.geojson        <-- output of generate_counties_info.py
+      ├── Uses: .\routes_walked\        <-- completed routes
+      ├── Uses: .\routes_to_be_walked\  <-- planned routes
+      │
+      └── Generates: (Final web-facing) uk_map.png
+               (map of UK counties + routes overlayed - formatted for viewing online)
+
+
+![Example Generated UK Page](:uk_map.png){:data-align="center"}
+
+# WALKS / RAMBLES
+
+## ENGLAND
+
+    Avon
+
+    Bedfordshire
+        greensandridgewalk.gpx (Ampthill to Clophill) 7 miles
+        Public Transport:
+            Train from Bletchley to Flitwick (~30 mins), walk to Ampthill (~1.5 miles or local bus).
+            Return from Clophill by bus to Flitwick, then train back.
+
+    Berkshire
+
+    Buckinghamshire
+        Train to Luton - Bus to Bletchley Park
+        Bletchley Park
+        Milton Keynes boundary walk (Milton Keynes Boundary Walk.gpx)  look at local bus routes to determine start/end
+
+        Can I go to the start of the greensandridgewalk and then walk back to Milton Keynes?
+
+    Cambridgeshire
+    Cheshire
+    Cleveland
+    Cornwall
+    County Durham
+    Cumbria
+    Derbyshire
+    Devon
+    Lyme Regis (visit only)
+
+    Dorset (2025)
+        Weymouth to the Smugglers Inn, Osmington Mills / South Dorset Ridgeway
+        The X53 bus service runs from Exeter to Abbotsbury, stopping at Swyre which is just north-west of West Bexington.
+        The X53 also runs from Osmington to Weymouth, where you can pick up trains to Dorchester.
+
+    Essex
+    Gloucestershire
+    Hampshire
+    Herefordshire
+    Hertfordshire
+    Isle of Wight
+    Kent
+    Lancashire
+    Leicestershire
+    Lincolnshire
+    London (Greater London)
+        Saturday, 24th May 2025
+
+        Buy Day Return to London Bridge, catch 9.28 from Brighton Station ( 9.32 Preston Park).  Walk across bridge to Eastcheap, catch No 15 bus to Limehouse Station.  Walk via Regent's Canal ( coffee stop), Hertford Union Canal, Victoria Park ( cafï¿½ or picnic).  
+        Then Lea River and Limehouse Cut ( tea stop)..  
+        Return by No 15 bus.
+        
+    Merseyside
+    Middlesex
+    Norfolk
+    North Humberside
+    North Yorkshire
+    Northamptonshire
+    Northumberland
+    Nottinghamshire
+    Oxfordshire
+    Shropshire
+    Somerset
+    South Humberside
+    South Yorkshire
+    Staffordshire
+    Suffolk
+    Surrey
+    Sussex
+    Tyne and Wear
+    Warwickshire
+    West Midlands
+    West Yorkshire
+    Wiltshire
+    Worcestershire
+
+## SCOTLAND
+
+Neptune's Staircase, Banavie, near Fort William
+
+    Aberdeenshire
+    Angus
+    Argyll
+    Ayrshire
+    Banffshire
+    Berwickshire
+    Caithness
+    Clackmannanshire
+    Dumfriesshire
+    Dunbartonshire
+    East Lothian
+    Fife
+    Inverness-shire
+    Isle of Arran
+    Isle of Barra
+    Isle of Benbecula
+    Isle of Bute
+    Isle of Canna
+    Isle of Coll
+    Isle of Colonsay
+    Isle of Cumbrae
+    Isle of Eigg
+    Isle of Gigha
+    Isle of Harris
+    Isle of Iona
+    Isle of Islay
+    Isle of Jura
+    Isle of Lewis
+    Isle of Mull
+    Isle of North Uist
+    Isle of Rhum
+    Isle of Scalpay
+    Isle of Skye
+    Isle of South Uist
+    Isle of Tiree
+    Kincardineshire
+    Kinross-shire
+    Kirkcudbrightshire
+    Lanarkshire
+    Midlothian
+    Morayshire
+    Nairnshire
+    Orkney
+    Peeblesshire
+    Perthshire
+    Renfrewshire
+    Ross-shire
+    Roxburghshire
+    Selkirkshire
+    Shetland
+    Stirlingshire
+    Sutherland
+    West Lothian
+    Wigtownshire
+
+## WALES
+
+    Clwyd
+    Dyfed
+    Gwent
+    Gwynedd
+    Mid Glamorgan
+    South Glamorgan
+    Powys
+    West Glamorgan
+
+## NORTHERN IRELAND
+
+    County Antrim
+    County Armagh
+    County Down
+    County Fermanagh
+    County Londonderry
+    County Tyrone
+
+
+
+
+<!-- outline-end -->
+
+
+
+
+### Link
+
+This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme), a simple theme built for [Jekyll](https://jekyllrb.com/).
+
+\* Hello world! This is **[{{ site.data.owner[site.data.conf.main.default_lng].brand }}]({{ site.url }})**
+
+### Picture
+
+![original torch](:post_pic1.jpg)
+
+### Picture (centered)
+
+
+### Headings (centered)
+{:data-align="center"}
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
