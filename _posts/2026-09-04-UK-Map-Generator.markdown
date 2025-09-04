@@ -41,7 +41,7 @@ published: true
 
 <!-- outline-start -->
 
-# UK map image generator, showing routes walked or planned within the UK
+# UK map image generator
 
 This application is used to generate a map of the UK showing counties
 and routes walked within them counties, the resulting complete_map.png file,
