@@ -38,14 +38,12 @@ date: 2025-09-04 07:11:06 +0900
 published: true
 ---
 
-### Outline
-
 <!-- outline-start -->
 
 # UK map image generator
 
 This application is used to generate a map of the UK showing counties
-and routes walked within them counties, the resulting complete_map.png file,
+and routes walked within them counties, the resulting uk_map.png file,
 his intended call from within a web page, and viewable online.
 This tool is quite capable of generating maps for any country, not just the UK.
 
@@ -59,7 +57,7 @@ P:\DevelopmentCode\Python\AllCountiesWalks
 
 Two separate Python files are used to generate the uk_map.png file,
 
-## The first - generate_counties_info.py
+### The first - generate_counties_info.py
 <pre> ```
     Builds a set of vectors which detail the boundary limits, boundary names and positioning of those names,
     these are stored in a file called counties.geojson
@@ -67,7 +65,7 @@ Two separate Python files are used to generate the uk_map.png file,
     This takes time to run and is viewed as an infrequent action.
 ``` </pre>
 
-## The second - generate_uk_map.py
+### The second - generate_uk_map.py
 <pre> ```
     It uses the output from the first,
     and overlays on it a set of routes already walked held in .\routes_walked , 
@@ -99,7 +97,7 @@ P:\DevelopmentCode\Python\AllCountiesWalks
                (map of UK counties + routes overlayed - formatted for viewing online)
 ``` </pre>
 
-## Example boundary_hints.csv file
+### Example boundary_hints.csv file
 
 <pre> ```
 # Expected folder structure:
@@ -134,11 +132,12 @@ Angus.gpx                   , green           , M            , M         , M    
 ``` </pre>
 
 
-## Example Generated UK Page
+### Example Generated UK Page
 
 ![Example Generated UK Page](:uk_map.png){:data-align="center"}
 
 ## WALKS / RAMBLES
+
 
 ### ENGLAND
 
