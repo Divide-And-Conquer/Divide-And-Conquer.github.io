@@ -1,6 +1,6 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_DockerPi2
+lng_pair: id_UK_Map_Gen
 title: UK Map Generator
 
 # post specific
