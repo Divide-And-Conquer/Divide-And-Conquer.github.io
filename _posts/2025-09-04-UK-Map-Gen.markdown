@@ -40,6 +40,8 @@ published: true
 
 <!-- outline-start -->
 
+
+
 # UK map image generator
 
 This application is used to generate a map of the UK showing counties
@@ -50,6 +52,10 @@ This tool is quite capable of generating maps for any country, not just the UK.
 A strong point of this tool, is that the entire map is rendered from data,
 and that the Python scripts can be rerun and global changes implemented.
 This is viewed as better than an editor, where an image can be tweaked, but then never regenerated.
+
+The boundary information is originally sourced from
+https://csmale.dev.openstreetmap.org/os_boundaryline_202405/index.html
+
 
 sources to generate the uk_map.png map can be found in
 
@@ -198,12 +204,7 @@ Angus.gpx                   , green           , M            , M         , M    
     Northamptonshire
     Northumberland
     Nottinghamshire
-      09:35 - Milton Keynes Central - Bletchley - Bedford - Wellingborough
-      09:39 
-      10:34 
-      10:56 - Bedford
-      11:07 
-      
+      Train - Milton Keynes Central - Bletchley - Bedford - Wellingborough
   
     Oxfordshire
     Shropshire
