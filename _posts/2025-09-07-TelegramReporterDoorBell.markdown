@@ -48,4 +48,9 @@ and send a message via telegram to be picked up on a mobile phone.
 This could be extended using MQTT to track doorbell presses, and make actions happen within node-red.
 This use case would allow existing cricket 3 PCB designs and hardware to be used(reused).
 
+This project is created with the help of chatGPT.
+
+
+
+
 
