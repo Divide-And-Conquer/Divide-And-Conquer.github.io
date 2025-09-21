@@ -144,19 +144,18 @@ Angus.gpx                   , green           , M            , M         , M    
     Avon
 
     Bedfordshire
-        greensandridgewalk.gpx (Ampthill to Clophill) 7 miles
-        Public Transport:
-            Train from Bletchley to Flitwick (~30 mins), walk to Ampthill (~1.5 miles or local bus).
-            Return from Clophill by bus to Flitwick, then train back.
+        greensandridgewalk.gpx (section from Lidlington to Maulden)
+        Walk from Lidlington station, join start of greensandridgewalk, walked to the White Hart at Maulden
 
     Berkshire
 
     Buckinghamshire
-        Train to Luton - Bus to Bletchley Park
-        Bletchley Park
-        Milton Keynes boundary walk (Milton Keynes Boundary Walk.gpx)  look at local bus routes to determine start/end
-
-        Can I go to the start of the greensandridgewalk and then walk back to Milton Keynes?
+        Train to Wolverton
+        Walk along Grand Union Canal
+        walk to Iron Trunk Aqueduct 52.068800° -0.833700° 
+        then onto Cosgrove (Horse Tunnel and The Barley Mow)
+        then walk back to the Iron Trunk Aqueduct
+        then follow route to Stony Stratford
 
     Cambridgeshire
     Cheshire
@@ -186,7 +185,8 @@ Angus.gpx                   , green           , M            , M         , M    
     London (Greater London)
         Saturday, 24th May 2025
 
-        Buy Day Return to London Bridge, catch 9.28 from Brighton Station ( 9.32 Preston Park).  Walk across bridge to Eastcheap, catch No 15 bus to Limehouse Station.  Walk via Regent's Canal ( coffee stop), Hertford Union Canal, Victoria Park ( cafï¿½ or picnic).  
+        Buy Day Return to London Bridge, catch 9.28 from Brighton Station ( 9.32 Preston Park).  
+        Walk across bridge to Eastcheap, catch No 15 bus to Limehouse Station.  Walk via Regent's Canal ( coffee stop), Hertford          Union Canal, Victoria Park ( cafï¿½ or picnic).  
         Then Lea River and Limehouse Cut ( tea stop)..  
         Return by No 15 bus.
         
@@ -213,8 +213,10 @@ Angus.gpx                   , green           , M            , M         , M    
     West Yorkshire
     Wiltshire
     Worcestershire
-``` </pre>   
+``` </pre>
+
 ### SCOTLAND
+
 <pre> ```
 Neptune's Staircase, Banavie, near Fort William
 
