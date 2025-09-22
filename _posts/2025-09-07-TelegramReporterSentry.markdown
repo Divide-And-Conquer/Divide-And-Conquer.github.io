@@ -67,3 +67,29 @@ The PCB has been produced using KiCAD 9.0
 # Applicable Links
 
 Todo: show calculator kit sites
+
+
+This unit is to provide a texting style capability to somebody that struggles when using/understanding a mobile phone, and cannot text for themselves.
+
+It allows the user to send a number of predefined messages that are sent to the mobile messaging platform called telegram. Telegram will provide notification that a message has been received.
+
+In addition allows an emergency message to be broadcast from a "panic" button, or send a message on a specific event like a doorbell press. or smoke detector.
+
+Typical messages might be, I've gone to sleep, l need milk,I need a newspaper, something in the house doesn't work.
+
+The receiver of the message can then ring the user if necessary and clarify the situation.
+
+This project shares the same pcb as 433MHz tester.
+
+ChatGPT used extensively during the software design, and some aspects of the hardware design.
+
+The Arduino framework is used for this project.
+
+ChatGPT was especially useful for the asynchronous operation of the project.Wi-Fi, sending and receiving is  handled on CPU 0. Decoding the 443MHz signals and keypad handling is on cpu 1.
+
+An asynchronous posting mechanism is used to send the Telegram messages.So messages are not lost.
+This currently has a depth of five messages.
+
+In principle the receiver of the messages can send messages to the unit, the underlying code for this is present.
+
+Telegram messages can be tagged as Informational, Alert, or Critical Alert which is intended for panic buttons, smoke detection, and similar events.
