@@ -205,7 +205,7 @@ Angus.gpx                   , green           , M            , M         , M    
     Northumberland
     Nottinghamshire
       Train - Milton Keynes Central - Bletchley - Bedford - Wellingborough
-  
+      Wellingborough area walk
     Oxfordshire
     Shropshire
     Somerset
