@@ -40,3 +40,30 @@ published: true
 
 <!-- outline-start -->
 
+# Outline
+
+
+Todo: show  complete unit.
+
+# Design Notes
+
+
+Todo: show Schematic
+
+# Images
+
+![Unit Prior to assembly](:433MHzTesterBuild1.jpg)
+
+# PCB
+
+The PCB has been produced using KiCAD 9.0
+
+# Build Notes
+
+
+# Operation Notes
+
+
+# Applicable Links
+
+Todo: show calculator kit sites
