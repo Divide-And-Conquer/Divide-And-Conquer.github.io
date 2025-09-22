@@ -60,5 +60,7 @@ This unit also has a test button, that makes a doorbell press message to be sent
 
 can be used to check that Telegram messages are being transmitted/received.
 
+![During Assembly](:Doorbell1.jpg)
+
 
 
