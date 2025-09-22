@@ -39,6 +39,8 @@ published: true
 
 <!-- outline-start -->
 
+# Outline
+
 This project is intended to be a low power clock,
 suitable to use as a travel clock, and also suitable as a room clock.
 
@@ -54,100 +56,36 @@ The unit updates it's time once a day from the internet.
 A diagnostic mode / interface is also built-in, this allows
 a pair of Wi-Fi access Point SSID/Passwords to be entered/stored.
 
+Todo: show  complete unit.
+
 <!-- outline-end -->
 
-### PCBs
 
-![Cricket2-Main-PCB-Front](:E-Paper-Clock_PCB_Front.jpg){:data-align="center"}
-
-![Cricket2-Main-PCB-Back](:E-Paper-Clock_PCB_Back.jpg){:data-align="center"}
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-***
-
-### Paragraphs
-
-
-### Lists
-
-- The LiPo battery is a salvaged unit from an e-cigarette.
-
-
-
-- 1
-
-
-***
-
-![E-Paper-Clock_Prototype](:E-Paper-Clock_Prototype.jpg){:data-align="center"}
-
-### USB connectors
-
-Three USB connectors are present.
+# Design Notes
 
 - 1 The RP2040 USB connector can power the unit, it's also used to program the RP2040.
 - 2 The TP4056 board USB is for charging the LiPo battery.
 - 3 The externally available USB is for day to day running of the clock from an external power source.
-***
 
-### Tables
 
-#### Small Table (centered)
+Todo: show Schematic
 
-| Fruits(not aligned) | Alignment (centered) | num (right align) |
-| ------------------- | :------------------: | ----------------: |
-| Apple               |       centered       |              9999 |
-| Banana              |  centered long text  |               999 |
-| Orange              |       centered       |                99 |
-| Lemon               |       centered       |                 9 |
-{:data-align="center"}
+# Images
 
-#### Wide Table (centered)
+![Unit Prior to assembly](:E-Paper-Clock_Front.jpg)
 
-scroll enabled when page is narrow
+### PCB
 
-| Fruits | num (left align) | num (right align) | num  | num  | num  |
-| ------ | :--------------- | ----------------: | ---- | ---- | ---- |
-| Apple  | 1111             |              1111 | 2222 | 3333 | 4444 |
-| Banana | 111              |               111 | 222  | 333  | 444  |
-| Orange | 11               |                11 | 22   | 33   | 44   |
-| Lemon  | 1                |                 1 | 2    | 3    | 4    |
-{:data-align="center"}
+![E-Paper-Clock_PCB-Front](:E-Paper-Clock_PCB_Front.jpg){:data-align="center"}
 
-#### Wider Table
+![E-Paper-Clock_PCB-Back](:E-Paper-Clock_PCB_Back.jpg){:data-align="center"}
 
-scroll enabled when page is narrow
+# Build Notes
 
-| Fruits | num (left align) | num (right align) | num  | num  | num  | num  | num  | num  |
-| ------ | :--------------- | ----------------: | ---- | ---- | ---- | ---- | ---- | ---- |
-| Apple  | 1111             |              1111 | 2222 | 3333 | 4444 | 5555 | 6666 | 7777 |
-| Banana | 111              |               111 | 222  | 333  | 444  | 555  | 666  | 777  |
-| Orange | 11               |                11 | 22   | 33   | 44   | 55   | 66   | 77   |
-| Lemon  | 1                |                 1 | 2    | 3    | 4    | 5    | 6    | 7    |
 
-### Code
+# Operation Notes
 
-#### Highlight
 
-{% highlight python %}
-for i in range(5, 10):
-  print(i)
-{% endhighlight %}
+# Applicable Links
 
-#### Quote
-
-```python
-for i in range(5, 10):
-  print(i)
-```
+Todo: show case kit sites
