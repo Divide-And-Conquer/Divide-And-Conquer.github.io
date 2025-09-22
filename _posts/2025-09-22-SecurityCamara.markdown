@@ -11,7 +11,7 @@ category: jekyll
 # multiple tag entries are possible
 tags: [jekyll, sample, example post]
 # thumbnail image for post
-img: ":uk_map.png"
+img: ":SV-DAFX-W_1_6816547_Supersize.jpg"
 # disable comments on this page
 #comments_disable: true
 
@@ -87,7 +87,7 @@ Todo: show Schematic
 
 # Images
 
-![Unit Prior to assembly](:433MHzTesterBuild1.jpg)
+![Yale Security Camera](:SV-DAFX-W_1_6816547_Supersize.jpg)
 
 # PCB
 
