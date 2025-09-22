@@ -50,7 +50,15 @@ This use case would allow existing cricket 3 PCB designs and hardware to be used
 
 This project is created with the help of chatGPT.
 
+The doorbell unit is positioned close to the Wi-Fi 6 router, a POE supply with a buck converter supplies 12V to both units.
 
+The doorbell  internally uses a 12V to 5V converter taken from a car cigar lighter socket USB converter sold for £1 in Poundland.
+This converter is an afterthought, that is why it is glued to the underside of th PCB.
+
+This unit also has a test button, that makes a doorbell press message to be sent to Telegram.
+
+
+can be used to check that Telegram messages are being transmitted/received.
 
 
 
