@@ -39,112 +39,42 @@ published: true
 
 <!-- outline-start -->
 
+# Outline
+
+Todo: show  complete unit.
 The Buck converter is intended to provide a 3.3V power source, 
 suitable for use as an AAA/AA battery eliminator, or general power source for electronics.
 The TLV62569 buck converter IC provides a small and efficient device suitable 
 to fit in the footprint of two AA batteries when paired with
 a small Lithium cell.
 
+![TLV62569 module from Adafruit](:Buck-Battery-Eliminator-TLV62569.jpg){:data-align="center"}
+
 <!-- outline-end -->
 
+# Design Notes
+
+Todo: show Schematic
+
+# Images
 
 
-### Buck-Battery 
+# PCB
 
-![Buck-Battery](:Buck-Battery-Eliminator-TLV62569.jpg){:data-align="center"}
+The PCB has been produced using KiCAD 9.0
 
-#### TLV62569 module from Adafruit 
-{:data-align="center"}
-
+# Build Notes
 
 
+# Operation Notes
+
+
+# Applicable Links
+
+Todo: show adafruit site
 
 
 
 
 
-### Link
-
-This is [Mr. Green Jekyll Theme](https://www.adafruit.com/product/4711), TLV62569 3.3V Buck Converter Breakout - 3.3V Output 1.2A Max.
-
-\* Hello world! This is **[{{ site.data.owner[site.data.conf.main.default_lng].brand }}]({{ site.url }})**
-
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-***
-
-### Paragraphs
-
-### Lists
-
-- Apple
-- Banana
-- Orange
-
-1. Fruits
-   1. Apples
-      - Granny Smith
-      - Mutsu
-   1. Bananas
-      - Cavendish
-      - Red
-1. Vegetables
-
-***
-
-### Tables
-
-#### Small Table (centered)
-
-| Fruits(not aligned) | Alignment (centered) | num (right align) |
-| ------------------- | :------------------: | ----------------: |
-| Apple               |       centered       |              9999 |
-| Banana              |  centered long text  |               999 |
-| Orange              |       centered       |                99 |
-| Lemon               |       centered       |                 9 |
-{:data-align="center"}
-
-#### Wide Table (centered)
-
-scroll enabled when page is narrow
-
-| Fruits | num (left align) | num (right align) | num  | num  | num  |
-| ------ | :--------------- | ----------------: | ---- | ---- | ---- |
-| Apple  | 1111             |              1111 | 2222 | 3333 | 4444 |
-| Banana | 111              |               111 | 222  | 333  | 444  |
-| Orange | 11               |                11 | 22   | 33   | 44   |
-| Lemon  | 1                |                 1 | 2    | 3    | 4    |
-{:data-align="center"}
-
-#### Wider Table
-
-scroll enabled when page is narrow
-
-| Fruits | num (left align) | num (right align) | num  | num  | num  | num  | num  | num  |
-| ------ | :--------------- | ----------------: | ---- | ---- | ---- | ---- | ---- | ---- |
-| Apple  | 1111             |              1111 | 2222 | 3333 | 4444 | 5555 | 6666 | 7777 |
-| Banana | 111              |               111 | 222  | 333  | 444  | 555  | 666  | 777  |
-| Orange | 11               |                11 | 22   | 33   | 44   | 55   | 66   | 77   |
-| Lemon  | 1                |                 1 | 2    | 3    | 4    | 5    | 6    | 7    |
-
-### Code
-
-#### Highlight
-
-{% highlight python %}
-for i in range(5, 10):
-  print(i)
-{% endhighlight %}
-
-#### Quote
-
-```python
-for i in range(5, 10):
-  print(i)
-```
 
