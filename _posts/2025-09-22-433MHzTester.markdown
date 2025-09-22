@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_433MHzTester
-title: Telegram Reporter Sentry
+title: 433MHz 1527 Code Tranceiver
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
@@ -45,6 +45,7 @@ published: true
 
 This project was designed to fulfill two main functions, to emulate a number keypads and discreet 433MHz buttons, 
 and to intercept these codes when transmitted, so it acts as both a transmitter and receiver.
+This unit only handles 1527 RF codes.
 
 It can function as a development tool, and as a replacement for existing keypads and other hardware.
 
@@ -56,7 +57,7 @@ which provides the housing, display the buttons.
 
 # Images
 
-![Unit pPrior to assembly](:433MHzTesterBuild1.jpg)
+![Unit Prior to assembly](:433MHzTesterBuild1.jpg)
 
 # PCB
 
@@ -68,7 +69,12 @@ Also the DIL pins on the 1602A display need to be trimmed back or the unit will 
 
 # Operation Notes
 
-Fourmodes of operation are provided, selected by keys A-D after power up.
+Four modes of operation are provided, selected by keys A-D after power up.
+A) Keypad emulator (transmitter)
+B) Receiver (shows text for keys received e.g. SB1 btn 4 ON
+C) Transceiver
+D) Receiver (shows codes received) to be implemented!!
+
 
 # Applicable Links
 
