@@ -67,6 +67,10 @@ Todo: show  complete unit.
 - 2 The TP4056 board USB is for charging the LiPo battery.
 - 3 The externally available USB is for day to day running of the clock from an external power source.
 
+The software libraries for the E-Paper display require the Raspberry Pi SDK and its associated development environment,
+I had a lot of trouble getting on with this, and it curtailed my development of the item.
+
+Special Font(s) had to be created for the display.
 
 Todo: show Schematic
 
