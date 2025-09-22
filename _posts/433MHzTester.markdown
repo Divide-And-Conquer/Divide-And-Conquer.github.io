@@ -56,11 +56,19 @@ which provides the housing, display the buttons.
 
 # Images
 
+![Unit pPrior to assembly](:433MHzTesterBuild1.jpg)
+
 # PCB
 
 # Build Notes
 
+Aero Pins are used to connect the power from the USB connector to the keypad board, these are cut back,
+because clearance is very limited between the 1602A display and the keypad board.
+Also the DIL pins on the 1602A display need to be trimmed back or the unit will not close.
+
 # Operation Notes
+
+Fourmodes of operation are provided, selected by keys A-D after power up.
 
 # Applicable Links
 
