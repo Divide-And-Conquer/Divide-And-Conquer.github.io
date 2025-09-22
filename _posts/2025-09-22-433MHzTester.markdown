@@ -11,7 +11,7 @@ category: jekyll
 # multiple tag entries are possible
 tags: [jekyll, sample, example post]
 # thumbnail image for post
-img: ":uk_map.png"
+img: ":433MHzTesterBuild1.jpg"
 # disable comments on this page
 #comments_disable: true
 
@@ -55,17 +55,27 @@ this included the schematic and PCB design, and also the software.
 The project fits in the same calculator housing as the Telegram reporter, this is an AliExpress calculator kit, 
 which provides the housing, display the buttons.
 
+# Design Notes
+
+
 # Images
 
 ![Unit Prior to assembly](:433MHzTesterBuild1.jpg)
 
 # PCB
 
+The PCB is designed fit the case as replacement for the calculator PCB, as space was available it is a larger PCB.
+This allows for the Pico to but up against the edge of the case.
+
 # Build Notes
 
 Aero Pins are used to connect the power from the USB connector to the keypad board, these are cut back,
 because clearance is very limited between the 1602A display and the keypad board.
-Also the DIL pins on the 1602A display need to be trimmed back or the unit will not close.
+Also the DIL pins soldered onto the 1602A display need to be trimmed back or the calculator case will not close.to 
+
+The yellow wire in the photo is a repair, the Pico 2040 chip appears to have a problem with the D12 pin, as this
+is soldered in place, and would be a problem to replace, I decided to reroute the signal via D1, this required the
+hardware link and a change to the software. This is documented in the software and the KiCAD drawings.
 
 # Operation Notes
 
@@ -79,6 +89,6 @@ D) Receiver (shows codes received) to be implemented!!
 # Applicable Links
 
 --
-Sent with GMX Mail app
+
 
 
