@@ -82,6 +82,7 @@ Todo: show Schematic
 
 # Build Notes
 
+![Development unit](:E-Paper-Clock_Prototype.jpg)
 
 # Operation Notes
 
