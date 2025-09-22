@@ -11,7 +11,7 @@ category: jekyll
 # multiple tag entries are possible
 tags: [jekyll, sample, example post]
 # thumbnail image for post
-img: ":uk_map.png"
+img: ":Buck-Battery-Eliminator-TLV62569.jpg"
 # disable comments on this page
 #comments_disable: true
 
