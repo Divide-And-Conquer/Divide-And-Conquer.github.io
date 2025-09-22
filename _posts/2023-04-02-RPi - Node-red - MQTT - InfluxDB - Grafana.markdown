@@ -37,14 +37,13 @@ date: 2023-04-02 08:11:06 +0900
 published: true
 ---
 
-### Outline
+# Outline
 
 <!-- outline-start -->
 
 RPi - Node-red - MQTT - InfluxDB - Grafana - Telegram
 
-
-The DockerPi server is a Raspberry Pi Computer that connects to the Internet, and runs a set of programs which gather and process data
+The DockerPi2 server is a Raspberry Pi 400 Computer that connects to the Internet, and runs a set of programs which gather and process data
 from a number of sensors, and store the data, and render the data on one or more computers screens.
 
 The Sensors transmit their data to the RPi using MQTT, the RPi runs a broker (server) that takes this data and passes it onto node-red for processing or forward transmission. Node-red allows for the creation of a number of dashboards to display the information:
@@ -57,36 +56,35 @@ Node-red can be considered a toolbox which allows data to be processed, redirect
 
 InfluxDB - Telegram
 
-
 Grafana
 
-Other software also runs on the RPi, like a VPN.
-
+Other software also runs on the RPi, like a VPN????.
 
 <!-- outline-end -->
 
+# Design Notes
+
+Sensors providing data to node-red are primarily Cricket2 units, or smart sockets provided by living-bytes, these run
+tasmota. These send json data via MQTT.
+
+Node-red runs javascript, and also provides a graphical programming interface
+
+Todo: show Schematic
+
+# Images
+
+![Unit Prior to assembly](:433MHzTesterBuild1.jpg)
+
+# Build Notes
 
 
+# Operation Notes
 
-### Link
+Todo: show Cricket2 or tasmota json strings
 
-This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme), a simple theme built for [Jekyll](https://jekyllrb.com/).
+# Applicable Links
 
-\* Hello world! This is **[{{ site.data.owner[site.data.conf.main.default_lng].brand }}]({{ site.url }})**
+Todo: show node-red sites
+living-bytes
 
-### Picture
-
-![original torch](:post_pic1.jpg)
-
-### Picture (centered)
-
-
-### Headings (centered)
-{:data-align="center"}
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
 
