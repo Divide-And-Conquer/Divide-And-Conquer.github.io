@@ -109,6 +109,7 @@ The PCB has been produced using KiCAD 9.0
 
 [Getting started guide - Core electronics](https://core-electronics.com.au/guides/sensors/getting-started-with-the-grove-vision-ai-v2-power-efficient-object-detection/)
 [Arduino Library Introduction](https://wiki.seeedstudio.com/grove_vision_ai_v2_software_support/#-arduino-library-introduction-)
+[hd1080-all-in-one-indoor-outdoor-camera-white](https://yalehome.co.uk/hd1080-all-in-one-indoor-outdoor-camera-white)
 
-Todo: show Yale Camera site, show RPi Compute Module and Camera, show RPi 3 Camera
+Todo: show RPi Compute Module and Camera, show RPi 3 Camera
 
