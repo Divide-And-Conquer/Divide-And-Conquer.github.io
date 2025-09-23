@@ -69,15 +69,14 @@ Photos of Yale disassembly
 
 KISS
 
-# Specification 
+# Specification / Design
 
   POE
   Compute module 5 basic
   12MP Raspberry Pi Camera Module 3, Standard
   
   Grove Vision AI Module V2
-  Raspberry Pi basic camera OV5647-62 FOV Camera Module
-for Raspberry Pi 3B+4B
+  Raspberry Pi basic camera OV5647-62 FOV Camera Module for Raspberry Pi 3B+4B?
 
   PIR or Grove board to trigger main Camera?
   
@@ -108,7 +107,8 @@ The PCB has been produced using KiCAD 9.0
 
 # Applicable Links
 
-https://core-electronics.com.au/guides/sensors/getting-started-with-the-grove-vision-ai-v2-power-efficient-object-detection/
-https://wiki.seeedstudio.com/grove_vision_ai_v2_software_support/#-arduino-library-introduction-
-Todo: show calculator kit sites
+[Getting started guide - Core electronics](https://core-electronics.com.au/guides/sensors/getting-started-with-the-grove-vision-ai-v2-power-efficient-object-detection/)
+[Arduino Library Introduction](https://wiki.seeedstudio.com/grove_vision_ai_v2_software_support/#-arduino-library-introduction-)
+
+Todo: show Yale Camera site, show RPi Compute Module and Camera, show RPi 3 Camera
 
