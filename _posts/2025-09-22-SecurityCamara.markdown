@@ -11,7 +11,7 @@ category: jekyll
 # multiple tag entries are possible
 tags: [jekyll, sample, example post]
 # thumbnail image for post
-img: ":SV-DAFX-W_1_6816547_Supersize.jpg"
+img: ":YaleCameraHousing.jpg"
 # disable comments on this page
 #comments_disable: true
 
@@ -60,24 +60,27 @@ What components from the Yale unit can be reused?
 
 The PCB for this project is designed to fit in place of the original PCB, and reused it's mounting points.
 
-The main camera is a RPi 5 module with a  carrier camera.
+The main camera is a RPi 5 module with a carrier camera.
 
-This project replaces the PIR with a second camera, that is configured for object (specifically cat) recognition.This uses the SeedStudio AI xxxx board, along with an original RPi camera.
-This board can trigger a cat deterrent such as a smell.
+This project replaces the PIR with a second camera, that is configured for object (specifically cat) recognition.This uses the Grove Vision AI v2 board, along with an original RPi camera.
+This board can trigger a cat deterrent, such as a smell.
 
 Photos of Yale disassembly 
 
 KISS
 
-Specification 
+# Specification 
 
-POE
+  POE
+  Compute module 5 basic
+  12MP Raspberry Pi Camera Module 3, Standard
+  
+  Grove Vision AI Module V2
+  Raspberry Pi basic camera OV5647-62 FOV Camera Module
+for Raspberry Pi 3B+4B
 
-Compute module 5 basic
-AI 
-Grove Vision AI Module V2
-
-
+  PIR or Grove board to trigger main Camera?
+  
 Todo: show  complete unit.
 
 # Design Notes
@@ -87,7 +90,11 @@ Todo: show Schematic
 
 # Images
 
-![Yale Security Camera](:SV-DAFX-W_1_6816547_Supersize.jpg)
+![Yale Security Camera](:YaleCameraHousing.jpg)
+
+![Grove Vision AI v2](:GroveVisionAIv2_1.png)
+![Grove Vision AI v2](:GroveVisionAIv2_2.png)
+![Grove Vision AI v2](:GroveVisionAIv2_3.png)
 
 # PCB
 
@@ -102,6 +109,6 @@ The PCB has been produced using KiCAD 9.0
 # Applicable Links
 
 https://core-electronics.com.au/guides/sensors/getting-started-with-the-grove-vision-ai-v2-power-efficient-object-detection/
-
+https://wiki.seeedstudio.com/grove_vision_ai_v2_software_support/#-arduino-library-introduction-
 Todo: show calculator kit sites
 
