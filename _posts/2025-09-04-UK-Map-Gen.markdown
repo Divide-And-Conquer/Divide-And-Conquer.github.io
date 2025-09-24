@@ -142,6 +142,8 @@ Angus.gpx                   , green           , M            , M         , M    
 
 ![Example Generated UK Page](:uk_map.png){:data-align="center"}
 
+<!-- outline-end -->
+
 ## WALKS / RAMBLES
 
 
@@ -149,15 +151,15 @@ Angus.gpx                   , green           , M            , M         , M    
 <pre> ```
     Avon
 
-    Bedfordshire
+    Bedfordshire (2025)
         greensandridgewalk.gpx (section from Lidlington to Maulden)
         Walk from Lidlington station, join start of greensandridgewalk, walked to the White Hart at Maulden
 
     Berkshire
 
-    Buckinghamshire
-        Train to Wolverton
-        Walk along Grand Union Canal
+    Buckinghamshire (2025)
+        Train to Wolverton (From Milton Keynes)
+        walk along Grand Union Canal towards Cosgrove 
         walk to Iron Trunk Aqueduct 52.068800° -0.833700° 
         then onto Cosgrove (Horse Tunnel and The Barley Mow)
         then walk back to the Iron Trunk Aqueduct
@@ -188,7 +190,7 @@ Angus.gpx                   , green           , M            , M         , M    
     Lancashire
     Leicestershire
     Lincolnshire
-    London (Greater London)
+    London (Greater London) (2025)
         Saturday, 24th May 2025
 
         Buy Day Return to London Bridge, catch 9.28 from Brighton Station ( 9.32 Preston Park).  
@@ -201,11 +203,12 @@ Angus.gpx                   , green           , M            , M         , M    
     Norfolk
     North Humberside
     North Yorkshire
-    Northamptonshire
+    Northamptonshire (2025)
     Northumberland
     Nottinghamshire
       Train - Milton Keynes Central - Bletchley - Bedford - Wellingborough
       Wellingborough area walk
+  
     Oxfordshire
     Shropshire
     Somerset
@@ -214,7 +217,11 @@ Angus.gpx                   , green           , M            , M         , M    
     Staffordshire
     Suffolk
     Surrey
-    Sussex
+    Sussex (2025)
+      Woodingdean to Lewis
+      Bus 2 to start of walk, get off at Downs pub(hotel)?
+      Eat at xxx at the end of the walk
+  
     Tyne and Wear
     Warwickshire
     West Midlands
@@ -303,5 +310,3 @@ Neptune's Staircase, Banavie, near Fort William
     County Londonderry
     County Tyrone
 ``` </pre>   
-<!-- outline-end -->
-
