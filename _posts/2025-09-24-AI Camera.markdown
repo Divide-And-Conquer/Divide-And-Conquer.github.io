@@ -55,6 +55,10 @@ Todo: show Schematic
 
 ![Unit Prior to assembly](:GroveVisionAIv2_1.png)
 
+![Grove Vision AI v2](:GroveVisionAIv2_1.png)
+![Grove Vision AI v2](:GroveVisionAIv2_2.png)
+![Grove Vision AI v2](:GroveVisionAIv2_3.png)
+
 # PCB
 
 The PCB has been produced using KiCAD 9.0
