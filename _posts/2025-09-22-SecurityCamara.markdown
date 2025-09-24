@@ -9,7 +9,7 @@ author: Martin Rawson
 # multiple category is not supported
 category: jekyll
 # multiple tag entries are possible
-tags: [jekyll, sample, example post]
+tags: [camera, rpi5, reuse]
 # thumbnail image for post
 img: ":YaleCameraHousing.jpg"
 # disable comments on this page
@@ -44,13 +44,13 @@ published: true
 
 This project uses the case and various components from a ALL-IN-ONE_AW_01 Yale camera.
 
-One serious difficulty when building your own camera is finding a suitable housing, especially one that can be mounted externally. Especially if the housing has to contain any extras (microphone/speaker/siren/PIR/second camera), the Yale camera unit has provision for these.
+One serious difficulty when building your own camera is finding a suitable housing, especially one that can be mounted externally. This is even more troublesome if the housing has to contain any extras (microphone/speaker/siren/PIR/second camera), the Yale camera unit has provision for these.
 
-Sourcing a housing is difficult but you may be able to obtain one on eBay.
+Sourcing a housing is difficult but you may be able to obtain one on eBay as a damaged of failed unit.
 
 What components from the Yale unit can be reused?
 - housing and mounting bracket
-- PSU
+- External PSU (not for this camera)
 - camera 
 - IR LEDs
 - siren
@@ -65,11 +65,11 @@ The main camera is a RPi 5 module with a carrier camera.
 This project replaces the PIR with a second camera, that is configured for object (specifically cat) recognition.This uses the Grove Vision AI v2 board, along with an original RPi camera.
 This board can trigger a cat deterrent, such as a smell.
 
-Photos of Yale disassembly 
+Todo: show Photos of Yale disassembly 
 
-KISS
+Todo: show complete unit
 
-# Specification / Design
+# Specification / Design / KISS
 
   POE
   Compute module 5 basic
@@ -80,12 +80,20 @@ KISS
 
   PIR or Grove board to trigger main Camera?
   
-Todo: show  complete unit.
-
+  ---> POE ---> RPi 5 POE hat ---> RPi 5 ---> Camera
+                                       ---> Pico ---> spotlight
+                                                 ---> AI camera 
+                                                 ---> IR LEDs
+                                                 ---> siren
+                                                 ---> speaker/microphone
+                                                 ---> PIR (motion detection)
+                                             
 # Design Notes
 
-
+Todo: show  complete schematic.
 Todo: show Schematic
+
+What is the control interface?
 
 # Images
 
