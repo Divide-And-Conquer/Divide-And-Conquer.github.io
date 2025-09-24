@@ -42,8 +42,7 @@ published: true
 
 # Outline
 
-This project replaces the PIR with a second camera, that is configured for object (specifically cat) recognition.This uses the Grove Vision AI v2 board, along with an original RPi camera.
-This board can trigger a cat deterrent, such as a smell.
+This project uses an Grove Vision AI v2 board that is trained to recognise cats, the board can trigger a cat deterrent, such as a smell.
 
 Todo: show  complete unit.
 
@@ -51,14 +50,13 @@ Todo: show  complete unit.
 
 # Design Notes
 
-
 Todo: show Schematic
 
 # Images
 
 ![Unit Prior to assembly](:GroveVisionAIv2_1.png)
 
-![Grove Vision AI v2](:GroveVisionAIv2_1.png)
+
 ![Grove Vision AI v2](:GroveVisionAIv2_2.png)
 ![Grove Vision AI v2](:GroveVisionAIv2_3.png)
 
@@ -73,6 +71,7 @@ The PCB has been produced using KiCAD 9.0
 
 
 # Applicable Links
+
 [Getting started guide - Core electronics](https://core-electronics.com.au/guides/sensors/getting-started-with-the-grove-vision-ai-v2-power-efficient-object-detection/)
 
 [Arduino Library Introduction](https://wiki.seeedstudio.com/grove_vision_ai_v2_software_support/#-arduino-library-introduction-)
