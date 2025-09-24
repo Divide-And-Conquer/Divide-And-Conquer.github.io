@@ -57,7 +57,7 @@ The project fits in the same calculator housing as the Telegram reporter, this i
 which provides the housing, display,and the buttons.
 
 Todo: show  complete unit.
-
+<!-- outline-end -->
 # Design Notes
 
 The software uses the 1527 remote control library xxxxx
