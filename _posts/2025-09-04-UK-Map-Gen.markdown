@@ -56,7 +56,7 @@ This is viewed as better than an editor, where an image can be tweaked, but then
 The boundary information is originally sourced from
 https://csmale.dev.openstreetmap.org/os_boundaryline_202405/index.html
 
-
+These programs run on a home PC
 sources to generate the uk_map.png map can be found in
 
 P:\DevelopmentCode\Python\AllCountiesWalks
@@ -173,7 +173,7 @@ Angus.gpx                   , green           , M            , M         , M    
     Cumbria
     Derbyshire
     Devon
-    Lyme Regis (visit only)
+        Lyme Regis (visit only)
 
     Dorset (2025)
         Weymouth to the Smugglers Inn, Osmington Mills / South Dorset Ridgeway
