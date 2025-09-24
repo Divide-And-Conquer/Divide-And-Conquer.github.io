@@ -99,9 +99,6 @@ What is the control interface?
 
 ![Yale Security Camera](:YaleCameraHousing.jpg)
 
-![Grove Vision AI v2](:GroveVisionAIv2_1.png)
-![Grove Vision AI v2](:GroveVisionAIv2_2.png)
-![Grove Vision AI v2](:GroveVisionAIv2_3.png)
 
 # PCB
 
@@ -115,9 +112,6 @@ The PCB has been produced using KiCAD 9.0
 
 # Applicable Links
 
-[Getting started guide - Core electronics](https://core-electronics.com.au/guides/sensors/getting-started-with-the-grove-vision-ai-v2-power-efficient-object-detection/)
-
-[Arduino Library Introduction](https://wiki.seeedstudio.com/grove_vision_ai_v2_software_support/#-arduino-library-introduction-)
 
 [hd1080-all-in-one-indoor-outdoor-camera-white](https://yalehome.co.uk/hd1080-all-in-one-indoor-outdoor-camera-white)
 
