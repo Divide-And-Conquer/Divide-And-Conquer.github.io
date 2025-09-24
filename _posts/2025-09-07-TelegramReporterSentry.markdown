@@ -57,7 +57,7 @@ This project shares the same pcb as 433MHz tester.
 Telegram messages can be tagged as Informational, Alert, or Critical Alert which is intended for panic buttons, smoke detection, and similar events.
 
 Todo: show  complete unit.
-
+<!-- outline-end -->
 # Design Notes
 
 ChatGPT used extensively during the software design, and some aspects of the hardware design.
