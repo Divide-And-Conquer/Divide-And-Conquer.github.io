@@ -48,22 +48,21 @@ One serious difficulty when building your own camera is finding a suitable housi
 
 Sourcing a housing is difficult but you may be able to obtain one on eBay as a damaged of failed unit.
 
-What components from the Yale unit can be reused?
-- housing and mounting bracket
-- External PSU (not for this camera)
-- camera 
-- IR LEDs
-- siren
-- speaker/microphone
-- spotlight
-- PIR (motion detection)
-
+```
+  What components from the Yale unit can be reused?
+    - housing and mounting bracket
+    - External PSU (not for this camera)
+    - camera 
+    - IR LEDs
+    - siren
+    - speaker/microphone
+    - spotlight
+    - PIR (motion detection)
+```
 The PCB for this project is designed to fit in place of the original PCB, and to use it's mounting points.
 
 The main camera is a RPi 5 module with a carrier camera.
 
-This project replaces the PIR with a second camera, that is configured for object (specifically cat) recognition.This uses the Grove Vision AI v2 board, along with an original RPi camera.
-This board can trigger a cat deterrent, such as a smell.
 
 Todo: show Photos of Yale disassembly 
 
