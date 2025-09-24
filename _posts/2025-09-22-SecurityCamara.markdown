@@ -90,6 +90,23 @@ Todo: show complete unit
                                              
 # Design Notes
 
+## GPIO Assignments
+      🟦 Outputs:
+  
+          27 → Spotlight
+          22 → IR LEDs
+          23 → Siren
+          26 → PIR test LED
+  
+      🟩 Inputs:
+  
+          17 → PIR sensor
+          5 → Test IN1 (toggles spotlight)
+          6 → Test IN2 (toggles IR LEDs)
+          13 → Test IN3 (toggles siren)
+  
+      🔴 Power pins (3.3V / 5V), ⚫ GND pins marked.
+
 Todo: show  complete schematic.
 Todo: show Schematic
 
@@ -98,7 +115,6 @@ What is the control interface?
 # Images
 
 ![Yale Security Camera](:YaleCameraHousing.jpg)
-
 
 # PCB
 
