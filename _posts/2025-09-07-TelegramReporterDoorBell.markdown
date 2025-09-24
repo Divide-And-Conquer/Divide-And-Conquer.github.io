@@ -64,3 +64,27 @@ can be used to check that Telegram messages are being transmitted/received.
 
 
 
+<!-- outline-end -->
+
+# Design Notes
+
+
+Todo: show Schematic
+
+# Images
+
+![Unit Prior to assembly](:433MHzTesterBuild1.jpg)
+
+# PCB
+
+The PCB has been produced using KiCAD 9.0
+
+# Build Notes
+
+
+# Operation Notes
+
+
+# Applicable Links
+
+Todo: show calculator kit sites
