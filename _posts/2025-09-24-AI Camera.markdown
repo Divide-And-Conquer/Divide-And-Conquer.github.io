@@ -42,6 +42,9 @@ published: true
 
 # Outline
 
+This project replaces the PIR with a second camera, that is configured for object (specifically cat) recognition.This uses the Grove Vision AI v2 board, along with an original RPi camera.
+This board can trigger a cat deterrent, such as a smell.
+
 Todo: show  complete unit.
 
 <!-- outline-end -->
