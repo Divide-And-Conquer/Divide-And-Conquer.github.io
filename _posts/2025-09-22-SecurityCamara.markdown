@@ -68,7 +68,7 @@ This board can trigger a cat deterrent, such as a smell.
 Todo: show Photos of Yale disassembly 
 
 Todo: show complete unit
-
+<!-- outline-end -->
 # Specification / Design / KISS
 
   POE
