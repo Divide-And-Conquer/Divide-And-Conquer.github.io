@@ -58,7 +58,7 @@ What components from the Yale unit can be reused?
 - spotlight
 - PIR (motion detection)
 
-The PCB for this project is designed to fit in place of the original PCB, and reused it's mounting points.
+The PCB for this project is designed to fit in place of the original PCB, and to use it's mounting points.
 
 The main camera is a RPi 5 module with a carrier camera.
 
