@@ -9,7 +9,7 @@ author: Martin Rawson
 # multiple category is not supported
 category: jekyll
 # multiple tag entries are possible
-tags: [jekyll, sample, example post]
+tags: [rpi, mqtt, iot]
 # thumbnail image for post
 img: ":Node-Red2.jpg"
 # disable comments on this page
