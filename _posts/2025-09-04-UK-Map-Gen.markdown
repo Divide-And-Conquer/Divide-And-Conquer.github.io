@@ -64,12 +64,12 @@ P:\DevelopmentCode\Python\AllCountiesWalks
 Two separate Python files are used to generate the uk_map.png file,
 
 ### - generate_counties_info.py
-<pre> ```
+```
     Builds a set of vectors which detail the boundary limits, boundary names and positioning of those names,
     these are stored in a file called counties.geojson
     It uses a file boundary_hints.csv, which provides boundary names and positioning of those names.
     This takes time to run and is viewed as an infrequent action.
-``` </pre>
+```
 
 ### - generate_uk_map.py
 <pre> ```
