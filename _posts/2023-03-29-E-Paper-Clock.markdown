@@ -56,6 +56,8 @@ The unit updates it's time once a day from the internet.
 A diagnostic mode / interface is also built-in, this allows
 a pair of Wi-Fi access Point SSID/Passwords to be entered/stored.
 
+To build this unit in the slim case (portable drive case), I had to cut the RP2040 connector off the back of the board.
+
 Todo: show  complete unit.
 
 <!-- outline-end -->
@@ -86,11 +88,35 @@ Todo: show Schematic
 
 # Build Notes
 
-![Development unit](:E-Paper-Clock_Prototype.jpg)
+
 
 # Operation Notes
 
+# Development / Prototyping
+
+This project was difficult to implement, primarily because of the RPi development framework being imature, and me
+not wanting to learn it just for this one project.
+
+![Development unit](:E-Paper-Clock_Prototype2.jpg)
+
+It was also difficult mechanically to design an build, it took a lot of time.
+
+![Development unit](:E-Paper-Clock_Prototype.jpg)
+
+At least two itterations of PCBs were required.
 
 # Applicable Links
+
+[Waveshare 3.7inch E-Paper E-Ink Display Module for Raspberry Pi Pico, Black/White, 480×280 Pixels](https://www.youtube.com/watch?v=J_4rWR0zq_A)
+
+https://www.waveshare.com/wiki/Pico-ePaper-3.7#C_codes
+tten how I did this, but it was with the help of some third party open source tools.
+
+I spent a lot of time generating some large Text Font characters for the display, and a celcius symbol. I have forgo
+https://github.com/ayoy/fontedit
+https://kapusta.cc/2020/03/20/fontedit/
+https://kapusta.cc/2019/02/10/font2bytes/
+
+ayoy/fontedit: A desktop app to import, edit and export fonts as byte arrays for use in embedded systems
 
 Todo: show case kit sites
