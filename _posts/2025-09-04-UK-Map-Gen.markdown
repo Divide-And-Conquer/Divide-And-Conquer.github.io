@@ -72,14 +72,14 @@ Two separate Python files are used to generate the uk_map.png file,
 ```
 
 ### - generate_uk_map.py
-<pre> ```
+```
     It uses the output from the first,
     and overlays on it a set of routes already walked held in .\routes_walked , 
     and routes planned to be walked held in .\routes_to_be_walked
-``` </pre>
+```
 
 This is illustrated below:
-<pre> ```
+```
 P:\DevelopmentCode\Python\AllCountiesWalks
 │
 ├── generate_counties_info.py
@@ -101,11 +101,11 @@ P:\DevelopmentCode\Python\AllCountiesWalks
       │
       └── Generates: (Final web-facing) uk_map.png
                (map of UK counties + routes overlayed - formatted for viewing online)
-``` </pre>
+```
 
 ### Example boundary_hints.csv file
 
-<pre> ```
+```
 # Expected folder structure:
 #
 #     ./historic_counties_gpx   -> GPX files for county borders
@@ -135,7 +135,7 @@ Aberdeen.gpx                , pink            , L            , R         , M    
 Aberdeenshire.gpx           , red             , L            , R         , M        , white       , green
 Anglesey.gpx                , blue            , R            , L         , M        , white       , green
 Angus.gpx                   , green           , M            , M         , M        , white       , green
-``` </pre>
+```
 
 
 ### Example Generated UK Page
@@ -148,7 +148,7 @@ Angus.gpx                   , green           , M            , M         , M    
 
 
 ### ENGLAND
-<pre> ```
+```
     Avon
 
     Bedfordshire (2025)
@@ -228,11 +228,11 @@ Angus.gpx                   , green           , M            , M         , M    
     West Yorkshire
     Wiltshire
     Worcestershire
-``` </pre>
+```
 
 ### SCOTLAND
 
-<pre> ```
+```
 Neptune's Staircase, Banavie, near Fort William
 
     Aberdeenshire
@@ -289,9 +289,9 @@ Neptune's Staircase, Banavie, near Fort William
     Sutherland
     West Lothian
     Wigtownshire
-``` </pre>   
+```   
 ### WALES
-<pre> ```
+```
     Clwyd
     Dyfed
     Gwent
@@ -300,13 +300,13 @@ Neptune's Staircase, Banavie, near Fort William
     South Glamorgan
     Powys
     West Glamorgan
-``` </pre>   
+```   
 ### NORTHERN IRELAND
-<pre> ```
+```
     County Antrim
     County Armagh
     County Down
     County Fermanagh
     County Londonderry
     County Tyrone
-``` </pre>   
+```   
