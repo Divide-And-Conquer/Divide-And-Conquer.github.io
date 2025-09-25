@@ -85,6 +85,6 @@ Todo: show Cricket2 or tasmota json strings
 # Applicable Links
 
 Todo: show node-red sites
-living-bytes
 
+[local-bytes](https://www.mylocalbytes.com/products/smart-plug-pm
 
