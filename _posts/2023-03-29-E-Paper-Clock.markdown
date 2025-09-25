@@ -9,7 +9,7 @@ author: Martin Rawson
 # multiple category is not supported
 category: jekyll
 # multiple tag entries are possible
-tags: [jekyll, sample, example post]
+tags: [pico-w, e-paper]
 # thumbnail image for post
 img: ":E-Paper-Clock_Front.jpg"
 # disable comments on this page
