@@ -9,7 +9,7 @@ author: Martin Rawson
 # multiple category is not supported
 category: LiFePO4
 # multiple tag entries are possible
-tags: [LiFePO4, Cricket2, development]
+tags: [lifepo4, cricket2, multiuse, development]
 # thumbnail image for post
 img: ":ESP32 - CricketBatteryBoard - Preview_1.jpg"
 # disable comments on this page
