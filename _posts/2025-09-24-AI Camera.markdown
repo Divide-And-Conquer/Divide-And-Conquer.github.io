@@ -44,11 +44,18 @@ published: true
 
 This project uses an Grove Vision AI v2 board that is trained to recognise cats, the board can trigger a cat deterrent, such as a smell.
 
+
+
 Todo: show  complete unit.
 
 <!-- outline-end -->
 
 # Design Notes
+
+Todo: use a product such as airwick, that is battery powered, to provide the pong, replace battery with DC from unit power, prove toggling DC activates pong.
+Todo: prove airwick acts as a deterent.
+
+Todo: How to power this unit, do battery tests? or just go straight for mains power
 
 Todo: show Schematic
 
@@ -57,8 +64,8 @@ Todo: show Schematic
 ![Unit Prior to assembly](:GroveVisionAIv2_1.png)
 
 
-![Grove Vision AI v2](:GroveVisionAIv2_2.png)
-![Grove Vision AI v2](:GroveVisionAIv2_3.png)
+<!-- ![Grove Vision AI v2](:GroveVisionAIv2_2.png)  -->
+<!-- ![Grove Vision AI v2](:GroveVisionAIv2_3.png)  -->
 
 # PCB
 
