@@ -9,7 +9,7 @@ author: Martin Rawson
 # multiple category is not supported
 category: jekyll
 # multiple tag entries are possible
-tags: [reuse, sample, example post]
+tags: [reuse]
 # thumbnail image for post
 img: ":BrotherPrinter2.jpg"
 # disable comments on this page
