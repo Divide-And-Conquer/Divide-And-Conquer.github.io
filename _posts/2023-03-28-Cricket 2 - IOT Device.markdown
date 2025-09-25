@@ -9,7 +9,7 @@ author: Martin Rawson
 # multiple category is not supported
 category: jekyll
 # multiple tag entries are possible
-tags: [jekyll, development, example post]
+tags: [esp32, mqtt, iot]
 # thumbnail image for post
 img: ":Cricket2_Front_View.jpg"
 # disable comments on this page
