@@ -44,8 +44,6 @@ published: true
 
 This project uses an Grove Vision AI v2 board that is trained to recognise cats, the board can trigger a cat deterrent, such as a smell.
 
-
-
 Todo: show  complete unit.
 
 <!-- outline-end -->
@@ -56,6 +54,8 @@ Todo: use a product such as airwick, that is battery powered, to provide the pon
 Todo: prove airwick acts as a deterent.
 
 Todo: How to power this unit, do battery tests? or just go straight for mains power
+
+Todo: Prove Grove Vision AI v2 board model can recognise cats
 
 Todo: show Schematic
 
@@ -73,9 +73,11 @@ The PCB has been produced using KiCAD 9.0
 
 # Build Notes
 
+Todo: House in a transparent plastic box
 
 # Operation Notes
 
+Todo: Siting of the unit is important, it needs to be near a regular cat walk way.
 
 # Applicable Links
 
@@ -83,4 +85,4 @@ The PCB has been produced using KiCAD 9.0
 
 [Arduino Library Introduction](https://wiki.seeedstudio.com/grove_vision_ai_v2_software_support/#-arduino-library-introduction-)
 
-Todo: show calculator kit sites
+
