@@ -47,12 +47,20 @@ It also requires the following software packages, Node-red, MQTT, InfluxDB, Graf
 The DockerPi2 server is a Raspberry Pi 400 Computer that connects to the Internet, and runs a set of programs which gather and process data from a number of sensors, and store the data, and render the data on one or more computers screens.
 
 The Sensors transmit their data to the RPi using MQTT, the RPi runs a broker (server) that takes this data and passes it onto node-red for processing or forward transmission. Node-red allows for the creation of a number of dashboards to display the information:
+```
 
+```
 
 ![Crickets Monitor Page](:Node-Red1.jpg){:data-align="center"}
+```
+
+```
 
 
 ![Tasmota Plugs Page](:Node-Red2.jpg){:data-align="center"}
+```
+
+```
 
 Node-red can be considered a toolbox which allows data to be processed, redirected, displayed and expanded (in the same way as a web-browser is expanded by plug-ins).
 
@@ -89,5 +97,5 @@ Todo: show Cricket2 or tasmota json strings
 
 Todo: show node-red sites
 
-[local-bytes](https://www.mylocalbytes.com/products/smart-plug-pm
+[local-bytes](https://www.mylocalbytes.com/products/smart-plug-pm)
 
