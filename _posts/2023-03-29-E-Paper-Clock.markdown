@@ -99,11 +99,11 @@ Todo: show Schematic
 This project was difficult to implement, primarily because of the RPi development framework being imature, and me
 not wanting to learn it just for this one project. Also this was prior to RP introducing the debug probe, which would have helped.
 
-![Development unit](:E-Paper-Clock_Prototype2.jpg)
+![Development unit](:E-Paper-Clock_Prototype2.jpg){:data-align="center"}
 
 It was also difficult mechanically to design an build, it took a lot of time.
 
-![Development unit](:E-Paper-Clock_Prototype.jpg)
+![Development unit](:E-Paper-Clock_Prototype.jpg){:data-align="center"}
 
 At least two itterations of PCBs were required.
 
@@ -112,18 +112,19 @@ At least two itterations of PCBs were required.
 [Waveshare 3.7inch E-Paper E-Ink Display Module for Raspberry Pi Pico, Black/White, 480×280 Pixels](https://www.youtube.com/watch?v=J_4rWR0zq_A)
 
 https://www.waveshare.com/wiki/Pico-ePaper-3.7#C_codes
-tten how I did this, but it was with the help of some third party open source tools.
+
+I have forgotten how I did this, but I know I used some third party open source tools.
 
 ## Fontedit
 
-I spent a lot of time generating some large Text Font characters for the display, and a celcius symbol. I have forgot.
+I spent a lot of time generating some large Text Font characters for the display, and a celcius symbol.
 
 
 [Make a new larger font for Waveshare SPI](https://wavesharejfs.blogspot.com/2018/08/make-new-larger-font-for-waveshare-spi.html)
 
 [A desktop app to import, edit and export fonts as byte arrays for use in embedded systems](https://github.com/ayoy/fontedit)
-[1](https://kapusta.cc/2020/03/20/fontedit/)
-[2](https://kapusta.cc/2019/02/10/font2bytes/)
+[fontedit](https://kapusta.cc/2020/03/20/fontedit/)
+[font2bytes](https://kapusta.cc/2019/02/10/font2bytes/)
 
 
 
