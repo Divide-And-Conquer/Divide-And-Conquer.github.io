@@ -58,7 +58,9 @@ a pair of Wi-Fi access Point SSID/Passwords to be entered/stored.
 
 To build this unit in the slim case (portable drive case), I had to cut the RP2040 connector off the back of the board.
 
-Todo: show  complete unit.
+Todo: show  complete unit in its case.
+
+Todo: show  RP2040 connector off the back of the board.
 
 <!-- outline-end -->
 
