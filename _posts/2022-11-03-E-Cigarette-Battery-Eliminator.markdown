@@ -72,7 +72,7 @@ more ecapsulated, and could prove dificult or hazardous to remove. If in any dou
 
 ### Lithium Battery Charging Discharge Integrated Module
 
-![Battery Control Module](:Module1.jpg){:data-align="center"}
+![Battery Control Module](:3-7V-9V-5V-2A-Adjustable-Step-Up.jpg){:data-align="center"}
 
 #### Lithium Boost Converter Module 
 {:data-align="center"}
