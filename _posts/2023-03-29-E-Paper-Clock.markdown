@@ -111,14 +111,14 @@ At least two itterations of PCBs were required.
 
 [Waveshare 3.7inch E-Paper E-Ink Display Module for Raspberry Pi Pico, Black/White, 480×280 Pixels](https://www.youtube.com/watch?v=J_4rWR0zq_A)
 
-https://www.waveshare.com/wiki/Pico-ePaper-3.7#C_codes
+[2](https://www.waveshare.com/wiki/Pico-ePaper-3.7)
 
-I have forgotten how I did this, but I know I used some third party open source tools.
+
 
 ## Fontedit
 
 I spent a lot of time generating some large Text Font characters for the display, and a celcius symbol.
-
+I have forgotten how I did this, but I know I used some third party open source tools.
 
 [Make a new larger font for Waveshare SPI](https://wavesharejfs.blogspot.com/2018/08/make-new-larger-font-for-waveshare-spi.html)
 
