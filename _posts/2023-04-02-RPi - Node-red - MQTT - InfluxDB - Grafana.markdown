@@ -68,7 +68,7 @@ InfluxDB - Telegram
 
 Grafana
 
-Other software also runs on the RPi, like a VPN????.
+Other software also runs on the RPi, like the mosquitto MQTT server, and RPi-connect for remote access.
 
 <!-- outline-end -->
 
@@ -88,6 +88,7 @@ Todo: show Schematic
 
 # Build Notes
 
+This project originally ran on a RPi4, it now runs on a RPi400, this is a better suited to the project, as everything is in one place.
 
 # Operation Notes
 
@@ -95,7 +96,9 @@ Todo: show Cricket2 or tasmota json strings
 
 # Applicable Links
 
-Todo: show node-red sites
+[home automation initial source](https://www.youtube.com/watch?v=a6mjt8tWUws)
 
-[local-bytes](https://www.mylocalbytes.com/products/smart-plug-pm)
+[node-red main site](https://nodered.org/)
+
+[local-bytes Smart Socket](https://www.mylocalbytes.com/products/smart-plug-pm)
 
