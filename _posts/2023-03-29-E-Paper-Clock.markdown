@@ -95,7 +95,7 @@ Todo: show Schematic
 # Development / Prototyping
 
 This project was difficult to implement, primarily because of the RPi development framework being imature, and me
-not wanting to learn it just for this one project.
+not wanting to learn it just for this one project. Also this was prior to RP introducing the debug probe, which would have helped.
 
 ![Development unit](:E-Paper-Clock_Prototype2.jpg)
 
@@ -112,11 +112,17 @@ At least two itterations of PCBs were required.
 https://www.waveshare.com/wiki/Pico-ePaper-3.7#C_codes
 tten how I did this, but it was with the help of some third party open source tools.
 
-I spent a lot of time generating some large Text Font characters for the display, and a celcius symbol. I have forgo
-https://github.com/ayoy/fontedit
-https://kapusta.cc/2020/03/20/fontedit/
-https://kapusta.cc/2019/02/10/font2bytes/
+## Fontedit
 
-ayoy/fontedit: A desktop app to import, edit and export fonts as byte arrays for use in embedded systems
+I spent a lot of time generating some large Text Font characters for the display, and a celcius symbol. I have forgot.
+
+
+[Make a new larger font for Waveshare SPI](https://wavesharejfs.blogspot.com/2018/08/make-new-larger-font-for-waveshare-spi.html)
+
+[A desktop app to import, edit and export fonts as byte arrays for use in embedded systems](https://github.com/ayoy/fontedit)
+[1](https://kapusta.cc/2020/03/20/fontedit/)
+[2](https://kapusta.cc/2019/02/10/font2bytes/)
+
+
 
 Todo: show case kit sites
