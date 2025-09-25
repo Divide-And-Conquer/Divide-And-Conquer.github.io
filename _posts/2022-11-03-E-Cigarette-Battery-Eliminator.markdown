@@ -9,7 +9,7 @@ author: Martin Rawson
 # multiple category is not supported
 category: jekyll
 # multiple tag entries are possible
-tags: [jekyll, sample, example post]
+tags: [reuse, sample, example post]
 # thumbnail image for post
 img: ":BrotherPrinter2.jpg"
 # disable comments on this page
@@ -153,4 +153,9 @@ for creating the occassional label.
  - The OUT+ terminal can output an adjustable voltage, you can adjust how much you need
  - Can be used for multimeter modified lithium battery charging
 
+## Other Examples
+
+Other projects that use e-cigg batteries, and the Lithium Boost Converter Module
+
+"Electronic" Candles
 
