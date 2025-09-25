@@ -9,7 +9,7 @@ author: Martin Rawson
 # multiple category is not supported
 category: jekyll
 # multiple tag entries are possible
-tags: [jekyll, sample, example post]
+tags: [pi-zero, radio, reuse]
 # thumbnail image for post
 img: ":Kitchen_Radio_1.jpg"
 # disable comments on this page
