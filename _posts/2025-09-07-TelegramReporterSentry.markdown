@@ -71,7 +71,7 @@ This currently has a depth of five messages.
 
 In principle the receiver of the messages can send messages to the unit, the underlying code for this is present.
 
-Todo: show Schematic
+![Schematic](:250927_433MHzTester.png)
 
 # Images
 
