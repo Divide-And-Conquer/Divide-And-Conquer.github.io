@@ -11,7 +11,7 @@ category: jekyll
 # multiple tag entries are possible
 tags: [pico, testgear]
 # thumbnail image for post
-img: ":433MHzTesterBuild1.jpg"
+img: ":433MHzTesterBuild.jpg"
 # disable comments on this page
 #comments_disable: true
 
@@ -56,8 +56,10 @@ this included the schematic and PCB design, and also the software.
 The project fits in the same calculator housing as the Telegram reporter, this is an AliExpress calculator kit, 
 which provides the housing, display,and the buttons.
 
-Todo: show  complete unit.
+![Complete Unit](:433MHzTesterBuild.jpg)
+
 <!-- outline-end -->
+
 # Design Notes
 
 The software uses the 1527 remote control library xxxxx
@@ -68,7 +70,7 @@ Uses much of the calculator kit.
 The USB 3 external connector is not ideal, but has been selected because it is small, reasonably tidy and does not require
 any slots or similar holes to be made in the case (which normally turn out to be ugly).
 
-Todo: show connector
+![Complete Unit](:433MHzTesterBuild4.jpg)
 
 Key labels are made using an inkjet print, the design is held a KiCAD PCB file.
 
@@ -87,9 +89,9 @@ KiCAD compatible router.
 # Build Notes
 
 Aero Pins are used to connect the power from the USB connector to the keypad board, these are cut back,
-because clearance is very limited between the 1602A display and the keypad board.
+because clearance is very limited between the 1602A display and the keypad board. The Aero Pins mate with Vero Pins on the PCB.
 
-Todo: show Aero Pins
+![Aero Pin](:433MHzTesterBuild3.jpg)
 
 The yellow wire in the photo is a repair, the Pico 2040 chip appears to have a problem with the D12 pin, as this
 is soldered in place, and would be a problem to replace, I decided to reroute the signal via D1, this required the
@@ -104,7 +106,7 @@ Also the DIL pins soldered onto the 1602A display need to be trimmed back or the
 
 Four modes of operation are provided, selected by keys A-D after power up.
 A) Keypad emulator (transmitter)
-B) Receiver (shows text for keys received e.g. SB1 btn 4 ON
+B) Receiver (shows text for keys received e.g. SB1 BTN 4 ON
 C) Transceiver
 D) Receiver (shows codes received) to be implemented!!
 
