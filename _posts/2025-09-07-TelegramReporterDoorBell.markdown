@@ -55,10 +55,7 @@ The doorbell unit is positioned close to the Wi-Fi 6 router, a POE supply with a
 The doorbell  internally uses a 12V to 5V converter taken from a car cigar lighter socket USB converter sold for £1 in Poundland.
 This converter is an afterthought, that is why it is glued to the underside of th PCB.
 
-This unit also has a test button, that makes a doorbell press message to be sent to Telegram.
-
-
-can be used to check that Telegram messages are being transmitted/received.
+This unit also has a test button, that makes a doorbell press message to be sent to Telegram, which can be used to check that Telegram messages are being transmitted.
 
 ![During Assembly](:Doorbell1.jpg)
 
@@ -68,6 +65,10 @@ can be used to check that Telegram messages are being transmitted/received.
 
 # Design Notes
 
+The doorbell  internally uses a 12V to 5V converter taken from a car cigar lighter socket USB converter sold for £1 in Poundland.
+This converter is an afterthought, that is why it is glued to the underside of th PCB.
+
+This unit also has a test button, that makes a doorbell press message to be sent to Telegram.
 
 Todo: show Schematic
 
@@ -84,6 +85,7 @@ The PCB has been produced using KiCAD 9.0
 
 # Operation Notes
 
+The doorbell unit is positioned close to the Wi-Fi 6 router, a POE supply with a buck converter supplies 12V to both units.
 
 # Applicable Links
 
