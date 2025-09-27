@@ -72,7 +72,7 @@ Todo: show connector
 
 Key labels are made using an inkjet print, the design is held a KiCAD PCB file.
 
-Todo: show Schematic
+![Schematic](:250927_433MHzTester.png)
 
 # Images
 
