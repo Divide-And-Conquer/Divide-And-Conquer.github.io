@@ -77,11 +77,11 @@ The hardware in this unit is quite sophisticated, It is housed on 4. PCBS.
 
 the passive infrared (PIR) sensor is housed on its own PCB
 
-![Yale Security Camera](:YaleCamaraReworkElectronics_2.jpg)
+![Yale Security Camera](:YaleCamaraElectronics_2.jpg)
 
-the rest of the electronics is on 3. PCBS Linked with ribbon cables
+the rest of the electronics is on 3 PCBS Linked with ribbon cables
 
-![Yale Security Camera](:YaleCamaraReworkElectronics_1.jpg)
+![Yale Security Camera](:YaleCameraElectronics_1.jpg)
 
 LED driver board provides spotlight, IR LEDs, Information LEDs
 Main board provides CPU, Storage, Camera
