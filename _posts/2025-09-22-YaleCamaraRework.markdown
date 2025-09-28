@@ -68,7 +68,7 @@ One serious difficulty when building your own camera is finding a suitable housi
 
 Sourcing a housing is difficult but you may also be able to obtain one on eBay as a damaged of failed unit.
 
-![Yale Security Camera](:YaleCamaraReworkHousing.jpg)
+![Yale Security Camera](:YaleCamaraReworkHousing.jpg){:data-align="center"}
 
 # Hardware Investigation
 
@@ -76,15 +76,15 @@ The hardware in this unit is quite sophisticated, internally it contains 4 purpo
 
 The passive infrared (PIR) sensor is housed on its own PCB
 
-![Yale Security Camera](:YaleCamaraElectronics_2.jpg)
+![Yale Security Camera](:YaleCamaraElectronics_2.jpg){:data-align="center"}
 
 The rest of the electronics is on 3 PCBS Linked with ribbon cables
 
-![Yale Security Camera](:YaleCameraElectronics_1.jpg)
+![Yale Security Camera](:YaleCameraElectronics_1.jpg){:data-align="center"}
 
 LED driver board provides spotlight, IR LEDs, Information LEDs
 
-![LED driver board](:YaleCameraElectronics_3.jpg)
+![LED driver board](:YaleCameraElectronics_3.jpg){:data-align="center"}
 
 Main board provides CPU, Storage, Camera.
 
