@@ -9,9 +9,9 @@ author: Martin Rawson
 # multiple category is not supported
 category: jekyll
 # multiple tag entries are possible
-tags: [camera, rpi5, reuse]
+tags: [camera, reuse, rework]
 # thumbnail image for post
-img: ":YaleCameraHousing.jpg"
+img: ":YaleCamaraReworkHousing.jpg"
 # disable comments on this page
 #comments_disable: true
 
@@ -43,10 +43,15 @@ published: true
 # Outline
 
 This project uses the case and various components from a ALL-IN-ONE_AW_01 Yale camera.
+This camera was purchased on eBay with a known fault, essentially the WI-fi did not work, 
+and on investigation was seen to be unrealistic to repair.
+
+The aim of this project is to see how much of the original broken Yale Camera can be reused and made useful,
+perhaps even returning it to being a full security working camera
 
 One serious difficulty when building your own camera is finding a suitable housing, especially one that can be mounted externally. This is even more troublesome if the housing has to contain any extras (microphone/speaker/siren/PIR/second camera), the Yale camera unit has provision for these.
 
-Sourcing a housing is difficult but you may be able to obtain one on eBay as a damaged of failed unit.
+Sourcing a housing is difficult but you may also be able to obtain one on eBay as a damaged of failed unit.
 
 ```
   What components from the Yale unit can be reused?
@@ -54,11 +59,34 @@ Sourcing a housing is difficult but you may be able to obtain one on eBay as a d
     - External PSU (not for this camera)
     - camera 
     - IR LEDs
-    - siren
-    - speaker/microphone
+    - speaker / siren
+    - microphone
     - spotlight
+    - Information LEDs
     - PIR (motion detection)
+    - SD card
 ```
+
+These components range in, e.g. Leds should be simple to drive, but the camera would be very challenging to reuse.
+
+![Yale Security Camera](:YaleCamaraReworkHousing.jpg)
+
+# hardware investigation
+
+The hardware in this unit is quite sophisticated, It is housed on 4. PCBS.
+
+the passive infrared (PIR) sensor is housed on its own PCB
+
+![Yale Security Camera](:YaleCamaraReworkElectronics_2.jpg)
+
+the rest of the electronics is on 3. PCBS Linked with ribbon cables
+
+![Yale Security Camera](:YaleCamaraReworkElectronics_1.jpg)
+
+LED driver board provides spotlight, IR LEDs, Information LEDs
+Main board provides CPU, Storage, Camera
+Interface board provides SD card, Wifi including Aerials, 
+
 The PCB for this project is designed to fit in place of the original PCB, and to use it's mounting points.
 
 The main camera is a RPi 5 module with a carrier camera.
@@ -66,9 +94,11 @@ The main camera is a RPi 5 module with a carrier camera.
 
 Todo: show Photos of Yale disassembly 
 
-![Yale Security Camera](:YaleCamaraReworkHousing.jpg)
+
 
 Todo: show complete unit
+
+
 <!-- outline-end -->
 
 # Specification / Design / KISS
@@ -91,6 +121,14 @@ Todo: show complete unit
                                                  ---> PIR (motion detection)
                                              
 # Design Notes
+
+Other than the case itself, the first good candidate for reuse would appear to be the LED driver board (spotlight, IR LEDs, Information LEDs). these are driven via a ribbon cable, it will be necessary to identify the signals in the ribbon cable and to hook up to it.
+
+The speaker / siren and microphone, but also appear to be good candidates.
+
+The PIR sensor on its on the PCB is a possibility, but will require the signal interface to be determined.
+
+A CPU module will have to be piggybacked onto a custom PCB, 
 
 ## GPIO Assignments
       🟦 Outputs:
@@ -116,11 +154,11 @@ What is the control interface?
 
 # Images
 
-![Yale Security Camera](:YaleCamaraReworkElectronics.jpg)
 
 # PCB
 
 The PCB has been produced using KiCAD 9.0
+Todo: show PCBs
 
 # Build Notes
 
@@ -133,5 +171,5 @@ The PCB has been produced using KiCAD 9.0
 
 [hd1080-all-in-one-indoor-outdoor-camera-white](https://yalehome.co.uk/hd1080-all-in-one-indoor-outdoor-camera-white)
 
-Todo: show RPi Compute Module and Camera, show RPi 3 Camera
+
 
