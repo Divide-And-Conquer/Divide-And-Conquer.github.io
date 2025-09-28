@@ -67,7 +67,7 @@ Sourcing a housing is difficult but you may also be able to obtain one on eBay a
     - SD card
 ```
 
-These components range in, e.g. Leds should be simple to drive, but the camera would be very challenging to reuse.
+These components range in complexity, e.g. Leds should be simple to drive, but the camera would be very challenging to reuse.
 
 ![Yale Security Camera](:YaleCamaraReworkHousing.jpg)
 
