@@ -42,16 +42,11 @@ published: true
 
 # Outline
 
-This project uses the case and various components from a ALL-IN-ONE_AW_01 Yale camera.
-This camera was purchased on eBay with a known fault, essentially the WI-fi did not work, 
+This project uses the case and various components from a All in one AW 01 Yale camera.
+This camera was purchased on eBay with a known fault, essentially the Wi-fi did not work, 
 and on investigation was seen to be unrealistic to repair.
 
-The aim of this project is to see how much of the original broken Yale Camera can be reused and made useful,
-perhaps even returning it to being a full security working camera
-
-One serious difficulty when building your own camera is finding a suitable housing, especially one that can be mounted externally. This is even more troublesome if the housing has to contain any extras (microphone/speaker/siren/PIR/second camera), the Yale camera unit has provision for these.
-
-Sourcing a housing is difficult but you may also be able to obtain one on eBay as a damaged of failed unit.
+The aim of this project is to see how much of the original broken Yale Camera can be reused and made useful, perhaps even returning it to being a full security working camera.
 
 ```
   What components from the Yale unit can be reused?
@@ -69,35 +64,35 @@ Sourcing a housing is difficult but you may also be able to obtain one on eBay a
 
 These components range in complexity, e.g. Leds should be simple to drive, but the camera would be very challenging to reuse.
 
+One serious difficulty when building your own camera is finding a suitable housing, especially one that can be mounted externally. This is even more troublesome if the housing has to contain any extras (microphone/speaker/siren/PIR/second camera), the Yale camera unit has provision for these.
+
+Sourcing a housing is difficult but you may also be able to obtain one on eBay as a damaged of failed unit.
+
 ![Yale Security Camera](:YaleCamaraReworkHousing.jpg)
 
-# hardware investigation
+# Hardware Investigation
 
-The hardware in this unit is quite sophisticated, It is housed on 4. PCBS.
+The hardware in this unit is quite sophisticated, internally it contains 4 purpose built PCBs, these contain surface mount components and are connected using ribbon and discrete cables, .
 
-the passive infrared (PIR) sensor is housed on its own PCB
+The passive infrared (PIR) sensor is housed on its own PCB
 
 ![Yale Security Camera](:YaleCamaraElectronics_2.jpg)
 
-the rest of the electronics is on 3 PCBS Linked with ribbon cables
+The rest of the electronics is on 3 PCBS Linked with ribbon cables
 
 ![Yale Security Camera](:YaleCameraElectronics_1.jpg)
 
 LED driver board provides spotlight, IR LEDs, Information LEDs
-Main board provides CPU, Storage, Camera
-Interface board provides SD card, Wifi including Aerials, 
 
-The PCB for this project is designed to fit in place of the original PCB, and to use it's mounting points.
+![LED driver board](:YaleCameraElectronics_3.jpg)
 
-The main camera is a RPi 5 module with a carrier camera.
+Main board provides CPU, Storage, Camera.
 
+Interface board provides SD card, Wifi including Aerials
 
 Todo: show Photos of Yale disassembly 
 
-
-
 Todo: show complete unit
-
 
 <!-- outline-end -->
 
@@ -128,26 +123,35 @@ The speaker / siren and microphone, but also appear to be good candidates.
 
 The PIR sensor on its on the PCB is a possibility, but will require the signal interface to be determined.
 
-A CPU module will have to be piggybacked onto a custom PCB, 
+A CPU module will have to be piggybacked onto a custom PCB.
+
+The PCB for this project is designed to fit in place of the original PCB, and to use it's mounting points.
+
+The main camera is a RPi 5 module with a carrier camera.
 
 ## GPIO Assignments
-      🟦 Outputs:
-  
-          27 → Spotlight
-          22 → IR LEDs
-          23 → Siren
-          26 → PIR test LED
-  
-      🟩 Inputs:
-  
-          17 → PIR sensor
-          5 → Test IN1 (toggles spotlight)
-          6 → Test IN2 (toggles IR LEDs)
-          13 → Test IN3 (toggles siren)
-  
-      🔴 Power pins (3.3V / 5V), ⚫ GND pins marked.
 
-Todo: show  complete schematic.
+  🟦 Outputs:
+  
+    GP3 → Spotlight
+    GP4 → IR LEDs
+    GP5 (PWM) → Speaker (siren, via amp)
+    GP6 → PIR test LED
+    GP7 → Info LED 1
+    GP8 → Info LED 2
+  
+  🟩 Inputs:
+  
+    GP2 → PIR sensor
+    GP9 → Test IN1 (toggles spotlight)
+    GP10 → Test IN2 (toggles IR LEDs)
+    GP11 → Test IN3 (toggles Info LED 1)
+    GP12 → Test IN4 (toggles Info LED 2)
+    GP13 → Test IN5 (PWM Siren)
+  
+  🔴 Power pins: 3.3V / 5V
+  ⚫ Ground pins: GND
+
 Todo: show Schematic
 
 What is the control interface?
