@@ -66,8 +66,11 @@ The main camera is a RPi 5 module with a carrier camera.
 
 Todo: show Photos of Yale disassembly 
 
+![Yale Security Camera](:YaleCamaraReworkHousing.jpg)
+
 Todo: show complete unit
 <!-- outline-end -->
+
 # Specification / Design / KISS
 
   POE
@@ -113,7 +116,7 @@ What is the control interface?
 
 # Images
 
-![Yale Security Camera](:YaleCameraHousing.jpg)
+![Yale Security Camera](:YaleCamaraReworkElectronics.jpg)
 
 # PCB
 
