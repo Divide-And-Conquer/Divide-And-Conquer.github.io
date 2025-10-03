@@ -175,5 +175,16 @@ Todo: show PCBs
 
 [hd1080-all-in-one-indoor-outdoor-camera-white](https://yalehome.co.uk/hd1080-all-in-one-indoor-outdoor-camera-white)
 
+# Photo Record
 
+![Security Camera Breakdown 1](:SecurityCamera1.jpg){:data-align="center"}
 
+![Security Camera Breakdown 2](:SecurityCamera2.jpg){:data-align="center"}
+
+![Security Camera Breakdown 3](:SecurityCamera3.jpg){:data-align="center"}
+
+![Security Camera Breakdown 4](:SecurityCamera4.jpg){:data-align="center"}
+
+![Security Camera Breakdown 5](:SecurityCamera5.jpg){:data-align="center"}
+
+![Security Camera Breakdown 6](:SecurityCamera6.jpg){:data-align="center"}
