@@ -129,6 +129,42 @@ The PCB for this project is designed to fit in place of the original PCB, and to
 
 The main camera is a RPi 5 module with a carrier camera.
 
+```
+LED PCB Connections
+===================
+
+| Pin No. | Function / Signal | Direction | Connected To (Board / MCU / Component) | Notes / Voltage | Verified (✓) |
+| :-----: | :---------------- | :-------- | :------------------------------------- | :-------------- | :----------- |
+|    1    | —                 | —         | —                                      | —               |              |
+|    2    | —                 | —         | —                                      | —               |              |
+|    3    | —                 | —         | —                                      | —               |              |
+|    4    | —                 | —         | —                                      | —               |              |
+|    5    | —                 | —         | —                                      | —               |              |
+|    6    | —                 | —         | —                                      | —               |              |
+|    7    | —                 | —         | —                                      | —               |              |
+|    8    | —                 | —         | —                                      | —               |              |
+|    9    | —                 | —         | —                                      | —               |              |
+|    10   | —                 | —         | —                                      | —               |              |
+|    11   | —                 | —         | —                                      | —               |              |
+|    12   | —                 | —         | —                                      | —               |              |
+|    13   | —                 | —         | —                                      | —               |              |
+|    14   | —                 | —         | —                                      | —               |              |
+|    15   | —                 | —         | —                                      | —               |              |
+|    16   | —                 | —         | —                                      | —               |              |
+```
+
+```
+PIR PCB Connections
+===================
+
+| Pin No. | Function / Signal | Direction | Connected To (Board / MCU / Component) | Wire Colour     | Verified (✓) |
+| :-----: | :---------------- | :-------- | :------------------------------------- | :-------------- | :----------- |
+|    1    | — 3.3V            | — Power   | —                                      | — Green         |              |
+|    2    | — 0V              | — Power   | —                                      | — Yellow        |              |
+|    3    | — 3V              | — Output  | — PIR Output                           | — Black         |              |
+|    4    | —                 | —         | —                                      | — Red           |              |
+```
+
 ## GPIO Assignments
 
   🟦 Outputs:
