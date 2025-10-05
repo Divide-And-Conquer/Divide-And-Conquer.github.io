@@ -16,7 +16,7 @@ img: ":YaleCamaraReworkHousing.jpg"
 #comments_disable: true
 
 # publish date
-date: 2025-09-22 07:11:06 +0900
+date: 2025-10-05 07:11:06 +0900
 
 
 # seo
@@ -134,15 +134,6 @@ The main camera is a RPi 5 module with a carrier camera.
 ```
 LED PCB Connections
 ===================
-| Pin No. | Function / Signal | Direction | Connected To (Board / MCU / Component) | Wire Colour     |
-| :-----: | :---------------- | :-------- | :------------------------------------- | :-------------- |
-|    1    | — 3.3V            | — Power   | —                                      | — Green         |
-|    2    | — 0V              | — Power   | —                                      | — Yellow        |
-|    3    | — 0V / 3V         | — Output  | — PIR Output                           | — Black         |
-|    4    | —                 | —         | —                                      | — Red           |
-```
-
-```
 | Pin No. | Function / Signal | Direction | Connected To (Board / MCU / Component) | Notes / Voltage |
 | :-----: | :---------------- | :-------- | :------------------------------------- | :-------------- |
 |    1    | —                 | —         | —                                      | —               |
@@ -161,11 +152,17 @@ LED PCB Connections
 |    14   | —                 | —         | —                                      | —               |
 |    15   | —                 | —         | —                                      | —               |
 |    16   | —                 | —         | —                                      | —               |
+```
 
 ```
 PIR PCB Connections
 ===================
-
+| Pin No. | Function / Signal | Direction | Connected To (Board / MCU / Component) | Wire Colour     |
+| :-----: | :---------------- | :-------- | :------------------------------------- | :-------------- |
+|    1    | — 3.3V            | — Power   | —                                      | — Green         |
+|    2    | — 0V              | — Power   | —                                      | — Yellow        |
+|    3    | — 0V / 3V         | — Output  | — PIR Output                           | — Black         |
+|    4    | —                 | —         | —                                      | — Red           |
 
 ```
 
