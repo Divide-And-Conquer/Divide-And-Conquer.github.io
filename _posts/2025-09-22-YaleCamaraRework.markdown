@@ -106,7 +106,8 @@ Todo: show complete unit
   Raspberry Pi basic camera OV5647-62 FOV Camera Module for Raspberry Pi 3B+4B?
 
   PIR or Grove board to trigger main Camera?
-  
+
+```
   ---> POE ---> RPi 5 POE hat ---> RPi 5 ---> Camera
                                        ---> Pico ---> spotlight
                                                  ---> AI camera 
@@ -114,6 +115,7 @@ Todo: show complete unit
                                                  ---> siren
                                                  ---> speaker/microphone
                                                  ---> PIR (motion detection)
+```
                                              
 # Design Notes
 
@@ -132,37 +134,39 @@ The main camera is a RPi 5 module with a carrier camera.
 ```
 LED PCB Connections
 ===================
-
-| Pin No. | Function / Signal | Direction | Connected To (Board / MCU / Component) | Notes / Voltage | Verified (✓) |
-| :-----: | :---------------- | :-------- | :------------------------------------- | :-------------- | :----------- |
-|    1    | —                 | —         | —                                      | —               |              |
-|    2    | —                 | —         | —                                      | —               |              |
-|    3    | —                 | —         | —                                      | —               |              |
-|    4    | —                 | —         | —                                      | —               |              |
-|    5    | —                 | —         | —                                      | —               |              |
-|    6    | —                 | —         | —                                      | —               |              |
-|    7    | —                 | —         | —                                      | —               |              |
-|    8    | —                 | —         | —                                      | —               |              |
-|    9    | —                 | —         | —                                      | —               |              |
-|    10   | —                 | —         | —                                      | —               |              |
-|    11   | —                 | —         | —                                      | —               |              |
-|    12   | —                 | —         | —                                      | —               |              |
-|    13   | —                 | —         | —                                      | —               |              |
-|    14   | —                 | —         | —                                      | —               |              |
-|    15   | —                 | —         | —                                      | —               |              |
-|    16   | —                 | —         | —                                      | —               |              |
+| Pin No. | Function / Signal | Direction | Connected To (Board / MCU / Component) | Wire Colour     |
+| :-----: | :---------------- | :-------- | :------------------------------------- | :-------------- |
+|    1    | — 3.3V            | — Power   | —                                      | — Green         |
+|    2    | — 0V              | — Power   | —                                      | — Yellow        |
+|    3    | — 0V / 3V         | — Output  | — PIR Output                           | — Black         |
+|    4    | —                 | —         | —                                      | — Red           |
 ```
+
+```
+| Pin No. | Function / Signal | Direction | Connected To (Board / MCU / Component) | Notes / Voltage |
+| :-----: | :---------------- | :-------- | :------------------------------------- | :-------------- |
+|    1    | —                 | —         | —                                      | —               |
+|    2    | —                 | —         | —                                      | —               |
+|    3    | —                 | —         | —                                      | —               |
+|    4    | —                 | —         | —                                      | —               |
+|    5    | —                 | —         | —                                      | —               |
+|    6    | —                 | —         | —                                      | —               |
+|    7    | —                 | —         | —                                      | —               |
+|    8    | —                 | —         | —                                      | —               |
+|    9    | —                 | —         | —                                      | —               |
+|    10   | —                 | —         | —                                      | —               |
+|    11   | —                 | —         | —                                      | —               |
+|    12   | —                 | —         | —                                      | —               |
+|    13   | —                 | —         | —                                      | —               |
+|    14   | —                 | —         | —                                      | —               |
+|    15   | —                 | —         | —                                      | —               |
+|    16   | —                 | —         | —                                      | —               |
 
 ```
 PIR PCB Connections
 ===================
 
-| Pin No. | Function / Signal | Direction | Connected To (Board / MCU / Component) | Wire Colour     | Verified (✓) |
-| :-----: | :---------------- | :-------- | :------------------------------------- | :-------------- | :----------- |
-|    1    | — 3.3V            | — Power   | —                                      | — Green         |              |
-|    2    | — 0V              | — Power   | —                                      | — Yellow        |              |
-|    3    | — 3V              | — Output  | — PIR Output                           | — Black         |              |
-|    4    | —                 | —         | —                                      | — Red           |              |
+
 ```
 
 ## GPIO Assignments
