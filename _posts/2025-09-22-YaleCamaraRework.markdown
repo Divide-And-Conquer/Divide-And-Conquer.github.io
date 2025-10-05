@@ -18,7 +18,6 @@ img: ":YaleCamaraReworkHousing.jpg"
 # publish date
 date: 2025-10-05 07:11:06 +0900
 
-
 # seo
 # if not specified, date will be used.
 #meta_modify_date: 2025-09-22 07:00:06 +0900
