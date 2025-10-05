@@ -131,6 +131,10 @@ The PCB for this project is designed to fit in place of the original PCB, and to
 
 The main camera is a RPi 5 module with a carrier camera.
 
+# Connector Pin assignments
+
+These pin numbers are the original pin numbers/functions from the Yale Camera, the Wire colour column is not original but details the colours used with the new cables installed on the reworked camera.
+
 ```
 LED PCB Connections
 ===================
@@ -225,3 +229,5 @@ Todo: show PCBs
 ![Security Camera Breakdown 5](:SecurityCamera5.jpg){:data-align="center"}
 
 ![Security Camera Breakdown 6](:SecurityCamera6.jpg){:data-align="center"}
+
+
