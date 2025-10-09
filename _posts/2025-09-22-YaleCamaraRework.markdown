@@ -135,26 +135,31 @@ The main camera is a RPi 5 module with a carrier camera.
 These pin numbers are the original pin numbers/functions from the Yale Camera, the Wire colour column is not original but details the colours used with the new cables installed on the reworked camera.
 
 ```
-LED PCB Connections
+yellow lead = 16   | — Red LED Low = on
+blue lead = 15   Green Low = on
+
+High = 3.3V
+
+LED PCB Connections (Pin numbers correspond to Pins on the LED Driver Board)
 ===================
 | Pin No. | Function / Signal | Direction | Connected To (Board / MCU / Component) | Notes / Voltage |
 | :-----: | :---------------- | :-------- | :------------------------------------- | :-------------- |
 |    1    | —                 | —         | —                                      | —               |
-|    2    | —             | —         | —                                      | —               |
-|    3    | —             | —         | —                                      | —               |
-|    4    | —             | —         | —                                      | —               |
-|    5    | — GND             | —         | —                                      | —               |
-|    6    | —             | —         | —                                      | —               |
-|    7    | — GND             | —         | —                                      | —               |
-|    8    | —               | —         | —                                      | —               |
-|    9    | — 3.3V                | —         | —                                      | —               |
-|    10   | —             | —         | —                                      | —               |
-|    11   | — 3.3V                | —         | —                                      | —               |
-|    12   | —             | —         | —                                      | —               |
-|    13   | — GND             | —         | —                                      | —               |
-|    14   | —              | —         | —                                      | —               |
-|    15   | — GND             | —         | —                                      | —               |
-|    16   | —                 | —         | —                                      | —               |
+|    2    | — GND             | —         | —                                      | —               |
+|    3    | — GND             | —         | —                                      | —               |
+|    4    | — GND             | —         | —                                      | —               |
+|    5    | — 3V3             | —         | —                                      | —               |
+|    6    | — 3V3             | —         | —                                      | —               |
+|    7    | — 3V3             | —         | —                                      | —               |
+|    8    | — 3V3             | —         | —                                      | —               |
+|    9    | — Spotlight       | —         | —                                      | — High ON       |
+|    10   | —                 | —         | —                                      | —               |
+|    11   | — GND             | —         | —                                      | —               |
+|    12   | —                 | —         | —                                      | —               |
+|    13   | —                 | —         | —                                      | —               |
+|    14   | —                 | —         | —                                      | —               |
+|    15   | — Green LED       | —         | —                                      | — Low ON        |
+|    16   | — Red LED         | —         | —                                      | — Low ON        |
 ```
 
 ```
